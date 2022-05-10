@@ -14,7 +14,7 @@ jobs:
         node-version: '14'
     
     - name: List output files
-      run: find tests/ -print
+      run: find ./tests/ -print
       
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
