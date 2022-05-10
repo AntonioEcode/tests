@@ -27,6 +27,5 @@ jobs:
           username: ecoded
           password: QmG&chDm(lt$
           protocol: ftps
-          local-dir: ./
           server-dir: ./public_html/tema/tests/
 
