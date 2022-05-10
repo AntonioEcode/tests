@@ -6,6 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
+    
     - name: List output files
       run: find ./ -print
       
