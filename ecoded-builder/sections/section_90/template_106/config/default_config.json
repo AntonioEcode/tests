@@ -1,0 +1,37 @@
+{
+	"default_content": {
+		"title": "Título de la sección",
+		"subtitle": "<p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo non habent claritatem insitamconsequat duis autem facilisis at vero eros</p>",
+		"gallery": [
+			{
+				"slide_full_image_src": "s90_t106_1.jpeg"
+			},
+			{
+				"slide_full_image_src": "s90_t106_2.jpeg"
+			},
+			{
+				"slide_full_image_src": "s90_t106_3.jpeg"
+			},
+			{
+				"slide_full_image_src": "s90_t106_4.jpeg"
+			},
+			{
+				"slide_full_image_src": "s90_t106_5.jpeg"
+			},
+			{
+				"slide_full_image_src": "s90_t106_6.jpeg"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_90_template_106": "background-color:#fafafa;padding-top:60px;padding-bottom:60px;padding-left:40px;padding-right:40px;",
+		"ecode_title": "margin-bottom:21px;font-weight:500;font-size:50px;line-height:60px;",
+		"ecode_container_content": "text-align:center;margin-bottom:21px;",
+		"ecode_article_figure": ""
+	},
+	"custom_fields": {
+		"title": "textarea_small",
+		"subtitle": "wysiwyg",
+		"gallery": "file_list"
+	}
+}

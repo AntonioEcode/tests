@@ -1,0 +1,123 @@
+{
+	"default_content": {
+		"title": "Horario de la conferencia",
+		"subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"elements_group_loop": [
+			{
+				"element_event_day": "10/27/2021",
+				"element_card_image_src": "s156_t253_1.jpeg",
+				"element_card_name": "Grand opening",
+				"element_card_url": "#",
+				"element_schedule": "08:00 - 09:00",
+				"element_work_name": "Kevin Chase",
+				"element_work_url": "#",
+				"element_speaker_job": "Chairman Tesla",
+				"element_description": "Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave.",
+				"element_tags": "Business\nEngineering\nGrowth\nPlatform",
+				"element_location": "Hall 1, Building A"
+			},
+			{
+				"element_event_day": "10/27/2021",
+				"element_card_image_src": "s156_t253_2.jpeg",
+				"element_card_name": "Mentoring",
+				"element_card_url": "#",
+				"element_schedule": "09:00 - 10:00",
+				"element_work_name": "Luck Good",
+				"element_work_url": "#",
+				"element_speaker_job": "Apple",
+				"element_description": "Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave.",
+				"element_tags": "Business\nEngineering\nGrowth\nPlatform",
+				"element_location": "Hall 1, Building B"
+			},
+			{
+				"element_event_day": "10/28/2021",
+				"element_card_image_src": "s156_t253_3.jpeg",
+				"element_card_name": "Grand opening",
+				"element_card_url": "#",
+				"element_schedule": "08:00 - 09:00",
+				"element_work_name": "Kevin Chase",
+				"element_work_url": "#",
+				"element_speaker_job": "Chairman Tesla",
+				"element_description": "Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave.",
+				"element_tags": "Business\nEngineering\nGrowth\nPlatform",
+				"element_location": "Hall 1, Building A"
+			},
+			{
+				"element_event_day": "10/28/2021",
+				"element_card_image_src": "s156_t253_4.jpeg",
+				"element_card_name": "Mentoring",
+				"element_card_url": "#",
+				"element_schedule": "09:00 - 10:00",
+				"element_work_name": "Luck Good",
+				"element_work_url": "#",
+				"element_speaker_job": "Apple",
+				"element_description": "Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave.",
+				"element_tags": "Business\nEngineering\nGrowth\nPlatform",
+				"element_location": "Hall 1, Building B"
+			},
+			{
+				"element_event_day": "10/29/2021",
+				"element_card_image_src": "s156_t253_5.jpeg",
+				"element_card_name": "Grand opening",
+				"element_card_url": "#",
+				"element_schedule": "08:00 - 09:00",
+				"element_work_name": "Kevin Chase",
+				"element_work_url": "#",
+				"element_speaker_job": "Chairman Tesla",
+				"element_description": "Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave.",
+				"element_tags": "Business\nEngineering\nGrowth\nPlatform",
+				"element_location": "Hall 1, Building A"
+			},
+			{
+				"element_event_day": "10/29/2021",
+				"element_card_image_src": "s156_t253_6.jpeg",
+				"element_card_name": "Mentoring",
+				"element_card_url": "#",
+				"element_schedule": "09:00 - 10:00",
+				"element_work_name": "Luck Good",
+				"element_work_url": "#",
+				"element_speaker_job": "Apple",
+				"element_description": "Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave.",
+				"element_tags": "Business\nEngineering\nGrowth\nPlatform",
+				"element_location": "Hall 1, Building B"
+			},
+			{
+				"element_event_day": "11/1/2021",
+				"element_card_image_src": "s156_t253_7.jpeg",
+				"element_card_name": "Grand opening",
+				"element_card_url": "#",
+				"element_schedule": "08:00 - 09:00",
+				"element_work_name": "Kevin Chase",
+				"element_work_url": "#",
+				"element_speaker_job": "Chairman Tesla",
+				"element_description": "Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave.",
+				"element_tags": "Business\nEngineering\nGrowth\nPlatform",
+				"element_location": "Hall 1, Building A"
+			},
+			{
+				"element_event_day": "11/1/2021",
+				"element_card_image_src": "s156_t253_8.jpeg",
+				"element_card_name": "Mentoring",
+				"element_card_url": "#",
+				"element_schedule": "09:00 - 10:00",
+				"element_work_name": "Luck Good",
+				"element_work_url": "#",
+				"element_speaker_job": "Apple",
+				"element_description": "Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave.",
+				"element_tags": "Business\nEngineering\nGrowth\nPlatform",
+				"element_location": "Hall 1, Building B"
+			}
+		]
+	},
+	"default_style": {
+
+	},
+	"skip_demo_content": [
+		"element_card_image_alt"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"subtitle": "textarea_small",
+		"elements_group": "group"
+	}
+}

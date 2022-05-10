@@ -1,0 +1,41 @@
+{
+	"default_content": {
+		"title": "Trabajos más recientes",
+		"button_txt": "Ver más",
+		"button_url": "#",
+		"cards_group_loop": [
+			{
+				"card_image_src": "build.jpg",
+				"card_image_alt": "Edificio moderno",
+				"card_title": "Reforma en Florida",
+				"card_button_url": "#"
+			},
+			{
+				"card_image_src": "build.jpg",
+				"card_image_alt": "Edificio moderno",
+				"card_title": "Reforma en Florida 2",
+				"card_button_url": "#"
+			},
+			{
+				"card_image_src": "build.jpg",
+				"card_image_alt": "Edificio moderno",
+				"card_title": "Reforma en Florida 3",
+				"card_button_url": "#"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_title": "font-size:28px;line-height:31px;font-weight:400;padding-bottom:17px;margin-bottom:50px;text-align:center;text-transform:uppercase;letter-spacing:1px;",
+		"ecode_article_figure": "",
+		"ecode_article_title": "padding:20px;background-color:#f8f8f8;font-size:15px;line-height:20px;font-weight:400;"
+	},
+	"skip_demo_content": [
+		"card_image_alt"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"button_txt": "text",
+		"button_url": "text_url",
+		"cards_group": "group"
+	}
+}

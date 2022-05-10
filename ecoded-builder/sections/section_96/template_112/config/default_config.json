@@ -1,0 +1,39 @@
+{
+	"default_content": {
+		"copy_read_more": "Seguir leyendo",
+		"posts_loop": [
+			{
+				"post_thumbnail_src": "s96_t112_1.jpg",
+				"post_thumbnail_alt": "Artículo",
+				"post_url": "#",
+				"post_title": "Artículo 1",
+				"post_excerpt": "Praesent quam magna, varius in laoreet in, condimentum at augue. Suspendisse viverra scelerisque lacus."
+			},
+			{
+				"post_thumbnail_src": "s96_t112_2.jpg",
+				"post_thumbnail_alt": "Artículo 2",
+				"post_url": "#",
+				"post_title": "Artículo 2",
+				"post_excerpt": "Praesent quam magna, varius in laoreet in, condimentum at augue. Suspendisse viverra scelerisque lacus."
+			},
+			{
+				"post_thumbnail_src": "s96_t112_3.jpg",
+				"post_thumbnail_alt": "Artículo 3",
+				"post_url": "#",
+				"post_title": "Artículo 3",
+				"post_excerpt": "Praesent quam magna, varius in laoreet in, condimentum at augue. Suspendisse viverra scelerisque lacus."
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_96_template_112": "padding-top:146pxx;padding-bottom:100px;padding-left:40px;padding-right:40px;",
+		"ecode_article_figure": "margin-bottom:35px;",
+		"ecode_article_title": "margin-bottom:10px;font-size:24px;line-height:38px;",
+		"ecode_article_text": "font-size:15px;line-height:26px;color:#6e6e6e;margin-bottom:25px;",
+		"ecode_article_button": "font-size:14px;"
+	},
+	"skip_demo_content": [
+		"copy_read_more",
+		"posts_loop"
+	]
+}

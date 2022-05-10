@@ -1,0 +1,14 @@
+{
+	"default_content": {
+		"comments_number": "3",
+		"copy_comments": "Comentarios",
+		"comments_content": "<ul class='list_comments'><li class='comment even thread-even depth-1'><figure><img alt='' src='https://source.unsplash.com/150x150/?person' srcset='https://source.unsplash.com/150x150/?person 2x' class='avatar avatar-96 photo' height='96' width='96' loading='lazy'></figure><div class='name_date'><h4>José Martínez</h4><time>2 de febrero de 2021</time></div><div class='comment_text'><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div></li><li class='comment even thread-even depth-1'><figure><img alt='' src='https://source.unsplash.com/150x150/?person' srcset='https://source.unsplash.com/150x150/?person 2x' class='avatar avatar-96 photo' height='96' width='96' loading='lazy'></figure><div class='name_date'><h4>José Martínez</h4><time>2 de febrero de 2021</time></div><div class='comment_text'><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div></li></ul><section class='form_comment'><h3 class='title'>Deja un comentario</h3><p class='desc'>Tu dirección de correo electrónico no será publicada. Los campos obligatorios están marcados con *</p><form action='#' method='post' id='commentform' class='comment-form'><div class='container_input_group'><div class='container_input'><label for='author'>Nombre*</label><input id='author' class='field_required' name='author' type='text' value='' placeholder='' size='30'></div><div class='container_input'><label for=''>Email*</label><input id='email' class='field_required' name='email' type='email' value='' placeholder='' size='30'></div></div><div class='container_input'><label for='comment'>Comentario*</label><textarea placeholder='' class='field_required' id='comment' name='comment' cols='45' rows='8' aria-required='true'></textarea></div><div class='terms_submit'><div class='terms'><input type='checkbox' id='comment_terms'><label for='comment_terms'><p>He leído y acepto las Condiciones del servicio y la Política de privacidad</p></label></div><input name='submit' type='submit' id='submit' class='submit ecode_button ecode_button_primary button_disabled' value='Enviar comentario'></div></form></section>"
+	},
+	"default_style": {
+	},
+	"skip_demo_content": [
+		"comments_number",
+		"copy_comments",
+		"comments_content"
+	]
+}

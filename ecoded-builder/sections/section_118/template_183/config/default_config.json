@@ -1,0 +1,80 @@
+{
+	"default_content": {
+		"first_title": "Entrantes",
+		"first_cards_group_loop": [
+			{
+				"card_title": "Gazpacho",
+				"card_price": "8€",
+				"card_description": "Maecenas sed diam eget risus varius blandit sit amet non magna."
+			},
+			{
+				"card_title": "Jamón Ibérico",
+				"card_price": "48€",
+				"card_description": "Maecenas sed diam eget risus varius blandit sit amet non magna."
+			},
+			{
+				"card_title": "Queso Manchego",
+				"card_price": "28€",
+				"card_description": "Maecenas sed diam eget risus varius blandit sit amet non magna."
+			}
+		],
+		"second_title": "Platos principales",
+		"second_back_image_src": "s118_t183.jpg",
+		"second_back_image_alt": "Texto alternativo",
+		"second_cards_group_loop": [
+			{
+				"card_title": "Gachas Manchegas",
+				"card_price": "60€",
+				"card_description": "Maecenas sed diam eget risus varius blandit sit amet non magna."
+			},
+			{
+				"card_title": "Arroz con carabinero",
+				"card_price": "75€",
+				"card_description": "Maecenas sed diam eget risus varius blandit sit amet non magna."
+			},
+			{
+				"card_title": "Queso Manchego",
+				"card_price": "28€",
+				"card_description": "Maecenas sed diam eget risus varius blandit sit amet non magna."
+			}
+		],
+		"third_title": "Postres",
+		"third_cards_group_loop": [
+			{
+				"card_title": "Tarta de queso",
+				"card_price": "8€",
+				"card_description": "Maecenas sed diam eget risus varius blandit sit amet non magna."
+			},
+			{
+				"card_title": "Bola de helado",
+				"card_price": "4€",
+				"card_description": "Maecenas sed diam eget risus varius blandit sit amet non magna."
+			},
+			{
+				"card_title": "Piña",
+				"card_price": "8€",
+				"card_description": "Maecenas sed diam eget risus varius blandit sit amet non magna."
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_118_template_183": "padding-top:134px;padding-bottom:100px;padding-left:35px;padding-right:35px;",
+		"ecode_article_title": "text-transform:uppercase;font-size:40px;line-height:60px;margin-bottom:43px;",
+		"ecode_div_title": "text-transform:uppercase;margin-bottom:10px;font-size:31px;line-height:45px;",
+		"ecode_div_price": "font-size:19px;font-weight:bold;letter-spacing:2px;margin-bottom:35px;line-height:45px;text-align:right;",
+		"ecode_div_desc": "font-size:19px;line-height:33px;margin-bottom:20px;"
+	},
+	"skip_demo_content": [
+		"second_back_image_alt"
+	],
+	"custom_fields": {
+		"first_title": "textarea_small",
+		"first_cards_group": "group",
+		"second_title": "textarea_small",
+		"second_back_image_id": "file",
+		"second_back_image": "file",
+		"second_cards_group": "group",
+		"third_title": "textarea_small",
+		"third_cards_group": "group"
+	}
+}

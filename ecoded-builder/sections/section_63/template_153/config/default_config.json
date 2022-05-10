@@ -1,0 +1,27 @@
+{
+	"default_content": {
+		"image_hd_src": "s63_t74_desktop.jpg",
+		"image_alt": "Imagen de fondo del titular",
+		"image_src": "s63_t74_desktop.jpg",
+		"pretitle": "Antetítulo",
+		"title": "Título h1 de la página",
+		"date_section": "9 Junio, 2021"
+	},
+	"default_style": {
+		"ecode_image::after": "background-color:rgba(0,0,0,0.2);",
+		"ecode_section_63_template_153": "background-color:#f5f5f5;",
+		"ecode_info": "background-color:#ffffff;padding-top:45px;padding-bottom:32px;padding-left:15px;padding-right:15px;border-top-left-radius:12px;border-top-right-radius:12px;border-bottom-right-radius:12px;border-bottom-left-radius:12px;",
+		"ecode_tag": "padding-top:13px;padding-bottom:13px;padding-left:29px;padding-rigth:29px;/*! primary_color !*/background-color:#ee5827/*! end_primary_color !*/;color:#ffffff;font-size:14px;line-height:17px;text-transform:uppercase;border-top-left-radius:6px;border-top-right-radius:6px;border-bottom-right-radius:6px;border-bottom-left-radius:6px;font-weight:600;",
+		"ecode_title": "font-weight:400;text-align:center;margin-bottom:16px;font-size:45px;line-height:55px;",
+		"ecode_date": "font-size:17px;line-height:30px;color:#676767;text-align:center;"
+	},
+	"custom_fields": {
+		"title": "h1",
+		"image_hd": "file",
+		"image_hd_file": "file",
+		"image": "file",
+		"image_id": "file",
+		"pretitle": "textarea_small",
+		"date_section": "text_date"
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"default_content": {
+		"back_image_src": "s95_t111_desktop.jpeg",
+		"back_image_hd_src": "s95_t111_desktop.jpeg",
+		"back_image_alt": "Fondo de la sección",
+		"cards_group_loop": [
+			{
+				"card_counter_number": "89",
+				"card_counter_title": "Médicos"
+			},
+			{
+				"card_counter_number": "35",
+				"card_counter_title": "Enfermeras"
+			},
+			{
+				"card_counter_number": "100",
+				"card_counter_title": "Pacientes"
+			},
+			{
+				"card_counter_number": "95",
+				"card_counter_title": "Habitaciones"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_95_template_111::after": "background-color:rgba(78,109,204,0.8);",
+		"ecode_counter": "font-size:50px;line-height:50px;font-weight:500;margin-bottom:17px;color:#ffffff;",
+		"ecode_text": "font-size:18px;line-height:30px;font-weight:500;color:#ffffff;letter-spacing:1px;"
+	},
+	"skip_demo_content": [
+		"back_image_alt"
+	],
+	"custom_fields": {
+		"back_image_hd_id": "file",
+		"back_image_hd": "file",
+		"back_image_id": "file",
+		"back_image": "file",
+		"cards_group": "group"
+	}
+}

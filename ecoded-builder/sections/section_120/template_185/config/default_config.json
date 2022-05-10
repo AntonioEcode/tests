@@ -1,0 +1,35 @@
+{
+	"default_content": {
+		"copy_without_notice": "Todavía no hay noticias en nuestro blog.",
+		"posts_loop": [
+			{
+				"post_thumbnail_src": "s117_t182_1.jpg",
+				"post_thumbnail_alt": "Alt imagen",
+				"post_url": "#",
+				"post_title": "Artículo 1"
+			},
+			{
+				"post_thumbnail_src": "s117_t182_2.jpg",
+				"post_thumbnail_alt": "Alt imagen",
+				"post_url": "#",
+				"post_title": "Artículo 2"
+			},
+			{
+				"post_thumbnail_src": "s117_t182_3.jpg",
+				"post_thumbnail_alt": "Alt imagen",
+				"post_url": "#",
+				"post_title": "Artículo 3"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_120_template_185": "padding-top:95px;padding-bottom:80px;padding-left:70px;padding-right:70px;",
+		"ecode_article_figure": "margin-bottom:30px;",
+		"ecode_article_title": "padding-bottom:5px;padding-left:25px;padding-right:25px;font-size:25px;line-height:45px;text-transform:uppercase;text-align:center;",
+		"ecode_article_info": "font-size:12px;line-height:18px;padding-bottom:20px;padding-left:25px;padding-right:25px;text-align:center;"
+	},
+	"skip_demo_content": [
+		"posts_loop",
+		"copy_without_notice"
+	]
+}

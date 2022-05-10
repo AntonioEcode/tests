@@ -1,0 +1,58 @@
+{
+	"default_content": {
+		"image_hd_src": "s133_t202_desktop.jpg",
+		"image_alt": "Texto alternativo de la imagen",
+		"image_src": "s133_t202_mobile.jpg",
+		"title": "Menú destacado",
+		"description": "Tristique tempus condimentum diam donec. Condimentum ullamcorper sit elementum hendrerit mi nulla in consequat, ut. Metus, nullam scelerisque netus viverra dui pretium pulvinar. Commodo morbi amet.",
+		"tag": "40,00€",
+		"button_svg_icon": "icon_tel_white.svg",
+		"button_text": "Reservar",
+		"button_url": "#",
+		"additional_title": "Información adicional",
+		"additional_description": "<p>Tristique tempus condimentum diam donec. Condimentum ullamcorper sit elementum hendrerit mi nulla in consequat, ut. Metus, nullam scelerisque netus viverra dui pretium pulvinar. Commodo morbi amet.</p>",
+		"cards_group_loop": [
+			{
+				"card_attribute": "Calorías",
+				"card_value": "1250"
+			},
+			{
+				"card_attribute": "¿Sin gluten?",
+				"card_value": "No"
+			},
+			{
+				"card_attribute": "¿Sin lactosa?",
+				"card_value": "Sí"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_133_template_202": "",
+		"ecode_info_image": "",
+		"ecode_description": "background-color:#000000;padding-top:110px;padding-bottom:110px;padding-left:110px;padding-right:110px;",
+		"ecode_title": "text-transform:uppercase;color:#ffffff;padding-bottom:50px;font-size:50px;line-height:70px;margin-bottom:35px;",
+		"ecode_text": "font-size:19px;line-height:33px;color:#ffffff;margin-bottom:40px;",
+		"ecode_price": "font-size:19px;line-height:33px;color:#ffffff;font-weight:bold;margin-bottom:40px;",
+		"ecode_button": "padding-top:15px;padding-bottom:15px;padding-left:54px;padding-right:29px;font-size:14px;line-height:14px;letter-spacing:1px;color:#ffffff;text-transform:uppercase;border-width:1px;border-style:solid;border-color:#d6d6d6;",
+		"ecode_additional_title": "font-size:25px;line-height:37px;font-weight:normal;margin-bottom:30px;",
+		"ecode_container_content": "margin-bottom:65px;"
+	},
+	"skip_demo_content": [
+		"image_alt"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"description": "textarea",
+		"tag": "text_medium",
+		"button_svg_icon": "textarea_code",
+		"button_text": "text",
+		"button_url": "text_url",
+		"image_hd_id": "file",
+		"image_hd": "file",
+		"image_id": "file",
+		"image": "file",
+		"additional_title": "textarea_small",
+		"additional_description": "wysiwyg",
+		"cards_group": "group"
+	}
+}

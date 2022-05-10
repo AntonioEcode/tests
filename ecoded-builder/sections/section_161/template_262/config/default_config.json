@@ -1,0 +1,67 @@
+{
+	"default_content": {
+		"cards_group_loop": [
+			{
+				"card_title": "3 Dormitorios",
+				"card_svg_icon": "s161_t261_1.svg"
+			},
+			{
+				"card_title": "1 Cama doble",
+				"card_svg_icon": "s161_t261_2.svg"
+			},
+			{
+				"card_title": "Cocina americana",
+				"card_svg_icon": "s161_t261_3.svg"
+			},
+			{
+				"card_title": "Salón con chimenea",
+				"card_svg_icon": "s161_t261_4.svg"
+			},
+			{
+				"card_title": "2 Baños completos",
+				"card_svg_icon": "s161_t261_5.svg"
+			},
+			{
+				"card_title": "2 Aseos",
+				"card_svg_icon": "s161_t261_6.svg"
+			},
+			{
+				"card_title": "Conexión Wifi",
+				"card_svg_icon": "s161_t261_7.svg"
+			},
+			{
+				"card_title": "Televisión",
+				"card_svg_icon": "s161_t261_8.svg"
+			},
+			{
+				"card_title": "100m2",
+				"card_svg_icon": "s161_t261_9.svg"
+			},
+			{
+				"card_title": "Laguna del Rey",
+				"card_svg_icon": "s161_t261_10.svg"
+			},
+			{
+				"card_title": "Climatización",
+				"card_svg_icon": "s161_t261_11.svg"
+			},
+			{
+				"card_title": "Terraza mirador",
+				"card_svg_icon": "s161_t261_12.svg"
+			},
+			{
+				"card_title": "Suelo radiante",
+				"card_svg_icon": "s161_t261_13.svg"
+			},
+			{
+				"card_title": "Aparcamiento vigilado",
+				"card_svg_icon": "s161_t261_14.svg"
+			}
+		]
+	},
+	"default_style": {
+	},
+	"custom_fields": {
+		"cards_group": "group"
+	}
+}

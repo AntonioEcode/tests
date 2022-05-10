@@ -1,0 +1,41 @@
+{
+	"default_content": {
+		"image_src": "s126_t192.jpg",
+		"image_alt": "Texto alternativo",
+		"company_phone": "666 555 444",
+		"company_phone_trim": "666555444",
+		"company_mobile": "666 555 444",
+		"company_mobile_trim": "666555444",
+		"copy_reserve": "Reservar por teléfono",
+		"twitter_url": "#",
+		"facebook_url": "#",
+		"instagram_url": "#",
+		"linkedin_url": "#",
+		"youtube_url": "#",
+		"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit."
+	},
+	"default_style": {
+		"ecode_section_126_template_192": "padding-top:90px;padding-bottom:90px;padding-left:35px;padding-right:35px;",
+		"ecode_figure": "margin-bottom:43px;",
+		"ecode_text": "font-size:19px;line-height:33px;margin-bottom:20px;",
+		"ecode_title": "font-size:24px;line-height:45px;text-transform:uppercase;margin-bottom:30px;",
+		"ecode_link_tel": "font-size:18px;line-height:30px;padding-left:43px;margin-bottom:5px;",
+		"ecode_social_link": "border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-right-radius:30px;border-bottom-left-radius:30px;background-color:#000000;margin-right:10px;",
+		"container_form .container_input label": "font-size:19px;line-height:24px;color:#333333;margin-bottom:12px;",
+		"container_form .container_button .button": "padding-top:15px;padding-bottom:15px;padding-left:29px;padding-right:29px;font-size:14px;line-height:14px;letter-spacing:1px;color:#000000;text-transform:uppercase;border-width:1px;border-style:solid;border-color:#d6d6d6;"
+	},
+	"skip_demo_content": [
+		"image_alt",
+		"company_phone",
+		"company_phone_trim",
+		"company_mobile",
+		"company_mobile_trim",
+		"copy_reserve",
+		"twitter_url",
+		"facebook_url",
+		"instagram_url",
+		"linkedin_url",
+		"youtube_url",
+		"description"
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"default_content": {
+		"subtitle": "Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo non habent claritatem insitamconsequat duis autem facilisis at vero eros",
+		"gallery": [
+			{
+				"slide_full_image_src": "s90_t106_1.jpeg"
+			},
+			{
+				"slide_full_image_src": "s90_t106_2.jpeg"
+			},
+			{
+				"slide_full_image_src": "s90_t106_3.jpeg"
+			},
+			{
+				"slide_full_image_src": "s90_t106_4.jpeg"
+			},
+			{
+				"slide_full_image_src": "s90_t106_5.jpeg"
+			},
+			{
+				"slide_full_image_src": "s90_t106_6.jpeg"
+			}
+		],
+		"content": "<p>Ut wisi enim ad minim veniam, quis laore nostrud exerci tation ulm hedi corper turet  ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore</p><p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt.</p><p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt.</p><p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt.</p>"
+	},
+	"default_style": {
+		"ecode_section_90_template_199": "padding-top:60px;padding-bottom:60px;padding-left:40px;padding-right:40px;",
+		"ecode_subtitle": "text-align:center;margin-bottom:21px;font-size:21px;line-height:38px;",
+		"ecode_article_figure": "",
+		"ecode_container_content": ""
+	},
+	"custom_fields": {
+		"subtitle": "textarea_small",
+		"content": "wysiwyg",
+		"gallery": "file_list"
+	}
+}

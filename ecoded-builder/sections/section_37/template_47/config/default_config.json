@@ -1,0 +1,41 @@
+{
+	"default_content": {
+		"section_title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"section_left_column": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>",
+		"section_right_column": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>",
+		"elements_group_loop": [
+			{
+				"element_question": "¿Sollicitudin Ornare Tristique Pharetra?",
+				"element_answer": "<p>Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum.</p>"
+			},
+			{
+				"element_question": "¿Sollicitudin Ornare Tristique Pharetra?",
+				"element_answer": "<p>Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum.</p>"
+			},
+			{
+				"element_question": "¿Sollicitudin Ornare Tristique Pharetra?",
+				"element_answer": "<p>Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum.</p>"
+			},
+			{
+				"element_question": "¿Sollicitudin Ornare Tristique Pharetra?",
+				"element_answer": "<p>Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum.</p>"
+			}
+		],
+		"section_subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"section_basic_content": "<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>",
+		"section_box_content": "<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>"
+	},
+	"default_style": {
+		"ecode_title": "font-size:28px;line-height:31px;font-weight:400;letter-spacing:1px;text-transform:uppercase;padding-bottom:21px;margin-bottom:21px;",
+		"ecode_question": "padding-top:9px;padding-bottom:9px;padding-left:35px;padding-right:35px;border-top-color:#e1e1e1;border-top-style:solid;border-top-width:1px;border-left-color:#e1e1e1;border-left-style:solid;border-left-width:1px;border-right-color:#e1e1e1;border-right-style:solid;border-right-width:1px;border-bottom:none;font-size:15px;line-height:25px;color:#9c9c9c;"
+	},
+	"custom_fields": {
+		"section_title": "h1",
+		"section_left_column": "wysiwyg",
+		"section_right_column": "wysiwyg",
+		"elements_group": "group",
+		"section_subtitle": "text",
+		"section_basic_content": "wysiwyg",
+		"section_box_content": "wysiwyg"
+	}
+}

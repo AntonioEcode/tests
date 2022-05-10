@@ -1,0 +1,44 @@
+{
+	"default_content": {
+		"title": "Nuestros valores",
+		"description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>",
+		"elements_group_loop": [
+			{
+				"element_color": "#4e6da5",
+				"element_svg_icon": "edificio-de-oficinas_42x50.svg",
+				"element_title": "Confianza",
+				"element_description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+			},
+			{
+				"element_color": "#f6722a",
+				"element_svg_icon": "edificio-de-oficinas_42x50.svg",
+				"element_title": "Experiencia",
+				"element_description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+			},
+			{
+				"element_color": "#a7cf47",
+				"element_svg_icon": "edificio-de-oficinas_42x50.svg",
+				"element_title": "Dedicación",
+				"element_description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+			},
+			{
+				"element_color": "#4e6da5",
+				"element_svg_icon": "edificio-de-oficinas_42x50.svg",
+				"element_title": "Expertos",
+				"element_description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+			}
+		]
+	},
+	"default_style": {
+		"title": "padding-bottom:20px;font-size:31px;line-height:41px;margin-bottom:30px;padding-bottom:10px;padding-left:40px;padding-right:40px;text-align:center;letter-spacing:1px;",
+		"ecode_description": "padding-left:40px;padding-right:40px;text-align:center;margin-bottom:80px;",
+		"ecode_article_image_div": "border-top-left-radius:60px;border-top-right-radius:60px;border-bottom-left-radius:60px;border-bottom-right-radius:60px;margin-bottom:15px;",
+		"article_title": "font-size:16px;line-height:21px;text-align:center;padding-bottom:15px;margin-bottom:20px;letter-spacing:1px;",
+		"ecode_article_content": "text-align:center;"
+	},
+	"custom_fields": {
+		"title": "textarea_small",
+		"description": "wysiwyg",
+		"elements_group": "group"
+	}
+}

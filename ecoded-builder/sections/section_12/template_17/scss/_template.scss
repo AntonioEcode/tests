@@ -1,0 +1,228 @@
+.ecode_section_12_template_17 {
+	position: relative;
+	border-top: 12px solid $c-grey3f;
+	background-color: $c-grey1e;
+	.ecode_section {
+		position: relative;
+		padding: 80px 30px 70px;
+		@include tablet {
+			@include flexbox;
+			@include justify-content(space-between);
+			@include align-items(flex-start);
+			@include flex-wrap(wrap);
+		}
+		@include desktop {
+			padding: 80px calc( 4% + 30px ) 70px;
+		}
+		section {
+			margin-bottom: 50px;
+			@include tablet {
+				width: 50%;
+				padding: 0 15px;
+			}
+			@include desktop {
+				width: 25%;
+			}
+			.ecode_title {
+				position: relative;
+				font-size: 15px;
+				line-height: 23px;
+				/*! primary_color !*/color: $c-c;/*! end_primary_color !*/
+				font-weight: bold;
+				text-transform: uppercase;
+				margin-bottom: 28px;
+				font-family: 'secondary';
+			}
+		}
+		.ecode_info {
+			margin-bottom: 50px;
+			.ecode_logo {
+				margin: 15px 0 30px;
+				img {
+					max-height: 50px;
+					width: auto;
+				}
+			}
+			.ecode_description {
+				position: relative;
+				font-size: 15px;
+				line-height: 34px;
+				color: $c-grey74;
+				-webkit-font-smoothing: auto;
+				margin-bottom: 20px;
+			}
+		}
+		.ecode_menu {
+			ul.menu-item {
+				li.menu-item {
+					list-style: none;
+					a, span.element_without_link {
+						position: relative;
+						font-size: 15px;
+						line-height: 34px;
+						color: $c-grey74;
+						text-decoration: none;
+					}
+					a {
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+					ul.sub-menu {
+						display: none;
+					}
+				}
+			}
+		}
+		.ecode_contact {
+			.contact_info {
+				position: relative;
+				font-size: 15px;
+				line-height: 34px;
+				color: $c-grey74;
+				padding-left: 34px;
+				i {
+					position: absolute;
+					top: 8px;
+					left: 5px;
+					width: 16px;
+					height: 16px;
+					svg {
+						position: absolute;
+						top: 0;
+						left: 0;
+					}
+				}
+				a {
+					font-size: 15px;
+					line-height: 34px;
+					color: inherit;
+					font-weight: 500;
+					text-decoration: none;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+		.ecode_location {
+			.ecode_image_map {
+				position: relative;
+				overflow: hidden;
+			}
+		}
+	}
+	.ecode_copyright {
+		position: relative;
+		display: block;
+		padding: 20px 30px;
+		background-color: $c-black11;
+		@include desktop {
+			@include flexbox;
+			@include justify-content(space-between);
+			@include align-items(center);
+			@include flex-wrap(wrap);
+			padding: 30px calc( 4% + 45px );
+
+		}
+		.ecode_copy {
+			font-size: 11px;
+			line-height: 15px;
+			text-transform: uppercase;
+			text-align: center;
+			color: $c-grey54;
+			padding-bottom: 20px;
+			@include desktop {
+				padding: 0;
+				width: calc( 100% / 3 );
+			}
+		}
+		.ecode_social {
+			position: relative;
+			@include flexbox;
+			@include justify-content(center);
+			@include align-items(center);
+			@include desktop {
+				width: calc( 100% / 3 );
+			}
+			a {
+				position: relative;
+				display: block;
+				width: 16px;
+				height: 16px;
+				margin: 0 10px 10px;
+				@include desktop {
+					margin-bottom: 0;
+				}
+				i {
+					svg {
+						max-width: 16px;
+						max-height: 16px;
+						* {
+							fill: $c-grey54;
+						}
+					}
+				}
+			}
+		}
+		.ecode_ecoded {
+			margin-top: 20px;
+			text-align: center;
+			@include desktop {
+				margin: 0;
+				width: calc( 100% / 3 );
+				text-align: right;
+			}
+			figure {
+				img {
+					width: auto;
+					height: 25px;
+				}
+			}
+		}
+	}
+	.ecode_tabbar_whatsapp_12_17 {
+		position: fixed;
+	    display: none;
+	    bottom: 20px;
+	    right: 20px;
+	    width: 50px;
+	    height: 50px;
+	    background-color: $c-whatsapp;
+	    border-radius: 100px;
+	    -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,(30/100));
+	    -moz-box-shadow: 0px 0px 10px rgba(0,0,0,(30/100));
+	    box-shadow: 0px 0px 10px rgba(0,0,0,(30/100));
+	    cursor: pointer;
+		overflow: hidden;
+	    z-index: 2000;
+	    @include tablet {
+			right: 15px;
+	        bottom: 15px;
+	    }
+		a {
+			position: relative;
+			display: block;
+			width: 100%;
+			height: 100%;
+			i {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 35px;
+				height: 35px;
+				svg {
+					width: 35px;
+					height: auto;
+				}
+			}
+		}
+	}
+	.ecode_tabbar_whatsapp_12_17_show {
+		display: block;
+		@include desktop {
+			display: none;
+		}
+	}
+}

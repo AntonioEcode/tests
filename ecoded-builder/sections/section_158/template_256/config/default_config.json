@@ -1,0 +1,76 @@
+{
+	"default_content": {
+		"title": "Eventos de SEO 2022",
+		"elements_group_loop": [
+			{
+				"element_event_day": "2022/04/28",
+				"element_event_hour": "08:30",
+				"element_title": "Vince Giordano and the Nighthawks",
+				"element_url": "#",
+				"element_subtitle": "28 de abril de 2022",
+				"element_additional": "Evento online",
+				"element_description": "<p>#Posiciona21 es un evento online de dos días organizado por José Facchin que se celebra a principios de abril. Redes sociales y marketing digital con grandes profesionales del sector.</p>"
+			},
+			{
+				"element_event_day": "2022/05/02",
+				"element_event_hour": "08:30",
+				"element_title": "Vince Giordano and the Nighthawks",
+				"element_url": "#",
+				"element_subtitle": "2, 3 y 4 de mayo de 2022",
+				"element_additional": "",
+				"element_description": "<p>ProMarketingDay celebra una nueva edición en Madrid centrado en el marketing digital desde un punto de vista práctico, con consejos aplicables a todo tipo de empresa y donde el hilo conductor son las distintas áreas del marketing online.</p>"
+			},
+			{
+				"element_event_day": "2022/05/02",
+				"element_event_hour": "09:30",
+				"element_title": "Vince Giordano and the Nighthawks",
+				"element_url": "#",
+				"element_subtitle": "2, 3 y 4 de mayo de 2022",
+				"element_additional": "Evento online",
+				"element_description": "<p>En la European Search Conference se reúnen algunos de los profesionales más reconocidos del sector del posicionamiento en buscadores.</p>"
+			},
+			{
+				"element_event_day": "2022/05/02",
+				"element_event_hour": "11:30",
+				"element_title": "Vince Giordano and the Nighthawks",
+				"element_url": "#",
+				"element_subtitle": "2, 3 y 4 de mayo de 2022",
+				"element_additional": "",
+				"element_description": "<p>#Posiciona21 es un evento online de dos días organizado por José Facchin que se celebra a principios de abril. Redes sociales y marketing digital con grandes profesionales del sector.</p>"
+			},
+			{
+				"element_event_day": "2022/06/01",
+				"element_event_hour": "08:30",
+				"element_title": "Vince Giordano and the Nighthawks",
+				"element_url": "#",
+				"element_subtitle": "08:00 - 09:00",
+				"element_additional": "",
+				"element_description": "<p>ProMarketingDay celebra una nueva edición en Madrid centrado en el marketing digital desde un punto de vista práctico, con consejos aplicables a todo tipo de empresa y donde el hilo conductor son las distintas áreas del marketing online.</p>"
+			},
+			{
+				"element_event_day": "2022/06/01",
+				"element_event_hour": "09:30",
+				"element_title": "Vince Giordano and the Nighthawks",
+				"element_url": "#",
+				"element_subtitle": "09:00 - 10:00",
+				"element_additional": "Evento online",
+				"element_description": "<p>En la European Search Conference se reúnen algunos de los profesionales más reconocidos del sector del posicionamiento en buscadores.</p>"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_title": "",
+		"ecode_articles_info_month": "",
+		"ecode_articles_info_year": "",
+		"ecode_article_title": "",
+		"ecode_article_date": "",
+		"ecode_article_additional": "",
+		"ecode_container_content": ""
+	},
+	"skip_demo_content": [
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"elements_group": "group"
+	}
+}

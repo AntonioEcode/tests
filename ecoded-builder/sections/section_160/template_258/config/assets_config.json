@@ -1,0 +1,9 @@
+{
+	"js": [
+		"lightgallery-1.4.1.min.js",
+		"masonry.js"
+	],
+	"css": [
+		"lightgallery-1.4.1.min.css"
+	]
+}

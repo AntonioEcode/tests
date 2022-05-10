@@ -1,0 +1,89 @@
+{
+	"default_content": {
+		"title": "NYC <span>EVENTS</span>",
+		"elements_group_loop": [
+			{
+				"element_title": "Vince Giordano and the Nighthawks",
+				"element_url": "#",
+				"element_event_day": "10/27/2021",
+				"day_month": "25 Oct",
+				"day": "Lunes",
+				"element_schedule": "08:00 - 09:00",
+				"element_location": "Bond 45",
+				"element_address": "221 W. 45th St.",
+				"element_description": "Grammy-winner, New York native and multi-instrumentalist Vince Giordano has played in New York nightclubs, appeared in."
+			},
+			{
+				"element_title": "Vince Giordano and the Nighthawks",
+				"element_url": "#",
+				"element_event_day": "10/27/2021",
+				"day_month": "26 Oct",
+				"day": "Martes",
+				"element_schedule": "09:00 - 10:00",
+				"element_location": "Bond 45",
+				"element_address": "221 W. 45th St.",
+				"element_description": "Grammy-winner, New York native and multi-instrumentalist Vince Giordano has played in New York nightclubs, appeared in."
+			},
+			{
+				"element_title": "Vince Giordano and the Nighthawks",
+				"element_url": "#",
+				"element_event_day": "10/28/2021",
+				"day_month": "25 Oct",
+				"day": "Lunes",
+				"element_schedule": "08:00 - 09:00",
+				"element_location": "Bond 45",
+				"element_address": "221 W. 45th St.",
+				"element_description": "Grammy-winner, New York native and multi-instrumentalist Vince Giordano has played in New York nightclubs, appeared in."
+			},
+			{
+				"element_title": "Vince Giordano and the Nighthawks",
+				"element_url": "#",
+				"element_event_day": "10/28/2021",
+				"day_month": "26 Oct",
+				"day": "Martes",
+				"element_schedule": "09:00 - 10:00",
+				"element_location": "Bond 45",
+				"element_address": "221 W. 45th St.",
+				"element_description": "Grammy-winner, New York native and multi-instrumentalist Vince Giordano has played in New York nightclubs, appeared in."
+			},
+			{
+				"element_title": "Vince Giordano and the Nighthawks",
+				"element_url": "#",
+				"element_event_day": "10/29/2021",
+				"day_month": "25 Oct",
+				"day": "Lunes",
+				"element_schedule": "08:00 - 09:00",
+				"element_location": "Bond 45",
+				"element_address": "221 W. 45th St.",
+				"element_description": "Grammy-winner, New York native and multi-instrumentalist Vince Giordano has played in New York nightclubs, appeared in."
+			},
+			{
+				"element_title": "Vince Giordano and the Nighthawks",
+				"element_url": "#",
+				"element_event_day": "10/29/2021",
+				"day_month": "26 Oct",
+				"day": "Martes",
+				"element_schedule": "09:00 - 10:00",
+				"element_location": "Bond 45",
+				"element_address": "221 W. 45th St.",
+				"element_description": "Grammy-winner, New York native and multi-instrumentalist Vince Giordano has played in New York nightclubs, appeared in."
+			}
+		]
+	},
+	"default_style": {
+		"ecode_title": "",
+		"ecode_article_title": "",
+		"ecode_article_date_day": "",
+		"ecode_article_location_place": "",
+		"ecode_article_location_street": "",
+		"ecode_article_desc": ""
+	},
+	"skip_demo_content": [
+		"day_month",
+		"day"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"elements_group": "group"
+	}
+}

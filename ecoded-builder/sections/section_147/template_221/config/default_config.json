@@ -1,0 +1,49 @@
+{
+	"default_content": {
+		"image_hd_src": "s147_t221_desktop_hd.jpg",
+		"image_desktop_src": "s147_t221_desktop.jpg",
+		"image_tablet_src": "s147_t221_tablet.jpg",
+		"image_src": "s147_t221_mobile.jpg",
+		"image_alt": "Texto alternativo",
+		"title": "La gran boda",
+		"address": "Casino de Madrid, Madrid, Madrid",
+		"txt_button_1": "Detalles",
+		"link_button_1": "#",
+		"txt_button_2": "Tickets",
+		"link_button_2": "#",
+		"copy_days": "Días",
+		"copy_hours": "Horas",
+		"copy_minutes": "Minutos",
+		"copy_seconds": "Segundos",
+		"countdown_formated": "2022-05-03 17:17:00",
+		"countdown": "1651598220"
+	},
+	"default_style": {
+		"ecode_title": "color:#ffffff;text-transform:uppercase;text-align:center;font-size:90px;line-height:95px;margin-bottom:45px;",
+		"ecode_subtitle": "color:#ffffff;font-size:13px;line-height:22px;text-align:center;font-weight:normal;letter-spacing:2px;text-transform:uppercase;",
+		"ecode_countdown_time": "color:#ffffff;text-transform:uppercase;margin-bottom:32px;text-align:center;font-weight:bold;font-size:50px;line-height:50px;",
+		"ecode_countdown_text": "color:#ffffff;text-transform:uppercase;text-align:center;font-weight:bold;font-size:13px;line-height:13px;",
+		"ecode_article_button_1": "border-width:2px;border-style:solid;border-color:#ffffff;padding-top:11px;padding-bottom:11px;padding-left:40px;padding-right:40px;border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-right-radius:100px;border-bottom-left-radius:100px;color:#ffffff;font-size:13px;line-height:22px;text-transform:uppercase;font-weight:bold;margin-right:30px;margin-bottom:30px;",
+		"ecode_article_button_2": "border-width:2px;border-style:solid;border-color:#ffffff;padding-top:11px;padding-bottom:11px;padding-left:40px;padding-right:40px;border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-right-radius:100px;border-bottom-left-radius:100px;color:#ffffff;font-size:13px;line-height:22px;text-transform:uppercase;font-weight:bold;margin-right:30px;margin-bottom:30px;"
+	},
+	"skip_demo_content": [
+		"image_alt"
+	],
+	"custom_fields": {
+		"image_hd_id": "file",
+		"image_hd": "file",
+		"image_desktop_id": "file",
+		"image_desktop": "file",
+		"image_tablet_id": "file",
+		"image_tablet": "file",
+		"image_id": "file",
+		"image": "file",
+		"title": "h1",
+		"address": "textarea_small",
+		"txt_button_1": "text",
+		"link_button_1": "text_url",
+		"txt_button_2": "text",
+		"link_button_2": "text_url",
+		"countdown": "text_datetime_timestamp"
+	}
+}

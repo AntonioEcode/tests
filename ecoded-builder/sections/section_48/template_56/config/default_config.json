@@ -1,0 +1,43 @@
+{
+	"default_content": {
+		"pretitle": "Antetítulo",
+		"title": "Comentarios",
+		"cards_group_loop": [
+			{
+				"card_comment": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+				"card_image_src": "woman2.jpg",
+				"card_image_alt": "Foto de persona",
+				"card_name": "Javier"
+			},
+			{
+				"card_comment": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+				"card_image_src": "woman2.jpg",
+				"card_image_alt": "Foto de persona",
+				"card_name": "Antonio"
+			},
+			{
+				"card_comment": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+				"card_image_src": "woman2.jpg",
+				"card_image_alt": "Foto de persona",
+				"card_name": "José"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_48_template_56": "text-align:center;padding-top:115px;padding-bottom:42px;padding-left:30px;padding-right:30px;",
+		"ecode_text": "font-size:18px;line-height:21px;/*! primary_color !*/color:#be9359/*! end_primary_color !*/;text-transform:uppercase;font-weight:bold;",
+		"ecode_title": "font-size:70px;line-height:95px;margin-bottom:50px;color:#b1b1b1;",
+		"ecode_container_content": "margin-bottom:20px;",
+		"ecode_article_figure": "border-top-left-radius:60px;border-top-right-radius:60px;border-bottom-right-radius:60px;border-bottom-left-radius:60px;margin-bottom:15px;",
+		"ecode_article_text": "font-size:18px;line-height:33px;color:#686868;margin-bottom:20px;font-weight:300;",
+		"ecode_article_name": "font-size:18px;line-height:33px;/*! primary_color !*/color:#be9359/*! end_primary_color !*/;font-style:italic;"
+	},
+	"skip_demo_content": [
+		"card_image_alt"
+	],
+	"custom_fields": {
+		"pretitle": "textarea_small",
+		"title": "textarea_small",
+		"cards_group": "group"
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"default_content": {
+		"title": "Artículos relacionados",
+		"posts_loop": [
+			{
+				"post_thumbnail_src": "s63_t74_art_1.jpg",
+				"post_thumbnail_alt": "Alt de la imagen",
+				"post_url": "#",
+				"post_title": "Artículo 1"
+			},
+			{
+				"post_thumbnail_src": "s63_t74_art_2.jpg",
+				"post_thumbnail_alt": "Alt de la imagen",
+				"post_url": "#",
+				"post_title": "Artículo 2"
+			},
+			{
+				"post_thumbnail_src": "s63_t74_art_3.jpg",
+				"post_thumbnail_alt": "Alt de la imagen",
+				"post_url": "#",
+				"post_title": "Artículo 3"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_79_template_91": "background-color:#f5f5f5;padding-top:20px;padding-bottom:90px;padding-left:30px;padding-right:30px;",
+		"ecode_title": "font-size:18px;line-height:27px;margin-bottom:20px;",
+		"back_info": "background-color:rgba(198,38,23,0.72);",
+		"back_info_title": "color:#ffffff;font-size:17px;line-height:30px;padding-top:20px;padding-bottom:20px;padding-left:20px;padding-right:20px;text-align:center;"
+	},
+	"skip_demo_content": [
+		"posts_loop"
+	]
+}

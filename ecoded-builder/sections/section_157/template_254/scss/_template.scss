@@ -1,0 +1,129 @@
+.ecode_section_157_template_254 {
+	position: relative;
+	display: block;
+	padding: 45px 20px;
+	background-color: $c-greyf9;
+	@include tablet {
+		padding: 60px 20px;
+	}
+	.ecode_width_157_254 {
+		position: relative;
+		display: block;
+		max-width: 640px;
+		margin: 0 auto;
+		@include desktop {
+			max-width: 1186px;
+		}
+		.ecode_title {
+			position: relative;
+			font-size: 24px;
+			line-height: 28px;
+			font-weight: normal;
+			text-align: center;
+			margin-bottom: 30px;
+			color: $c-black22;
+			span {
+				font-weight: bold;
+				color: $c-c;
+			}
+			@include tablet {
+				font-size: 30px;
+				line-height: 36px;
+				margin-bottom: 40px;
+			}
+		}
+		.ecode_articles {
+			@include tablet {
+				@include flexbox;
+				@include justify-content(space-between);
+				@include align-items(stretch);
+				@include flex-wrap(wrap);
+			}
+			.ecode_article {
+				position: relative;
+				margin-bottom: 24px;
+				background-color: $c-white;
+				box-shadow: 0 0 15px 0 rgba(0,0,0,(1/10));
+				@include tablet {
+					width: calc( 50% - 12px );
+				}
+				.ecode_article_icon_title {
+					position: relative;
+					padding: 15px;
+					border-bottom: 1px solid $c-greye0;
+					i {
+						position: relative;
+						display: inline;
+						width: 16px;
+						height: 16px;
+						padding-right: 7px;
+						top: -1px;
+						svg {
+							max-width: 16px;
+							max-height: 16px;
+						}
+					}
+					.ecode_article_title {
+						position: relative;
+						display: inline;
+						font-size: 16px;
+						line-height: 22px;
+						font-weight: 400;
+						a {
+							color: inherit;
+							text-decoration: none;
+							&:hover {
+								color: $c-c;
+							}
+						}
+					}
+				}
+				.ecode_article_info {
+					position: relative;
+					padding: 15px;
+					.ecode_article_date {
+						position: relative;
+						display: block;
+						margin-bottom: 16px;
+						span {
+							position: relative;
+							font-size: 15px;
+							line-height: 20px;
+							color: $c-black;
+						}
+						.ecode_article_date_day {
+							display: inline-block;
+							color: $c-white;
+							background-color: $c-c;
+							padding: 4px 16px;
+							text-transform: uppercase;
+						}
+					}
+					.ecode_article_location {
+						position: relative;
+						margin-bottom: 16px;
+						.ecode_article_location_place {
+							position: relative;
+							font-size: 15px;
+							line-height: 20px;
+							color: $c-black;
+							font-weight: bold;
+							padding-bottom: 4px;
+						}
+						.ecode_article_location_street {
+							position: relative;
+							font-size: 13px;
+							line-height: 20px;
+						}
+					}
+					.ecode_article_desc {
+						position: relative;
+						font-size: 15px;
+						line-height: 20px;
+						color: $c-black;
+					}
+				}
+			}
+		}
+	}
+}

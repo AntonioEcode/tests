@@ -1,0 +1,42 @@
+/******************************************************************************/
+/*****                              buttons                               *****/
+/******************************************************************************/
+.ecode_button_builder {
+	position: relative;
+	display: inline-block;
+	padding: 11px;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.7px;
+	border-radius: 5px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+}
+.ecode_button_builder_grey {
+	border: 1px solid $c-black99;
+	color: $c-black99;
+	background-color: $c-greyf8;
+}
+.ecode_button_builder_grey_2 {
+	color: $c-white;
+	background-color: $c-grey89;
+}
+.ecode_button_builder_c_c {
+	color: $c-white;
+	background-color: $c-c;
+	&:hover {
+		background-color: $c-black;
+		color: $c-white;
+	}
+}
+.ecode_button_builder_disabled {
+	pointer-events: none;
+	opacity: (5/10);
+}
+.ecode_button_builder_hidden {
+	display: none !important;
+}

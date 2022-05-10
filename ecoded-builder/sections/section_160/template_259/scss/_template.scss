@@ -1,0 +1,220 @@
+.ecode_section_160_template_259 {
+	position: relative;
+	display: block;
+	padding: 90px 15px;
+	background-color: $c-greyf6;
+	.ecode_width_160_259 {
+		position: relative;
+		display: block;
+		max-width: 1275px;
+		margin: 0 auto;
+		@include desktop {
+			@include flexbox;
+			@include justify-content(space-between);
+			@include align-items(flex-start);
+			@include flex-direction(row-reverse);
+		}
+		.ecode_article {
+			@include desktop {
+				width: calc( 100% - 430px );
+			}
+			.ecode_article_image {
+				position: relative;
+				display: block;
+				width: 100%;
+				height: 200px;
+				overflow: hidden;
+				@include tablet {
+					height: 420px;
+				}
+				img {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					min-width: 100%;
+					min-height: 100%;
+					object-fit: cover;
+				}
+			}
+			.ecode_info {
+				position: relative;
+				display: block;
+				padding: 30px;
+				background-color: $c-white;
+				margin-bottom: 30px;
+			}
+			.ecode_gallery {
+				position: relative;
+				margin-bottom: 30px;
+				.ecode_gallery_title {
+					position: relative;
+					display: block;
+					padding: 30px;
+					background-color: $c-white;
+					border-bottom: 1px solid $c-greyea;
+					font-size: 16px;
+					line-height: 27px;
+					font-weight: bold;
+				}
+				.ecode_gallery_160_259 {
+					position: relative;
+					display: block;
+					padding: 30px;
+					background-color: $c-white;
+					@include tablet {
+						@include flexbox;
+						@include justify-content(flex-start);
+						@include align-items(stretch);
+						@include flex-wrap(wrap);
+					}
+					.ecode_gallery_image {
+						position: relative;
+						display: block;
+						width: 100%;
+						height: 285px;
+						overflow: hidden;
+						cursor: pointer;
+						@include tablet {
+							width: calc( 100% / 3 );
+							height: 200px;
+						}
+						@include desktop {
+							height: 250px;
+						}
+						img {
+							position: absolute;
+							top: 50%;
+							left: 50%;
+							transform: translate(-50%, -50%);
+							min-width: 100%;
+							min-height: 100%;
+							object-fit: cover;
+						}
+					}
+				}
+			}
+		}
+		.ecode_sidebar {
+			position: relative;
+			@include desktop {
+				width: 400px;
+			}
+			.ecode_sidebar_title {
+				position: relative;
+				background-color: $c-white;
+				padding: 30px;
+				.ecode_sidebar_title_text {
+					position: relative;
+					font-size: 16px;
+					line-height: 27px;
+					font-weight: bold;
+					color: $c-black33;
+				}
+			}
+			.ecode_sidebar_detail {
+				position: relative;
+				padding: 30px 30px 30px 83px;
+				border-top: 1px solid $c-greyea;
+				background-color: $c-white;
+				.ecode_sidebar_detail_icon {
+					position: absolute;
+					@include flexbox;
+					@include justify-content(center);
+					@include align-items(center);
+					top: 30px;
+					left: 30px;
+					width: 28px;
+					height: 28px;
+					svg {
+						max-width: 28px;
+						max-height: 28px;
+						* {
+							fill: $c-c;
+						}
+					}
+				}
+				.ecode_sidebar_detail_title {
+					position: relative;
+					font-size: 10px;
+					line-height: 17px;
+					letter-spacing: 1px;
+					color: $c-black33;
+					font-weight: bold;
+					text-transform: uppercase;
+					margin-bottom: 2px;
+				}
+				.ecode_sidebar_detail_text {
+					position: relative;
+					font-size: 12px;
+					line-height: 20px;
+					color: $c-grey88;
+					a {
+						color: inherit;
+						text-decoration: none;
+						&:hover {
+							color: $c-c;
+						}
+					}
+				}
+				.ecode_sidebar_social {
+					position: relative;
+					@include flexbox;
+					@include justify-content(flex-start);
+					@include align-items(center);
+					@include flex-wrap(wrap);
+					margin-top: 5px;
+					a {
+						position: relative;
+						display: block;
+						width: 14px;
+						height: 14px;
+						text-decoration: none;
+						margin-right: 10px;
+						i {
+							position: absolute;
+							@include flexbox;
+							@include justify-content(center);
+							@include align-items(center);
+							@include flex-wrap(wrap);
+							top: 0;
+							left: 0;
+							width: 14px;
+							height: 14px;
+							svg {
+								position: absolute;
+								top: 50%;
+								left: 50%;
+								transform: translate(-50%,-50%);
+								max-width: 14px;
+								max-height: 14px;
+							}
+						}
+						&:hover {
+							svg {
+								* {
+									fill: $c-c;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.ecode_sidebar_160_259_fixed {
+			@include desktop {
+				position: fixed;
+				top: 40px;
+				margin: 0;
+			}
+		}
+		.ecode_sidebar_160_259_absolute {
+			@include desktop {
+				position: absolute;
+				left: 0;
+				top: inherit;
+				bottom: 20px;
+			}
+		}
+	}
+}

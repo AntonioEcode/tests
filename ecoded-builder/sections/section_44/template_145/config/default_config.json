@@ -1,0 +1,30 @@
+{
+	"default_content": {
+		"image_hd_src": "barber.jpg",
+		"image_alt": "Barbería moderna retro",
+		"image_src": "barber.jpg",
+		"title": "Título h1 de la sección",
+		"subtitle": "Subtítulo h2 de la sección",
+		"button_text": "Botón",
+		"button_url": "#"
+	},
+	"default_style": {
+		"ecode_image_back::after": "background-color:rgba(0,0,0,0.2);",
+		"ecode_title": "font-size:87px;line-height:121px;padding-bottom:20px;color:#ffffff;",
+		"ecode_subtitle": "font-size:24px;line-height:44px;color:#686868;font-weight:400;margin-bottom:35px;",
+		"ecode_button": "padding-top:17px;padding-bottom:17px;padding-left:40px;padding-right:40px;border-width:2px;border-style:solid;/*! primary_color !*/border-color:#be9359/*! end_primary_color !*/;/*! primary_color !*/color:#be9359/*! end_primary_color !*/;text-transform:uppercase;font-size:18px;line-height:21px;font-weight:700;"
+	},
+	"skip_demo_content": [
+		"image_alt"
+	],
+	"custom_fields": {
+		"title": "h1",
+		"image_hd": "file",
+		"image_hd_id": "file",
+		"image": "file",
+		"image_id": "file",
+		"subtitle": "textarea_small",
+		"button_text": "text",
+		"button_url": "text_url"
+	}
+}

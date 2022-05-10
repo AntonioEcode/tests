@@ -1,0 +1,277 @@
+.ecode_section_105_template_124 {
+	position: relative;
+	display: block;
+	padding: 100px 20px 61px;
+	.ecode_width_105_124 {
+		position: relative;
+		display: block;
+		max-width: 300px;
+		width: 100%;
+		margin: 0 auto;
+		@include tablet {
+			max-width: 600px;
+		}
+		@include desktop {
+			@include flexbox;
+			@include justify-content(center);
+			@include align-items(flex-start);
+			max-width: 950px;
+		}
+		.ecode_contact_info {
+			position: relative;
+			margin-bottom: 32px;
+			width: 100%;
+			.ecode_contact_title {
+				position: relative;
+				font-size: 17px;
+				line-height: 28px;
+				color: $c-black;
+				margin-bottom: 10px;
+			}
+			.ecode_contact_text {
+				position: relative;
+				font-size: 15px;
+				line-height: 26px;
+				color: $c-grey6e;
+				a {
+					color: $c-black;
+					text-decoration: none;
+					&:hover {
+						color: $c-c;
+					}
+				}
+			}
+		}
+		.ecode_contact_form {
+			@include desktop {
+				width: 540px;
+				min-width: 540px;
+				margin-left: 50px;
+			}
+			.wpcf7 {
+				position: relative;
+				.wpcf7-form {
+					position: relative;
+					display: block;
+					padding: 0;
+					box-sizing: border-box;
+					@include desktop {
+						@include flexbox;
+						@include justify-content(space-between);
+						@include align-items(center);
+						@include flex-wrap(wrap);
+					}
+					.container_input {
+						position: relative;
+						margin-bottom: 20px;
+						width: 100%;
+						@include desktop {
+							// margin-bottom: 30px;
+						}
+						label {
+							position: absolute;
+							opacity: 0;
+							pointer-events: none;
+						}
+						input, textarea, select {
+							width: 100%;
+			                box-sizing: border-box;
+			                padding: 11px 17px;
+			                border: none;
+			                background-color: $c-greyf4;
+			                color: $c-black;
+			                border-radius: 6px;
+			                font-size: 15px;
+							line-height: 21px;
+							font-weight: 300;
+			                -webkit-appearance: none;
+			                -moz-appearance: none;
+			                appearance: none;
+			                box-shadow: none;
+							&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+								color: $c-greyaf;
+								font-size: 15px;
+								line-height: 21px;
+								font-weight: 300;
+							}
+							&::-moz-placeholder { /* Firefox 19+ */
+								color: $c-greyaf;
+								font-size: 15px;
+								line-height: 21px;
+								font-weight: 300;
+							}
+							&:-ms-input-placeholder { /* IE 10+ */
+								color: $c-greyaf;
+								font-size: 15px;
+								line-height: 21px;
+								font-weight: 300;
+							}
+							&:-moz-placeholder { /* Firefox 18- */
+								color: $c-greyaf;
+								font-size: 15px;
+								line-height: 21px;
+								font-weight: 300;
+							}
+						}
+						textarea {
+							height: 112px;
+							resize: none;
+						}
+					}
+					.container_input_full {
+						@include desktop {
+							width: 100%;
+						}
+					}
+					.container_legal {
+						position: relative;
+						display: block;
+						margin: 0 0 30px;
+						background-color: $c-greyf4;
+						border: 2px solid $c-greyda;
+						padding: 5px;
+						box-sizing: border-box;
+						height: 60px;
+						overflow: hidden;
+						overflow-y: scroll;
+						border-radius: 5px;
+						scrollbar-width: none; // Firefox
+						&::-webkit-scrollbar { // Chrome
+							display: none;
+						}
+						p {
+							font-size: 12px;
+							line-height: 20px;
+							margin: 0 0 10px;
+							color: $c-black3a;
+							&:last-child {
+								margin-bottom: 0;
+							}
+							a {
+								color: $c-black3a;
+								text-decoration: none;
+							}
+						}
+					}
+					.acceptance {
+						position: relative;
+						width: 100%;
+						margin-bottom: 30px;
+						input {
+							position: absolute;
+							opacity: 0;
+							pointer-events: none;
+						}
+						p {
+							&:first-child {
+								position: relative;
+								font-size: 15px;
+								line-height: 20px;
+								color: $c-black;
+								padding-left: 31px;
+								box-sizing: border-box;
+								margin: 0;
+								cursor: pointer;
+								&::after {
+									content: '';
+									position: absolute;
+									top: 0px;
+									left: 0;
+									width: 20px;
+									height: 20px;
+									background-color: $c-white;
+									border: 1px solid $c-greye1;
+									box-sizing: border-box;
+									border-radius: 100%;
+									z-index: 5;
+								}
+								a {
+									color: $c-grey6e;
+								}
+							}
+						}
+						input[type="checkbox"]:checked ~ span > p {
+							&:first-child {
+								&::before {
+									content: '';
+									position: absolute;
+									top: 5px;
+									left: 5px;
+									width: 10px;
+									height: 10px;
+									border-radius: 100%;
+									/*! primary_color !*/background-color: $c-c;/*! end_primary_color !*/
+									pointer-events: none;
+									z-index: 10;
+								}
+							}
+						}
+					}
+					.container_button {
+						position: relative;
+						display: inline-block;
+						overflow: hidden;
+						border-radius: 5px;
+						.button {
+							position: relative;
+							display: inline-block;
+							font-size: 14px;
+							line-height: 14px;
+							font-weight: 500;
+							padding: 16px 23px;
+							text-decoration: none;
+							border-radius: 5px;
+							-webkit-font-smoothing: auto;
+							border: none;
+							-webkit-appearance: none;
+			                -moz-appearance: none;
+			                appearance: none;
+							&:hover {
+								background-color: $c-c-h;
+							}
+						}
+						.button_primary {
+							color: $c-white;
+							/*! primary_color !*/background-color: $c-c;/*! end_primary_color !*/
+						}
+					}
+					.screen-reader-response, .wpcf7-validation-errors {
+				        display: none !important;
+				    }
+				    span.wpcf7-not-valid-tip {
+						display: none;
+				    }
+				    input.wpcf7-not-valid, textarea.wpcf7-not-valid {
+				        border: 2px solid $c-red !important;
+				    }
+					.wpcf7-response-output {
+				        display: none;
+				    }
+				    form.invalid {
+				        .wpcf7-response-output {
+				            display: none;
+				        }
+				    }
+				    form.sent {
+				        .wpcf7-response-output {
+				            display: block;
+				            color: $c-black;
+				            border: 2px solid $c-green;
+							background-color: $c-white;
+							text-align: center;
+							font-size: 20px;
+							line-height: 26px;
+							padding: 24px;
+							margin-top: 52px;
+							width: 100%;
+							 border-radius: 10px;
+							span {
+								color: $c-green;
+							}
+				        }
+				    }
+				}
+			}
+		}
+	}
+}

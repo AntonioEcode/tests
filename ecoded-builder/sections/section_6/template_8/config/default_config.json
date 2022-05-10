@@ -1,0 +1,52 @@
+{
+	"default_content": {
+		"title": "Edificios emblemáticos",
+		"description": "<p>¿Te lo vas a perder? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>",
+		"button_txt": "Ver más",
+		"button_url": "#",
+		"cards_group_loop": [
+			{
+				"card_image_src": "build.jpg",
+				"card_image_alt": "Edificio moderno",
+				"back_card_title": "Florida city",
+				"back_card_subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"back_card_button_url": "#"
+			},
+			{
+				"card_image_src": "build.jpg",
+				"card_image_alt": "Edificio moderno",
+				"back_card_title": "Florida city",
+				"back_card_subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"back_card_button_url": "#"
+			},
+			{
+				"card_image_src": "build.jpg",
+				"card_image_alt": "Edificio moderno",
+				"back_card_title": "Florida city",
+				"back_card_subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"back_card_button_url": "#"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_6_template_8": "padding-top:50px;padding-bottom:100px;padding-left:30px;padding-right:30px;",
+		"title": "padding-bottom:20px;font-size:31px;line-height:41px;margin-bottom:30px;padding-bottom:10px;padding-left:40px;padding-right:40px;letter-spacing:1px;text-align:center;",
+		"content": "padding-left:40px;padding-right:40px;margin-bottom:80px;",
+		"article_figure": "",
+		"article_info": "/*! primary_color !*/background-color:#fed03d/*! end_primary_color !*/;text-align:center;",
+		"article_icon": "background-color:#ffffff;border-radius:24px;margin-left:6px;margin-right:6px;",
+		"article_title": "font-size:18px;line-height:27px;margin-bottom:3px;color:#ffffff;",
+		"article_tag": "font-size:12px;line-height:18px;font-weight:500;color:#ffffff;",
+		"button_white": "background-color:#ffffff;color:#333333;font-size:14px;line-height:17px;text-transform:uppercase;padding-top:13px;padding-bottom:13px;padding-left:29px;padding-right:29px;"
+	},
+	"skip_demo_content": [
+		"card_image_alt"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"description": "wysiwyg",
+		"button_txt": "text",
+		"button_url": "text_url",
+		"cards_group": "group"
+	}
+}

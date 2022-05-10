@@ -1,0 +1,121 @@
+.ecode_section_131_template_197 {
+	position: relative;
+	display: block;
+	padding: 100px 30px 0;
+	text-align: center;
+	@include tablet {
+		padding: 83px 30px 66px;
+	}
+	@include desktop {
+		padding: 100px 30px;
+	}
+	section {
+		@include tablet {
+			max-width: 600px;
+			margin: 0 auto;
+		}
+		@include desktop {
+			max-width: 1150px;
+		}
+		article {
+			position: relative;
+			@include flexbox;
+			@include justify-content(space-between);
+			@include align-items(flex-start);
+			@include flex-wrap(wrap);
+			padding: 0 0 85px;
+			text-align: left;
+			border-bottom: 1px solid $c-greye1;
+			margin-bottom: 85px;
+			.ecode_article_info {
+				position: relative;
+				padding-bottom: 50px;
+				width: 100%;
+				@include desktop {
+					width: calc( 50% - 15px );
+					padding: 40px 0 0;
+				}
+				.ecode_article_subtitle {
+					position: relative;
+					font-size: 13px;
+					line-height: 19px;
+					/*! secondary_color !*/color: $c-c2;/*! end_secondary_color !*/
+					letter-spacing: 1px;
+				}
+				.ecode_article_title {
+					position: relative;
+					font-size: 20px;
+					line-height: 31px;
+					margin-bottom: 10px;
+					font-weight: normal;
+					@include desktop {
+						font-size: 24px;
+						line-height: 38px;
+					}
+					a {
+						color: inherit;
+						text-decoration: none;
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+				}
+				.ecode_article_desc {
+					position: relative;
+					font-size: 15px;
+					line-height: 26px;
+					color: $c-grey6e;
+					margin-bottom: 15px;
+				}
+				.ecode_article_read_more {
+					position: relative;
+					font-size: 14px;
+					line-height: 26px;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+			.ecode_article_figure {
+				position: relative;
+				width: 100%;
+				height: 160px;
+				text-align: center;
+				overflow: hidden;
+				@include tablet {
+					height: 325px;
+				}
+				@include desktop {
+					width: calc( 50% - 15px );
+					height: 300px;
+				}
+				img {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%,-50%);
+					min-width: 100%;
+					min-height: 100%;
+					object-fit: cover;
+				}
+			}
+			&:nth-child(2n) {
+				.ecode_article_info {
+					order: 1;
+					padding-bottom: 0;
+				}
+				.ecode_article_figure {
+					order: 0;
+					margin-bottom: 50px;
+					@include desktop {
+						margin: 0;
+					}
+				}
+			}
+			&:last-child {
+				border-bottom: 0;
+				margin-bottom: 0;
+			}
+		}
+	}
+}

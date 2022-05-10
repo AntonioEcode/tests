@@ -1,0 +1,33 @@
+{
+	"default_content": {
+		"image_hd_src": "s115_t180_desktop.jpg",
+		"image_alt": "Texto alternativo de la imagen",
+		"image_src": "s115_t180_mobile.jpg",
+		"title": "Título de la sección",
+		"pretitle": "Antetítulo de la sección",
+		"subtitle": "Subtítulo de la sección",
+		"button_text": "Contacta con nosotros",
+		"button_url": "#"
+	},
+	"default_style": {
+		"ecode_width_115_180": "background-color:#000000;padding-top:265px;padding-bottom:90px;padding-left:90px;padding-right:90px;",
+		"ecode_title": "letter-spacing:1px;color:#d6d6d6;text-transform:uppercase;margin-bottom:20px;font-size:70px;line-height:84px;",
+		"ecode_subtitle": "color:#d6d6d6;letter-spacing:2px;text-transform:uppercase;font-weight:bold;margin-bottom:31px;font-size:14px;line-height:21px;",
+		"ecode_desc": "font-size:19px;line-height:33px;color:#d6d6d6;margin-bottom:50px;",
+		"ecode_button": "padding-top:15px;padding-bottom:15px;padding-left:29px;padding-right:29px;font-size:14px;line-height:14px;letter-spacing:1px;color:#000000;text-transform:uppercase;border-width:1px;border-style:solid;border-color:#d6d6d6;"
+	},
+	"skip_demo_content": [
+		"image_alt"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"pretitle": "textarea_small",
+		"subtitle": "textarea_small",
+		"button_text": "text",
+		"button_url": "text_url",
+		"image_hd_id": "file",
+		"image_hd": "file",
+		"image_id": "file",
+		"image": "file"
+	}
+}

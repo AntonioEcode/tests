@@ -1,0 +1,48 @@
+{
+	"default_content": {
+		"title": "Equipo",
+		"description": "<p>Nuestra mejor herramienta, nuestro equipo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>",
+		"cards_group_loop": [
+			{
+				"card_image_src": "woman2.jpg",
+				"card_image_alt": "Miembro del equipo",
+				"card_name": "Pilar Pérez",
+				"card_position": "CEO",
+				"card_description": "Apasionada por su trabajo, siempre preparada para dar la solución más optima."
+			},
+			{
+				"card_image_src": "woman2.jpg",
+				"card_image_alt": "Miembro del equipo",
+				"card_name": "Pilar Pérez",
+				"card_position": "CTO",
+				"card_description": "Apasionada por su trabajo, siempre preparada para dar la solución más optima."
+			},
+			{
+				"card_image_src": "woman2.jpg",
+				"card_image_alt": "Miembro del equipo",
+				"card_name": "Pilar Pérez",
+				"card_position": "WPO",
+				"card_description": "Apasionada por su trabajo, siempre preparada para dar la solución más optima."
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_16_template_21": "padding-top:220px;padding-bottom:100px;padding-left:30px;padding-right:30px;background-color:#f5f5f5;",
+		"circle_top": "background-color:#ffffff;",
+		"ecode_title": "padding-bottom:20px;font-size:31px;line-height:41px;margin-bottom:30px;padding-left:20px;padding-right:20px;font-weight:normal;text-align:center;letter-spacing:1px;",
+		"ecode_container_content": "padding-left:40px;padding-right:40px;text-align:center;margin-bottom:80px;",
+		"ecode_person_image": "",
+		"ecode_person_info": "background-color:#ffffff;padding-top:40px;padding-bottom:40px;padding-left:40px;padding-right:40px;",
+		"ecode_person_name": "font-size:18px;line-height:28px;font-weight:normal;text-align:center;",
+		"ecode_person_position": "font-size:18px;line-height:28px;font-weight:normal;text-align:center;",
+		"ecode_person_description": "font-size:15px;line-height:34px;color:#747474;text-align:center;"
+	},
+	"skip_demo_content": [
+		"card_image_alt"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"description": "wysiwyg",
+		"cards_group": "group"
+	}
+}

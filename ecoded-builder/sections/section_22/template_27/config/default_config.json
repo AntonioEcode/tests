@@ -1,0 +1,17 @@
+{
+	"default_content": {
+		"blog_url": "#",
+		"logo_src": "logo_ecoded_100.png",
+		"logo_alt": "Logo de tu empresa",
+		"menu_nav": "<nav class='nav_main_menu'><ul class='menu-item ul_main_menu'><li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item current_page_item'><a href='#'>Home</a></li><li class='menu-item menu-item-type-post_type menu-item-object-page'><a href='#'>Proyectos</a></li><li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children current-menu-ancestor'><span class='element_without_link'>Servicios</span><ul class='sub-menu'><li class='menu-item menu-item-type-post_type menu-item-object-page current-menu-item'><a href='#'>Servicio 1</a></li><li class='menu-item menu-item-type-post_type menu-item-object-page'><a href='#'>Servicio 2</a></li><li class='menu-item menu-item-type-post_type menu-item-object-page'><a href='#'>Servicio 3</a></li><li class='menu-item menu-item-type-post_type menu-item-object-page'><a href='#'>Servicio 4</a></li></ul></li><li class='menu-item menu-item-type-post_type menu-item-object-page'><a href='#'>Sobre Nosotros</a></li><li class='menu-item menu-item-type-post_type menu-item-object-page'><a href='#'>Contacto</a></li><li class='menu-item menu-item-type-post_type menu-item-object-page button_primary'><a href='#'>Noticias</a></li></ul></nav>"
+	},
+	"default_style": {
+	},
+	"height_logo": "52px",
+	"skip_demo_content": [
+		"blog_url",
+		"logo_src",
+		"logo_alt",
+		"menu_nav"
+	]
+}

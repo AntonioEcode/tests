@@ -1,0 +1,50 @@
+{
+	"default_content": {
+		"title": "También te puede interesar",
+		"posts_loop": [
+			{
+				"post_thumbnail_src": "build.jpg",
+				"post_thumbnail_alt": "Alt de la imagen",
+				"post_url": "#",
+				"post_title": "Artículo 1"
+			},
+			{
+				"post_thumbnail_src": "build.jpg",
+				"post_thumbnail_alt": "Alt de la imagen",
+				"post_url": "#",
+				"post_title": "Artículo 2"
+			},
+			{
+				"post_thumbnail_src": "build.jpg",
+				"post_thumbnail_alt": "Alt de la imagen",
+				"post_url": "#",
+				"post_title": "Artículo 3"
+			},
+			{
+				"post_thumbnail_src": "build.jpg",
+				"post_thumbnail_alt": "Alt de la imagen",
+				"post_url": "#",
+				"post_title": "Artículo 4"
+			},
+			{
+				"post_thumbnail_src": "build.jpg",
+				"post_thumbnail_alt": "Alt de la imagen",
+				"post_url": "#",
+				"post_title": "Artículo 5"
+			},
+			{
+				"post_thumbnail_src": "build.jpg",
+				"post_thumbnail_alt": "Alt de la imagen",
+				"post_url": "#",
+				"post_title": "Artículo 6"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_title": "text-align:center;font-size:16px;line-height:18px;font-weight:500;margin-bottom:20px;",
+		"ecode_article_figure": ""
+	},
+	"skip_demo_content": [
+		"posts_loop"
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"default_content": {
+		"copy_comments": "Comentarios",
+		"copy_comments_2": " de los usuarios",
+		"comments_content": "<ul class='list_comments'><li class='comment even thread-even depth-1' data-edit='ecode_comments li'><figure data-edit='ecode_comments figure'><img alt='' src='https://source.unsplash.com/150x150/?person' srcset='https://source.unsplash.com/150x150/?person 2x' class='avatar avatar-96 photo' height='96' width='96' loading='lazy'></figure><div class='name_date'><time data-edit='ecode_comments time'>2 de febrero de 2021</time><h4 data-edit='ecode_comments h4'>José Martínez</h4></div><div class='comment_text' data-edit='ecode_comments .comment_text *'><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div></li><li class='comment even thread-even depth-1' data-edit='ecode_comments li'><figure data-edit='ecode_comments figure'><img alt='' src='https://source.unsplash.com/150x150/?person' srcset='https://source.unsplash.com/150x150/?person 2x' class='avatar avatar-96 photo' height='96' width='96' loading='lazy'></figure><div class='name_date'><time data-edit='ecode_comments time'>2 de febrero de 2021</time><h4 data-edit='ecode_comments h4'>José Martínez</h4></div><div class='comment_text' data-edit='ecode_comments .comment_text *'><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div></li></ul><section class='form_comment'><h3 class='title' data-edit='form_comment .title'>Deja un comentario</h3><p class='desc' data-edit='form_comment .desc'>Tu dirección de correo electrónico no será publicada. Los campos obligatorios están marcados con *</p><form action='#' method='post' id='commentform' class='comment-form'><div class='container_input_group'><div class='container_input'><input id='author' class='field_required' name='author' type='text' value='' placeholder='Nombre*' size='30'></div><div class='container_input'><input id='email' class='field_required' name='email' type='email' value='' placeholder='Email*' size='30'></div></div><div class='container_input'><textarea placeholder='Comentario*' class='field_required' id='comment' name='comment' cols='45' rows='8' aria-required='true'></textarea></div><div class='terms_submit'><div class='terms'><input type='checkbox' id='comment_terms'><label for='comment_terms'><p>He leído y acepto las Condiciones del servicio y la Política de privacidad</p></label></div><p class='submit ecode_button ecode_button_primary button_disabled' data-edit='terms_submit .ecode_button'>Enviar comentario<p></div></form></section>"
+	},
+	"default_style": {
+		"ecode_title_comments": "margin-bottom:46px;font-size:24px;line-height:28px;",
+		"ecode_comments li": "background-color:#f5f5f5;margin-bottom:20px;border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-right-radius:4px;border-bottom-left-radius:4px;padding-top:20px;padding-bottom:24px;padding-left:134px;padding-right:20px;",
+		"ecode_comments figure": "border-top-left-radius:50px;border-top-right-radius:50px;border-bottom-right-radius:50px;border-bottom-left-radius:50px;",
+		"ecode_comments h4": "font-size:14px;line-height:20px;margin-right:22px;",
+		"ecode_comments time": "font-size:14px;line-height:20px;color:#747474;",
+		"ecode_comments .comment_text *": "font-size:14px;line-height:20px;color:#333333;",
+		"form_comment .title": "font-size:20px;line-height:24px;margin-bottom:27px;",
+		"form_comment .desc": "line-height:20px;color:#333333;font-size:16px;",
+		"terms_submit .ecode_button": "padding-top:13px;padding-bottom:13px;padding-right:29px;padding-left:29px;text-transform:uppercase;font-size:14px;line-height:17px;letter-spacing:2px;text-align:center;margin-left:20px;/*! primary_color !*/background-color:#fed03d/*! end_primary_color !*/;color:#333333;"
+	},
+	"skip_demo_content": [
+		"copy_comments",
+		"copy_comments_2",
+		"comments_content"
+	]
+}

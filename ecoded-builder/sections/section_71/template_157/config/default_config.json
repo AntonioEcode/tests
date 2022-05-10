@@ -1,0 +1,47 @@
+{
+	"default_content": {
+		"back_image_src": "s71_t83_back_desktop.png",
+		"back_image_hd_src": "s71_t83_back_desktop.png",
+		"back_image_alt": "Fondo de la sección",
+		"title": "Título",
+		"subtitle": "<p>Aliquam erat volutpat. Ut quis ligula a magna blandit finibus. Suspendisse maximus lacus non nunc lacinia lobortis.</p>",
+		"posts_loop": [
+			{
+				"post_thumbnail_src": "s63_t74_art_1.jpg",
+				"post_thumbnail_alt": "Artículo",
+				"post_url": "#",
+				"post_title": "Artículo 1",
+				"post_excerpt": "Praesent quam magna, varius in laoreet in, condimentum at augue. Suspendisse viverra scelerisque lacus."
+			},
+			{
+				"post_thumbnail_src": "s63_t74_art_2.jpg",
+				"post_thumbnail_alt": "Artículo",
+				"post_url": "#",
+				"post_title": "Artículo 2",
+				"post_excerpt": "Praesent quam magna, varius in laoreet in, condimentum at augue. Suspendisse viverra scelerisque lacus."
+			},
+			{
+				"post_thumbnail_src": "s63_t74_art_3.jpg",
+				"post_thumbnail_alt": "Artículo",
+				"post_url": "#",
+				"post_title": "Artículo 3",
+				"post_excerpt": "Praesent quam magna, varius in laoreet in, condimentum at augue. Suspendisse viverra scelerisque lacus."
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_71_template_157": "background-color:#ededed;padding-top:115px;padding-bottom:95px;padding-left:25px;padding-right:25px;",
+		"ecode_title": "font-weight:600;letter-spacing:2px;text-transform:uppercase;text-align:center;font-size:21px;line-height:33px;margin-bottom:20px;",
+		"ecode_container_content": "text-align:center;margin-bottom:60px;",
+		"ecode_article_figure": "",
+		"back_info": "background-color:rgba(198,38,23,0.72);",
+		"back_info_title": "color:#ffffff;font-size:17px;line-height:30px;padding-top:20px;padding-bottom:20px;padding-left:20px;padding-right:20px;text-align:center;",
+		"ecode_article_info": "background-color:#ffffff;padding-top:35px;padding-bottom:40px;padding-left:25px;padding-right:25px;",
+		"ecode_article_title": "font-size:17px;line-height:22px;font-weight:normal;text-align:center;padding-bottom:16px;",
+		"ecode_article_text": "text-align:center;font-size:17px;line-height:30px;color:#676767;"
+	},
+	"skip_demo_content": [
+		"back_image_alt",
+		"posts_loop"
+	]
+}

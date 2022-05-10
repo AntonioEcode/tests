@@ -1,0 +1,26 @@
+{
+	"default_content": {
+		"image_hd_src": "s24_t29.png",
+		"image_alt": "Imagen de fondo",
+		"image_src": "s24_t29.png",
+		"title": "Sit Purus Pellentesque Aenean Tellus",
+		"button_txt": "Contacto",
+		"button_url": "#"
+	},
+	"default_style": {
+		"ecode_text": "margin-right:72px;font-size:30px;line-height:33px;margin-bottom:0;color:#ffffff;text-align:left;",
+		"ecode_button_border_white": "font-size:13px;line-height:15px;text-align:center;margin-bottom:0;text-transform:uppercase;font-weight:700;padding-top:15px;padding-bottom:13px;padding-left:30px;padding-right:30px;border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-right-radius:100px;border-bottom-left-radius:100px;"
+	},
+	"skip_demo_content": [
+		"image_alt"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"button_txt": "text",
+		"button_url": "text_url",
+		"image_hd_id": "file",
+		"image_hd": "file",
+		"image_id": "file",
+		"image": "file"
+	}
+}

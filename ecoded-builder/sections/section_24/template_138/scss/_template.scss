@@ -1,0 +1,113 @@
+.ecode_section_24_template_138 {
+	position: relative;
+	/*! primary_color !*/background-color: $c-c;/*! end_primary_color !*/
+	@include desktop {
+		overflow: hidden;
+		padding-top: 85px;
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 0;
+			height: 0;
+			border-top: 100px solid $c-white;
+			border-right: 100vw solid transparent;
+			z-index: 100;
+		}
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 0;
+			height: 0;
+			border-top: 100px solid $c-white;
+			border-left: 100vw solid transparent;
+			z-index: 100;
+		}
+	}
+	.ecode_image_back {
+		position: absolute;
+		@include flexbox;
+		@include justify-content(center);
+		@include align-items(center);
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		z-index: 0;
+		img {
+			max-width: inherit;
+			width: 100%;
+			height: auto;
+		}
+	}
+	.ecode_width {
+		position: relative;
+		display: block;
+		width: 85%;
+		margin: 0 auto;
+		padding: 50px 0;
+		text-align: right;
+		@include tablet {
+			@include flexbox;
+			@include justify-content(space-between);
+			@include align-items(center);
+			max-width: 1310px;
+			width: 100%;
+			padding: 50px;
+		}
+		.ecode_text {
+			position: relative;
+			font-size: 24px;
+			line-height: 27px;
+			margin: 0 0 20px;
+			color: $c-white;
+			text-align: left;
+			@include tablet {
+				font-size: 30px;
+				line-height: 33px;
+				margin-right: 41px;
+				margin-bottom: 0;
+			}
+			@include desktop {
+				margin-right: 72px;
+				width: 100%;
+			}
+		}
+		.ecode_button {
+			position: relative;
+			display: inline-block;
+			padding: 15px 30px 13px;
+			border-radius: 100px;
+			text-decoration: none;
+			font-size: 12px;
+			font-weight: 700;
+			line-height: 14px;
+			text-transform: uppercase;
+			margin-bottom: 20px;
+			text-align: center;
+			min-width: 139px;
+			@include tablet {
+				margin-bottom: 0;
+			}
+			@include desktop {
+				white-space: nowrap;
+				font-size: 13px;
+				line-height: 15px;
+				min-width: fit-content;
+			}
+			&:hover {
+				background-color: $c-white;
+				color: $c-black;
+				border: 3px solid $c-white;
+			}
+		}
+		.ecode_button_border_white {
+			color: $c-white;
+			border: 3px solid $c-white;
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"default_content": {
+		"cards_group_loop": [
+			{
+				"card_title": "Uramaki 1",
+				"card_svg_icon": "icon_uramaki.svg",
+				"card_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"card_button_txt": "Más detalles",
+				"card_button_url": "#"
+			},
+			{
+				"card_title": "Uramaki 2",
+				"card_svg_icon": "icon_uramaki.svg",
+				"card_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"card_button_txt": "Más detalles",
+				"card_button_url": "#"
+			},
+			{
+				"card_title": "Uramaki 3",
+				"card_svg_icon": "icon_uramaki.svg",
+				"card_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+				"card_button_txt": "Más detalles",
+				"card_button_url": "#"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_114_template_179": "padding-top:90px;padding-bottom:30px;padding-left:35px;padding-right:35px;",
+		"ecode_article_image": "margin-bottom:20px;",
+		"ecode_article_title": "font-size:30px;line-height:45px;text-transform:uppercase;text-align:center;padding-bottom:20px;",
+		"ecode_article_desc": "font-size:17px;line-height:29px;text-align:center;margin-bottom:30px;",
+		"ecode_article_button": "padding-top:15px;padding-bottom:15px;padding-left:29px;padding-right:29px;font-size:14px;line-height:14px;letter-spacing:1px;color:#000000;text-transform:uppercase;border-width:1px;border-style:solid;border-color:#d6d6d6;"
+	},
+	"custom_fields": {
+		"cards_group": "group"
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"default_content": {
+		"image_hd_src": "s107_t173_desktop.jpg",
+		"image_tablet_src": "s107_t173_desktop.jpg",
+		"image_alt": "Texto alternativo de la imagen",
+		"image_src": "s107_t173_desktop.jpg",
+		"title": "Título H1 de la sección",
+		"pretitle": "Antetítulo de la sección"
+	},
+	"default_style": {
+		"ecode_width_107_173": "background-color:rgba(3,3,3,0.5);padding-top:200px;padding-bottom:100px;padding-left:140px;padding-right:140px;",
+		"ecode_title": "letter-spacing:1px;color:#ffffff;text-transform:uppercase;font-size:70px;line-height:84px;",
+		"ecode_subtitle": "color:#ffffff;letter-spacing:2px;text-transform:uppercase;font-weight:bold;margin-bottom:31px;font-size:14px;line-height:21px;"
+	},
+	"skip_demo_content": [
+		"image_alt",
+		"title"
+	],
+	"custom_fields": {
+		"title": "h1",
+		"image_hd": "file",
+		"image_hd_id": "file",
+		"image_tablet": "file",
+		"image_tablet_id": "file",
+		"image": "file",
+		"image_id": "file",
+		"pretitle": "textarea_small"
+	}
+}

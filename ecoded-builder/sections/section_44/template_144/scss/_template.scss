@@ -1,0 +1,113 @@
+.ecode_section_44_template_144 {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: calc( 100vh - 150px );
+	text-align: center;
+	@include desktop {
+		height: 100vh;
+	}
+	.ecode_image_back {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		z-index: 0;
+		img {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			min-width: 100%;
+			min-height: 100%;
+			object-fit: cover;
+			pointer-events: none;
+			z-index: 1;
+		}
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba( 0,0,0,(2/10) );
+			box-sizing: border-box;
+			pointer-events: none;
+			z-index: 2;
+		}
+	}
+	.section_width {
+		position: relative;
+		@include flexbox;
+		@include justify-content(center);
+		@include align-items(center);
+		@include flex-wrap(wrap);
+		align-content: center;
+		max-width: 1210px;
+		padding: 0 30px;
+		height: 100%;
+		margin: 0 auto;
+		@include tablet {
+			@include justify-content(flex-end);
+			text-align: right;
+		}
+	}
+	.section_width_hide {
+		opacity: 0;
+		transform: translate(0,-100px);
+	}
+	.section_width_show {
+		opacity: 1;
+		transform: translate(0,0);
+		@include transition((3/10)+s);
+	}
+	.ecode_title {
+		position: relative;
+		width: 100%;
+		font-size: 39px;
+		line-height: 55px;
+		color: $c-white;
+		padding-bottom: 20px;
+		@include tablet {
+			font-size: 49px;
+			line-height: 68px;
+		}
+		@include desktop {
+			font-size: 87px;
+			line-height: 121px;
+		}
+	}
+	.ecode_subtitle {
+		position: relative;
+		width: 100%;
+		font-size: 24px;
+		line-height: 44px;
+		color: $c-grey68;
+		font-weight: 400;
+		margin: 0 0 20px;
+		@include tablet {
+			margin: 0 0 35px;
+		}
+	}
+	.ecode_button {
+		position: relative;
+		display: inline-block;
+		padding: 17px 40px;
+		border: 2px solid;
+		/*! primary_color !*/border-color: $c-c;/*! end_primary_color !*/
+		/*! primary_color !*/color: $c-c;/*! end_primary_color !*/
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 18px;
+		line-height: 21px;
+		font-weight: 700;
+		text-align: right;
+		&:hover {
+			border: 2px solid $c-c-h;
+			color: $c-c-h;
+		}
+	}
+}

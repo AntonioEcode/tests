@@ -1,0 +1,55 @@
+{
+	"default_content": {
+		"image_desktop_hd_src": "s150_t238_desktop_hd.jpg",
+		"image_desktop_src": "s150_t238_desktop.jpg",
+		"image_tablet_src": "s150_t238_tablet.jpg",
+		"image_src": "s150_t238_mobile.jpg",
+		"image_alt": "Texto alternativo de la imagen",
+		"title": "Título H1 de la sección",
+		"subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"button_text": "Contacta con nosotros",
+		"button_url": "#",
+		"form_image_src": "s150_t238_2.jpg",
+		"form_image_alt": "Texto alternativo de la imagen",
+		"form_name": "Richard Madsen",
+		"form_job": "Consultor experto en marketing",
+		"form_tel": "+34 654 654 654",
+		"form_tel_trim": "+34654654654"
+	},
+	"default_style": {
+		"ecode_section_150_template_238": "background-color:rgba(0,0,0,0.3);",
+		"ecode_title": "color:#ffffff;font-size:63px;line-height:70px;margin-bottom:16px;text-align:left;",
+		"ecode_subtitle": "color:#ffffff;font-weight:normal;font-size:30px;line-height:42px;margin-bottom:36px;text-align:left;",
+		"ecode_button": "padding-top:17px;padding-bottom:17px;padding-left:40px;padding-right:40px;background-color:#ffffff;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;border-width:2px;border-solid:solid;border-color:#ffffff;font-size:18px;line-height:21px;font-weight:bold;color:#545454;",
+		"ecode_contact_form_figure": "border-top-left-radius:40px;border-top-right-radius:40px;border-bottom-right-radius:40px;border-bottom-left-radius:40px;margin-bottom:12px;",
+		"ecode_contact_form_title": "font-size:24px;line-height:34px;text-align:center;margin-bottom:6px;",
+		"ecode_contact_form_job": "font-size:19px;line-height:26px;text-align:center;margin-bottom:2px;color:#777777;",
+		"ecode_contact_form_tel": "text-align:center;color:#f86011;font-size:18px;line-height:21px;font-weight:bold;padding-top:17px;padding-bottom:17px;padding-left:40px;padding-right:40px;margin-bottom:10px;",
+		"container_form .container_button .button": "padding-top:17px;padding-bottom:17px;padding-left:40px;padding-right:40px;font-size:18px;line-height:21px;color:#ffffff;background-color:#f86011;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;text-align:center;font-weight:bold;"
+	},
+	"skip_demo_content": [
+		"image_alt",
+		"title",
+		"form_image_alt",
+		"form_tel_trim"
+	],
+	"custom_fields": {
+		"title": "h1",
+		"image_desktop_hd": "file",
+		"image_desktop_hd_id": "file",
+		"image_desktop": "file",
+		"image_desktop_id": "file",
+		"image_tablet": "file",
+		"image_tablet_id": "file",
+		"image": "file",
+		"image_id": "file",
+		"form_image_": "file",
+		"form_image_id": "file",
+		"subtitle": "textarea_small",
+		"button_text": "text",
+		"button_url": "text_url",
+		"form_name": "text",
+		"form_job": "text",
+		"form_tel": "text"
+	}
+}

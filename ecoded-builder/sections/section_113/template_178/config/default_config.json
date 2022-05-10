@@ -1,0 +1,37 @@
+{
+	"default_content": {
+		"description": "<p><strong>HAC TELLUS, FELIS RISUS AT</strong> mattis mattis. Eget euismod semper eget tortor, donec amet, blandit. Tristique facilisi faucibus elementum feugiat in nam in feugiat. Ipsum odio etiam duis facilisis amet vulputate.</p>",
+		"title": "Justo Nibh Aenean Venenatis Magna",
+		"subtitle": "Tristique tempus condimentum diam donec. Condimentum ullamcorper sit elementum hendrerit mi nulla in consequat, ut. Metus, nullam scelerisque netus viverra dui.",
+		"signature_image_src": "s113_t178_2.jpg",
+		"signature_image_alt": "Imagen de una firma",
+		"image_src": "s113_t178_1.jpg",
+		"image_alt": "Imagen de una firma",
+		"img_text": "California Rolls - 22€",
+		"img_url": "#"
+	},
+	"default_style": {
+		"ecode_section_113_template_178": "padding-top:100px;padding-bottom:100px;padding-left:35px;padding-right:35px;",
+		"ecode_container_content": "padding-bottom:50px;",
+		"ecode_title": "text-transform:uppercase;color:#000000;font-size:70px;line-height:84px;margin-bottom:40px;",
+		"ecode_subtitle": "font-size:19px;line-height:34px;margin-bottom:40px;",
+		"ecode_figure_signature": "margin-bottom:25px;",
+		"ecode_link": "font-size:19px;line-height:28px;text-transform:uppercase;text-align:center;color:#ffffff;",
+		"ecode_figure::after": "background-color:rgba(0,0,0,0.3);"
+	},
+	"skip_demo_content": [
+		"signature_image_alt",
+		"image_alt"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"subtitle": "textarea_small",
+		"description": "wysiwyg",
+		"img_text": "text",
+		"img_url": "text_url",
+		"signature_image_id": "file",
+		"signature_image": "file",
+		"image_id": "file",
+		"image": "file"
+	}
+}
