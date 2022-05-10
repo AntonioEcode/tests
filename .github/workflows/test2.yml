@@ -25,6 +25,5 @@ jobs:
           server: 85.208.102.26
           username: ecoded
           password: QmG&chDm(lt$
-          local-dir: ./
-          server-dir: ./tests/
+          server-dir: /tests/
 
