@@ -12,14 +12,9 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: '14'
-      
-    - name: 🔨 Build Project
-      run: |
-        npm install
-        npm run build
     
     - name: List output files
-      run: find build/ -print
+      run: find /tests/ -print
       
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
