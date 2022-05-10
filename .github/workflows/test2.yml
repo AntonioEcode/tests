@@ -23,5 +23,5 @@ jobs:
           username: ecoded
           password: QmG&chDm(lt$
           local-dir: ./
-          server-dir: ./public_html/tema/tests/
+          server-dir: ./tests/
 
