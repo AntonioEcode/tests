@@ -1,0 +1,125 @@
+{
+	"default_content": {
+		"cards_group_loop": [
+			{
+				"card_name": "Roberto Berry",
+				"card_position": "CEO & Founder",
+				"card_description": "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad ne nec dolore oblique nusquam.",
+				"card_url": "#",
+				"card_facebook": "#",
+				"card_twitter": "#",
+				"card_instagram": "#",
+				"card_linkedin": "#",
+				"card_youtube": "#",
+				"card_additional": "#"
+			},
+			{
+				"card_name": "Saul R. Lopez",
+				"card_position": "CEO & Founder",
+				"card_description": "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad ne nec dolore oblique nusquam.",
+				"card_url": "#",
+				"card_facebook": "#",
+				"card_twitter": "#",
+				"card_instagram": "#",
+				"card_linkedin": "#",
+				"card_youtube": "#",
+				"card_additional": "#"
+			},
+			{
+				"card_name": "Thomas Childers",
+				"card_position": "Manager",
+				"card_description": "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad ne nec dolore oblique nusquam.",
+				"card_url": "#",
+				"card_facebook": "#",
+				"card_twitter": "#",
+				"card_instagram": "#",
+				"card_linkedin": "#",
+				"card_youtube": "#",
+				"card_additional": "#"
+			},
+			{
+				"card_name": "Frances B. Chandler",
+				"card_position": "Analyst",
+				"card_description": "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad ne nec dolore oblique nusquam.",
+				"card_url": "#",
+				"card_facebook": "#",
+				"card_twitter": "#",
+				"card_instagram": "#",
+				"card_linkedin": "#",
+				"card_youtube": "#",
+				"card_additional": "#"
+			},
+			{
+				"card_name": "Melek Ozcan",
+				"card_position": "CEO & Founder",
+				"card_description": "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad ne nec dolore oblique nusquam.",
+				"card_url": "#",
+				"card_facebook": "#",
+				"card_twitter": "#",
+				"card_instagram": "#",
+				"card_linkedin": "#",
+				"card_youtube": "#",
+				"card_additional": "#"
+			},
+			{
+				"card_name": "Mary Griffin",
+				"card_position": "Designer",
+				"card_description": "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad ne nec dolore oblique nusquam.",
+				"card_url": "#",
+				"card_facebook": "#",
+				"card_twitter": "#",
+				"card_instagram": "#",
+				"card_linkedin": "#",
+				"card_youtube": "#",
+				"card_additional": "#"
+			},
+			{
+				"card_name": "Babette Chauvet",
+				"card_position": "Designer",
+				"card_description": "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad ne nec dolore oblique nusquam.",
+				"card_url": "#",
+				"card_facebook": "#",
+				"card_twitter": "#",
+				"card_instagram": "#",
+				"card_linkedin": "#",
+				"card_youtube": "#",
+				"card_additional": "#"
+			},
+			{
+				"card_name": "Lois G. Wynn",
+				"card_position": "Developer",
+				"card_description": "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad ne nec dolore oblique nusquam.",
+				"card_url": "#",
+				"card_facebook": "#",
+				"card_twitter": "#",
+				"card_instagram": "#",
+				"card_linkedin": "#",
+				"card_youtube": "#",
+				"card_additional": "#"
+			},
+			{
+				"card_name": "Karen A. Harris",
+				"card_position": "Model",
+				"card_description": "Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, his utinam principes dignissim ad ne nec dolore oblique nusquam.",
+				"card_url": "#",
+				"card_facebook": "#",
+				"card_twitter": "#",
+				"card_instagram": "#",
+				"card_linkedin": "#",
+				"card_youtube": "#",
+				"card_additional": "#"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_article_info": "padding-top:25px;padding-bottom:25px;padding-left:30px;padding-right:30px;border-bottom-right-radius:6px;border-bottom-left-radius:6px;",
+		"ecode_article_title": "font-size:19px;line-height:32px;margin-bottom:2px;",
+		"ecode_article_job": "font-size:11px;line-height:18px;color:#888888;text-transform:uppercase;font-weight:bold;margin-bottom:15px;letter-spacing:1px;"
+	},
+	"skip_demo_content": [
+	],
+	"custom_fields": {
+		"slider_conf": "multicheck",
+		"cards_group": "group"
+	}
+}

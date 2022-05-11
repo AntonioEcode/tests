@@ -1,0 +1,207 @@
+.ecode_section_100_template_117 {
+	position: relative;
+	display: block;
+	padding: 100px 20px 70px;
+	.ecode_width_100_117 {
+		position: relative;
+		display: block;
+		max-width: 300px;
+		width: 100%;
+		margin: 0 auto;
+		@include tablet {
+			max-width: 600px;
+		}
+		@include desktop {
+			max-width: 880px;
+		}
+		article {
+			position: relative;
+			padding-bottom: 105px;
+			picture {
+				position: relative;
+				display: block;
+				height: 180px;
+				overflow: hidden;
+				margin-bottom: 35px;
+				@include tablet {
+					height: 360px;
+				}
+				@include desktop {
+					height: 530px;
+				}
+				img {
+					position: absolute;
+					display: block;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					min-width: 100%;
+					min-height: 100%;
+					object-fit: cover;
+				}
+			}
+			.ecode_date_cat_tag {
+				position: relative;
+				margin-bottom: 3px;
+				time {
+					position: relative;
+					display: inline;
+					font-size: 12px;
+					line-height: 26px;
+					font-weight: 500;
+					-webkit-font-smoothing: auto;
+					color: $c-c2;
+				}
+				p {
+					position: relative;
+					display: inline;
+					font-size: 12px;
+					line-height: 26px;
+					color: $c-c2;
+					font-weight: 500;
+					a {
+						color: inherit;
+						font-weight: inherit;
+						-webkit-font-smoothing: auto;
+						text-decoration: none;
+					}
+				}
+			}
+			.ecode_title {
+				position: relative;
+				font-size: 20px;
+				line-height: 32px;
+				font-weight: 500;
+				-webkit-font-smoothing: auto;
+				margin-bottom: 15px;
+				@include tablet {
+					font-size: 24px;
+					line-height: 38px;
+				}
+				a {
+					text-decoration: none;
+					-webkit-font-smoothing: auto;
+					color: inherit;
+					&:hover {
+						/*! primary_color !*/color: $c-c;/*! end_primary_color !*/
+					}
+				}
+			}
+			.ecode_text {
+				position: relative;
+				font-size: 15px;
+				line-height: 26px;
+				color: $c-grey6e;
+				margin-bottom: 30px;
+			}
+			.ecode_button {
+				position: relative;
+				display: inline-block;
+				font-size: 14px;
+				line-height: 14px;
+				font-weight: 500;
+				-webkit-font-smoothing: auto;
+				margin-bottom: 20px;
+				&:hover {
+					/*! primary_color !*/color: $c-c;/*! end_primary_color !*/
+				}
+			}
+			.ecode_shared_author_comments {
+				position: relative;
+				border-top: 1px solid $c-greyda;
+				padding-top: 17px;
+				@include tablet {
+					@include flexbox;
+					@include justify-content(space-between);
+					@include align-items();
+					@include flex-wrap(wrap);
+				}
+				.ecode_shared {
+					@include flexbox;
+					@include justify-content(flex-start);
+					@include align-items(center);
+					@include flex-wrap(wrap);
+					a {
+						display: inline-block;
+						margin: 0 21px 15px 0;
+						@include tablet {
+							margin-bottom: 0;
+						}
+						i {
+							svg {
+								width: 14px;
+								height: 14px;
+								* {
+									fill: $c-black;
+								}
+							}
+						}
+					}
+				}
+				.ecode_author_comments {
+					@include flexbox;
+					@include justify-content(flex-start);
+					@include align-items(center);
+					.ecode_author {
+						position: relative;
+						font-size: 14px;
+						line-height: 14px;
+						font-weight: 500;
+						-webkit-font-smoothing: auto;
+						color: $c-greyac;
+						margin-right: 20px;
+					}
+					.ecode_comments {
+						position: relative;
+						font-size: 14px;
+						line-height: 14px;
+						font-weight: 500;
+						-webkit-font-smoothing: auto;
+						color: $c-c2;
+						text-decoration: none;
+						i {
+							margin-right: 10px;
+							svg {
+								width: 14px;
+								height: 14px;
+								* {
+									fill: $c-c2;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.ecode_container_pagination {
+			position: relative;
+			@include flexbox;
+			@include justify-content(center);
+			@include align-items(center);
+			border-top: 1px solid $c-greye4;
+			padding-top: 15px;
+			a, span {
+				position: relative;
+				display: block;
+				font-size: 18px;
+				line-height: 28px;
+				text-decoration: none;
+				margin: 0 10px;
+				color: $c-black;
+				font-weight: 500;
+				-webkit-font-smoothing: auto;
+				border-bottom: 2px solid transparent;
+			}
+			a.page-numbers {
+				&:hover {
+					/*! primary_color !*/color: $c-c;/*! end_primary_color !*/
+				}
+			}
+			.current {
+				border-bottom: 2px solid;
+				/*! primary_color !*/border-bottom-color: $c-c;/*! end_primary_color !*/
+				/*! primary_color !*/color: $c-c;/*! end_primary_color !*/
+			}
+		}
+	}
+}

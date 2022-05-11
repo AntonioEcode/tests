@@ -1,0 +1,196 @@
+.ecode_section_30_template_35 {
+	position: relative;
+	display: block;
+	width: 85%;
+	margin: 0 auto;
+	padding: 50px 0 70px;
+	.ecode_article {
+		position: relative;
+		max-width: 835px;
+		margin: 0 auto 40px;
+		.ecode_article_categories {
+			text-align: center;
+			.ecode_article_categories_link {
+				font-size: 13px;
+				line-height: 25px;
+				/*! primary_color !*/color: $c-c;/*! end_primary_color !*/
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+		}
+		.ecode_article_title {
+			position: relative;
+			a {
+				position: relative;
+				display: block;
+				font-size: 30px;
+				line-height: 39px;
+				text-transform: uppercase;
+				text-align: center;
+				font-weight: 500;
+				letter-spacing: 2px;
+				padding-bottom: 25px;
+				margin-bottom: 36px;
+				text-decoration: none;
+				color: inherit;
+				&:hover {
+					/*! primary_color !*/color: $c-c;/*! end_primary_color !*/
+				}
+			}
+		}
+		.ecode_article_figure {
+			position: relative;
+			@include flexbox;
+			@include justify-content(center);
+			@include align-items(center);
+			max-height: 140px;
+			overflow: hidden;
+			margin-bottom: 25px;
+			@include tablet {
+				max-height: 166px;
+			}
+			@include desktop {
+				max-height: 240px;
+			}
+			@include desktop1200 {
+				max-height: 315px;
+			}
+			&:hover {
+				&::after {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					/*! primary_color !*/background-color: $c-c;/*! end_primary_color !*/
+					pointer-events: none;
+					opacity: (2/10);
+					z-index: 10;
+				}
+			}
+			i {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				pointer-events: none;
+				z-index: 15;
+			}
+			img {
+				width: 100%;
+				height: auto;
+			}
+			.ecode_image_video {
+				cursor: pointer;
+			}
+		}
+		.ecode_article_figure_video {
+			cursor: pointer;
+			iframe {
+				width: 100% !important;
+				height: 140px !important;
+				@include tablet {
+					height: 166px !important;
+				}
+				@include desktop {
+					height: 240px !important;
+				}
+				@include desktop1200 {
+					height: 315px !important;
+				}
+			}
+		}
+		.ecode_container_content {
+			margin-bottom: 20px;
+		}
+		.ecode_button_border_c_c {
+			position: relative;
+			display: block;
+			padding: 10px;
+			width: 100%;
+			max-width: 250px;
+			margin: 30px auto 20px;
+			border-radius: 100px;
+			border: 1px solid;
+			/*! primary_color !*/border-color: $c-c;/*! end_primary_color !*/
+			text-align: center;
+			font-size: 15px;
+			line-height: 24px;
+			/*! primary_color !*/color: $c-c;/*! end_primary_color !*/
+			cursor: pointer;
+			&:hover {
+				color: $c-black;
+				/*! primary_color !*/background-color: $c-c;/*! end_primary_color !*/
+			}
+		}
+		.ecode_article_info {
+			position: relative;
+			margin-top: 40px;
+			padding: 10px 0;
+			border-top: 1px solid $c-greye1;
+			border-bottom: 1px solid $c-greye1;
+			text-align: center;
+			@include desktop {
+				margin-top: 50px;
+			}
+			p, a {
+				font-size: 12px;
+				line-height: 24px;
+				color: $c-grey91;
+				text-decoration: none;
+				text-transform: uppercase;
+			}
+		}
+	}
+	.ecode_container_pagination {
+		position: relative;
+		@include flexbox;
+		@include justify-content(center);
+		@include align-items(center);
+		width: 100%;
+		max-width: 770px;
+		margin: 0 auto 80px;
+		a, span {
+			display: block;
+			width: 45px;
+			height: 45px;
+			border: 2px solid $c-greydd;
+			font-size: 16px;
+			line-height: 41px;
+			text-decoration: none;
+			margin: 0 6px;
+			text-align: center;
+			border-radius: 2px;
+			color: $c-black;
+		}
+		a.page-numbers {
+			&:hover {
+				border: 2px solid $c-c;
+				background-color: $c-c;
+				// color: $c-white;
+			}
+		}
+		.current {
+			border: 2px solid $c-c;
+			background-color: $c-c;
+			// color: $c-white;
+		}
+		a.prev, a.next {
+			width: auto;
+			border: none;
+			font-size: 15px;
+			line-height: 28px;
+			color: $c-black55;
+			height: 45px;
+			padding: 5px 10px;
+			border: 2px solid transparent;
+			// font-family: $font-300;
+			// &:hover {
+			// 	border: none;
+			// 	background-color: transparent;
+			// 	color: $c-c-h;
+			// }
+		}
+	}
+}

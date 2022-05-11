@@ -1,0 +1,33 @@
+{
+	"default_content": {
+		"image_hd_src": "work.jpg",
+		"image_alt": "Logo de tu empresa",
+		"image_src": "work.jpg",
+		"title": "Título de la sección",
+		"description": "<p>Vivamus sed consectetur tellus dolor sit amet, consectetur adipiscing lorem elit sadip ipsum ets ficilis uns.</p>",
+		"button_title": "Botón 1",
+		"button_url": "#",
+		"text_below_button": "Only takes a few seconds!"
+	},
+	"default_style": {
+		"ecode_img_back::after": "background-color:rgba(0,0,0,0.6);",
+		"ecode_title": "font-size:34px;line-height:47px;margin-top:25px;margin-bottom:30px;color:#ffffff;font-weight:normal;letter-spacing:2px;padding-bottom:30px;",
+		"ecode_container_content": "margin-bottom:25px",
+		"ecode_button_primary": "/*! primary_color !*/background-color:#fed03d/*! end_primary_color !*/;color:#333333;padding-top:17px;padding-bottom:17px;padding-left:40px;padding-right:40px;text-transform:uppercase;font-size:18px;line-height:21px;letter-spacing:2px;margin-bottom:10px;",
+		"ecode_note": "text-align:center;font-size:15px;line-height:34px;font-weight:500;color:#ffffff;margin-bottom:20px;"
+	},
+	"skip_demo_content": [
+		"image_alt"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"description": "wysiwyg",
+		"image_hd_id": "file",
+		"image_hd": "file",
+		"image_id": "file",
+		"image": "file",
+		"button_title": "text",
+		"button_url": "text_url",
+		"text_below_button": "text"
+	}
+}

@@ -1,0 +1,77 @@
+{
+	"default_content": {
+		"right_content": "<h2>OUR STORY</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius ante. Sed quis luctus eros. Phasellus rutrum laoreet leo in consequat. Phasellus vel semper ante. Vivamus turpis purus, dapibus vitae ex a, varius ornare elit. Nullam eu purus congue, bibendum felis id, aliquet ante.</p><p>Donec porttitor, diam quis posuere lacinia, justo libero consequat mi, at euismod lacus mi in erat. Cras sit amet ornare orci.</p><h2>ABOUT OUR COMPANY</h2><p>Curabitur id nibh sit amet lectus efficitur tempus aliquet non ante. Aenean feugiat, enim suscipit dictum ullamcorper, tellus nunc mollis leo, vitae elementum lacus lorem tempor ante. Maecenas ac aliquet risus, nec fringilla sem. Nam sed nibh id arcu vestibulum malesuada pretium sed nisl. Nunc tristique, dui ac interdum scelerisque, arcu purus faucibus nisl.</p><p>Praesent condimentum ligula lacus, id dignissim mi feugiat non. Nulla vel velit nisi. Nam vitae eros ullamcorper dolor dapibus pellentesque. In non iaculis.</p>",
+		"posts_loop": [
+			{
+				"post_thumbnail_src": "s63_t74_art_1.jpg",
+				"post_thumbnail_alt": "Artículo",
+				"post_url": "#",
+				"post_title": "Artículo 1"
+			},
+			{
+				"post_thumbnail_src": "s63_t74_art_2.jpg",
+				"post_thumbnail_alt": "Artículo",
+				"post_url": "#",
+				"post_title": "Artículo 2"
+			},
+			{
+				"post_thumbnail_src": "s63_t74_art_3.jpg",
+				"post_thumbnail_alt": "Artículo",
+				"post_url": "#",
+				"post_title": "Artículo 3"
+			},
+			{
+				"post_thumbnail_src": "s63_t74_art_1.jpg",
+				"post_thumbnail_alt": "Artículo",
+				"post_url": "#",
+				"post_title": "Artículo 1"
+			},
+			{
+				"post_thumbnail_src": "s63_t74_art_2.jpg",
+				"post_thumbnail_alt": "Artículo",
+				"post_url": "#",
+				"post_title": "Artículo 2"
+			},
+			{
+				"post_thumbnail_src": "s63_t74_art_3.jpg",
+				"post_thumbnail_alt": "Artículo",
+				"post_url": "#",
+				"post_title": "Artículo 3"
+			},
+			{
+				"post_thumbnail_src": "s63_t74_art_1.jpg",
+				"post_thumbnail_alt": "Artículo",
+				"post_url": "#",
+				"post_title": "Artículo 1"
+			},
+			{
+				"post_thumbnail_src": "s63_t74_art_2.jpg",
+				"post_thumbnail_alt": "Artículo",
+				"post_url": "#",
+				"post_title": "Artículo 2"
+			},
+			{
+				"post_thumbnail_src": "s63_t74_art_3.jpg",
+				"post_thumbnail_alt": "Artículo",
+				"post_url": "#",
+				"post_title": "Artículo 3"
+			},
+			{
+				"post_thumbnail_src": "s63_t74_art_1.jpg",
+				"post_thumbnail_alt": "Artículo",
+				"post_url": "#",
+				"post_title": "Artículo 1"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_69_template_81": "background-color:#f5f5f5;padding-top:70px;padding-left:25px;padding-right:25px;",
+		"ecode_article": "",
+		"back_info": "background-color:rgba(198,38,23,0.72);",
+		"back_info_title": "color:#ffffff;font-size:17px;line-height:30px;padding-top:20px;padding-bottom:20px;padding-left:20px;padding-right:20px;text-align:center;",
+		"ecode_container_content": ""
+	},
+	"skip_demo_content": [
+		"posts_loop"
+	]
+}

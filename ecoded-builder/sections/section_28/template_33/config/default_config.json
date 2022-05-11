@@ -1,0 +1,66 @@
+{
+	"default_content": {
+		"title": "Nuestros Partners",
+		"slides_group_loop": [
+			{
+				"slide_image_src": "logo_ecoded_100.png",
+				"slide_image_alt": "Logo de ecoded",
+				"slide_url": "#",
+				"external_url_tags": " target='_blank' rel='nofollow noreferrer noopener'"
+			},
+			{
+				"slide_image_src": "logo_ecoded_100.png",
+				"slide_image_alt": "Logo de ecoded",
+				"slide_url": "#",
+				"external_url_tags": " target='_blank' rel='nofollow noreferrer noopener'"
+			},
+			{
+				"slide_image_src": "logo_ecoded_100.png",
+				"slide_image_alt": "Logo de ecoded",
+				"slide_url": "#",
+				"external_url_tags": " target='_blank' rel='nofollow noreferrer noopener'"
+			},
+			{
+				"slide_image_src": "logo_ecoded_100.png",
+				"slide_image_alt": "Logo de ecoded",
+				"slide_url": "#",
+				"external_url_tags": " target='_blank' rel='nofollow noreferrer noopener'"
+			},
+			{
+				"slide_image_src": "logo_ecoded_100.png",
+				"slide_image_alt": "Logo de ecoded",
+				"slide_url": "#",
+				"external_url_tags": ""
+			},
+			{
+				"slide_image_src": "logo_ecoded_100.png",
+				"slide_image_alt": "Logo de ecoded",
+				"slide_url": "#",
+				"external_url_tags": ""
+			},
+			{
+				"slide_image_src": "logo_ecoded_100.png",
+				"slide_image_alt": "Logo de ecoded",
+				"slide_url": "#",
+				"external_url_tags": ""
+			},
+			{
+				"slide_image_src": "logo_ecoded_100.png",
+				"slide_image_alt": "Logo de ecoded",
+				"slide_url": "#",
+				"external_url_tags": ""
+			}
+		]
+	},
+	"default_style": {
+		"ecode_title": "font-size:28px;line-height:31px;font-weight:400;padding-bottom:17px;margin-bottom:50px;text-align:center;text-transform:uppercase;letter-spacing:1px;"
+	},
+	"skip_demo_content": [
+		"slide_image_alt",
+		"slide_url"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"slides_group": "group"
+	}
+}

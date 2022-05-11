@@ -1,0 +1,50 @@
+{
+	"default_content": {
+		"posts_loop": [
+			{
+				"post_thumbnail_src": "build.jpg",
+				"post_thumbnail_alt": "Edificio moderno",
+				"post_url": "#",
+				"post_title": "Artículo 1",
+				"post_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed at magna. Nullam eget ornare",
+				"copy_author": "Por Antonio",
+				"copy_categories": " | <a href='#'>Categoría 1</a>, <a href='#'>Categoría 2</a>, <a href='#'>Categoría 3</a>",
+				"copy_read_more": "Leer más >",
+				"copy_without_notice": "Todavía no hay noticias en nuestro blog."
+			},
+			{
+				"post_thumbnail_src": "build.jpg",
+				"post_thumbnail_alt": "Edificio moderno",
+				"post_url": "#",
+				"post_title": "Artículo 1",
+				"post_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed at magna. Nullam eget ornare",
+				"copy_author": "Por Antonio",
+				"copy_categories": " | <a href='#'>Categoría 1</a>, <a href='#'>Categoría 2</a>, <a href='#'>Categoría 3</a>",
+				"copy_read_more": "Leer más >",
+				"copy_without_notice": "Todavía no hay noticias en nuestro blog."
+			},
+			{
+				"post_thumbnail_src": "build.jpg",
+				"post_thumbnail_alt": "Edificio moderno",
+				"post_url": "#",
+				"post_title": "Artículo 1",
+				"post_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed at magna. Nullam eget ornare",
+				"copy_author": "Por Antonio",
+				"copy_categories": " | <a href='#'>Categoría 1</a>, <a href='#'>Categoría 2</a>, <a href='#'>Categoría 3</a>",
+				"copy_read_more": "Leer más >",
+				"copy_without_notice": "Todavía no hay noticias en nuestro blog."
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_17_template_22": "padding-top:90px;padding-bottom:50px;padding-left:90px;padding-right:90px;",
+		"ecode_image": "margin-bottom:30px;",
+		"ecode_title": "font-size:24px;line-height:36px;font-weight:400;letter-spacing:1px;margin-bottom:25px;text-decoration:none;color:#333333;",
+		"ecode_excerpt": "font-size:15px;line-height:34px;font-weight:500;margin-bottom:40px;color:#747474;",
+		"ecode_author_categories": "font-size:12px;line-height:27px;color:#333333;",
+		"ecode_read_more": "font-size:12px;line-height:27px;color:#333333;"
+	},
+	"skip_demo_content": [
+		"posts_loop"
+	]
+}

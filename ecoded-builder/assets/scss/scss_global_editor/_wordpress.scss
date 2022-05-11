@@ -1,0 +1,90 @@
+#wpbody-content {
+	position: relative;
+	padding-top: 20px;
+	padding: 20px 20px 0 0;
+	@include desktop {
+		max-width: 90%;
+	}
+	h1.ecoded_builder_title {
+		font-family: $font-bold;
+		font-size: 24px;
+		line-height: 28px;
+		padding-bottom: 10px;
+		@include desktop {
+			font-size: 40px;
+			line-height: 48px;
+			padding-bottom: 20px;
+		}
+	}
+	form.form_page_default {
+		h2 {
+			font-size: 14px;
+			line-height: 17px;
+			letter-spacing: 0.7px;
+			color: $c-black99;
+			margin-bottom: 30px;
+			max-width: 687px;
+			@include desktop {
+				margin-bottom: 36px;
+			}
+		}
+		table {
+			position: relative;
+			display: block;
+			background-color: white;
+			padding: 30px;
+			box-sizing: border-box;
+			margin-bottom: 50px;
+			tbody {
+				display: block;
+				tr {
+					position: relative;
+					display: block;
+					margin-bottom: 20px;
+					max-width: 550px;
+					&:last-child {
+						margin: 0;
+					}
+					th {
+						position: relative;
+						display: block;
+						padding: 0 0 0 5px;
+						margin-bottom: 5px;
+						font-size: 14px;
+						line-height: 20px;
+						width: auto;
+					}
+					td {
+						position: relative;
+						display: block;
+						padding: 0;
+						width: auto;
+						input[type="text"], select, textarea {
+							position: relative;
+							display: block;
+							border: none;
+							-webkit-appearance: none;
+							-moz-appearance: none;
+							appearance: none;
+							font-size: 16px;
+							line-height: 28px;
+							max-width: 550px;
+				    		width: 100%;
+							border: 1px solid #888888;
+							background-color: $c-white;
+							height: 40px;
+							margin-bottom: 10px;
+						}
+						textarea {
+							height: 150px;
+							resize: none;
+						}
+						div {
+							margin-bottom: 5px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

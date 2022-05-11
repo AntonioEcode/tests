@@ -1,0 +1,53 @@
+{
+	"default_content": {
+		"image_hd_src": "s137_t206_desktop_hd.jpg",
+		"image_alt": "Texto alternativo",
+		"image_tablet_src": "s137_t206_tablet.jpg",
+		"image_src": "s137_t206_mobile.jpg",
+		"title": "Eventr Conference",
+		"subtitle": "December 18-21, 2021 in New York",
+		"button_1_title": "Más información",
+		"button_1_url": "#",
+		"button_2_title": "Contacta con nosotros",
+		"button_2_url": "#",
+		"copy_days": "Días",
+		"copy_hours": "Horas",
+		"copy_minutes": "Minutos",
+		"copy_seconds": "Segundos",
+		"countdown_formated": "2022-05-03 17:17:00",
+		"countdown": "1651598220",
+		"scroll_color": "#ffffff"
+	},
+	"default_style": {
+		"ecode_section_137_template_206::after": "background-color:rgba(0,0,0,0.3);",
+		"ecode_image::after": "background-color:rgba(3,3,3,0.5);",
+		"ecode_title": "color:#ffffff;font-size:58px;line-height:60px;",
+		"ecode_subtitle": "color:#ffffff;font-size:25px;line-height:31px;",
+		"ecode_button": "border-width:2px;border-style:solid;border-color:#ffffff;line-height:23px;padding-top:4px;padding-bottom:4px;padding-left:10px;padding-right:10px;text-transform:uppercase;color:#ffffff;margin-bottom:10px;font-weight:bold;font-size:11px;"
+	},
+	"skip_demo_content": [
+		"image_alt",
+		"title",
+		"copy_days",
+		"copy_hours",
+		"copy_minutes",
+		"copy_seconds",
+		"countdown_formated"
+	],
+	"custom_fields": {
+		"title": "h1",
+		"subtitle": "textarea_small",
+		"button_1_title": "text",
+		"button_1_url": "text_url",
+		"button_2_title": "text",
+		"button_2_url": "text_url",
+		"image_hd_id": "file",
+		"image_hd": "file",
+		"image_tablet_id": "file",
+		"image_tablet": "file",
+		"image_id": "file",
+		"image": "file",
+		"countdown": "text_datetime_timestamp",
+		"scroll_color": "colorpicker"
+	}
+}

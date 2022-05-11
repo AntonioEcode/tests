@@ -1,0 +1,110 @@
+.ecode_section_117_template_182 {
+	position: relative;
+	display: block;
+	padding: 30px 60px;
+	@include desktop {
+		padding: 67px 60px;
+	}
+	.ecode_width_117_182 {
+		@include desktop {
+			max-width: 1375px;
+			margin: 0 auto;
+		}
+		.ecode_title {
+			position: relative;
+			font-size: 41px;
+			line-height: 50px;
+			font-weight: normal;
+			font-style: italic;
+			text-align: center;
+			margin-bottom: 40px;
+			@include desktop {
+				font-size: 46px;
+				line-height: 56px;
+				margin-bottom: 60px;
+				width: 100%;
+			}
+		}
+		section {
+			@include tablet {
+				@include flexbox;
+				@include justify-content(center);
+				@include align-items(flex-start);
+				@include flex-wrap(wrap);
+			}
+			article {
+				margin-bottom: 40px;
+				@include tablet {
+					width: calc( 50% - 20px );
+					margin-right: 40px;
+					&:nth-child(2n) {
+						margin-right: 0;
+					}
+				}
+				@include desktop {
+					width: calc( ( 100% / 3) - 26px );
+					margin-right: 39px;
+					&:nth-child(2n) {
+						margin-right: 39px;
+					}
+					&:nth-child(3n) {
+						margin-right: 0;
+					}
+				}
+				.ecode_article_figure {
+					position: relative;
+					display: block;
+					margin-bottom: 30px;
+					height: 400px;
+					overflow: hidden;
+					@include desktop {
+						height: 500px;
+					}
+					img {
+						position: absolute;
+						display: block;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%,-50%);
+						min-width: 100%;
+						min-height: 100%;
+						object-fit: cover;
+					}
+				}
+				.ecode_article_title {
+					position: relative;
+					padding: 0 25px 5px;
+					font-size: 25px;
+					line-height: 45px;
+					text-transform: uppercase;
+					text-align: center;
+					a {
+						text-decoration: none;
+						color: inherit;
+					}
+				}
+				.ecode_article_info {
+					position: relative;
+					font-size: 12px;
+					line-height: 18px;
+					padding: 0 25px 20px;
+					text-align: center;
+					a {
+						text-decoration: none;
+						color: inherit;
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+			.ecode_article_hide {
+				opacity: 0;
+			}
+			.ecode_article_show {
+				opacity: 1;
+				@include transition((3/10)+s);
+			}
+		}
+	}
+}

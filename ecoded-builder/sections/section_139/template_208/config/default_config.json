@@ -1,0 +1,98 @@
+{
+	"default_content": {
+		"title": "Programa",
+		"subtitle": "Agenda del evento",
+		"elements_group_loop": [
+			{
+				"element_category": "Día 1",
+				"element_hour": "08:30",
+				"element_description": "Mauris rhoncus scelerisque lacus"
+			},
+			{
+				"element_category": "Día 1",
+				"element_hour": "09:00",
+				"element_description": "Phasellus efficitur interdum accumsan"
+			},
+			{
+				"element_category": "Día 1",
+				"element_hour": "10:30",
+				"element_description": "Praesent dignissim vestibulum"
+			},
+			{
+				"element_category": "Día 1",
+				"element_hour": "11:30",
+				"element_description": "Suspendisse semper dolor sed maximus magna fermentum"
+			},
+			{
+				"element_category": "Día 1",
+				"element_hour": "13:00",
+				"element_description": "Nam varius ipsum quis ipsum"
+			},
+			{
+				"element_category": "Día 2",
+				"element_hour": "08:30",
+				"element_description": "Mauris rhoncus scelerisque lacus"
+			},
+			{
+				"element_category": "Día 2",
+				"element_hour": "09:00",
+				"element_description": "Phasellus efficitur interdum accumsan"
+			},
+			{
+				"element_category": "Día 2",
+				"element_hour": "10:30",
+				"element_description": "Praesent dignissim vestibulum"
+			},
+			{
+				"element_category": "Día 2",
+				"element_hour": "11:30",
+				"element_description": "Suspendisse semper dolor sed maximus magna fermentum"
+			},
+			{
+				"element_category": "Día 2",
+				"element_hour": "13:00",
+				"element_description": "Nam varius ipsum quis ipsum"
+			},
+			{
+				"element_category": "Día 3",
+				"element_hour": "08:30",
+				"element_description": "Mauris rhoncus scelerisque lacus"
+			},
+			{
+				"element_category": "Día 3",
+				"element_hour": "09:00",
+				"element_description": "Phasellus efficitur interdum accumsan"
+			},
+			{
+				"element_category": "Día 3",
+				"element_hour": "10:30",
+				"element_description": "Praesent dignissim vestibulum"
+			},
+			{
+				"element_category": "Día 3",
+				"element_hour": "11:30",
+				"element_description": "Suspendisse semper dolor sed maximus magna fermentum"
+			},
+			{
+				"element_category": "Día 3",
+				"element_hour": "13:00",
+				"element_description": "Nam varius ipsum quis ipsum"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_139_template_208": "background-color:#122532;",
+		"ecode_title": "color:#ffffff;font-size:40px;line-height:44px;margin-bottom:10px;text-transform:uppercase;",
+		"ecode_subtitle": "color:#ffffff;margin-top:10px;font-size:21px;line-height:29px;",
+		"ecode_day": "color:#ffffff;padding-top:10px;padding-bottom:10px;padding-left:10px;padding-right:10px;font-size:19px;line-height:27px;",
+		"ecode_article_hour": "font-size:17px;line-height:18px;color:#ffffff;",
+		"ecode_article_desc": "font-size:17px;line-height:18px;color:#ffffff;"
+	},
+	"skip_demo_content": [
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"subtitle": "textarea_small",
+		"elements_group": "group"
+	}
+}

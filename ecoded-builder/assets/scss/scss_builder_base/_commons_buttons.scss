@@ -1,0 +1,95 @@
+// /******************************************************************************/
+// /*****                               Buttons                              *****/
+// /******************************************************************************/
+// .button {
+// 	position: relative;
+// 	display: inline-block;
+// 	font-size: 16px;
+// 	line-height: 30px;
+// 	padding: 15px 22px;
+// 	box-sizing: border-box;
+// 	font-family: $font-bold;
+// 	overflow: hidden;
+// 	border: none;
+// 	border-radius: 3px;
+// 	letter-spacing: 1px;
+// 	text-transform: uppercase;
+// 	cursor: pointer;
+// 	text-decoration: none;
+// 	-webkit-appearance: none;
+// 	-moz-appearance: none;
+// 	appearance: none;
+// 	@include tablet {
+// 		padding: 15px 32px;
+// 	}
+// }
+// .button_c_c {
+// 	background-color: $c-c;
+// 	color: $c-black;
+// 	&:hover {
+// 		background-color: $c-c-h;
+// 	}
+// }
+// .button_green {
+// 	background-color: $c-green;
+// 	color: $c-white;
+// 	&:hover {
+// 		background-color: $c-green-h;
+// 		color: $c-white;
+// 	}
+// }
+// .button_border_white {
+// 	border: 2px solid $c-white;
+// 	color: $c-white;
+// 	&:hover {
+// 		background-color: $c-c-h;
+// 		border: 2px solid $c-c-h;
+// 	}
+// }
+// .button_border_black {
+// 	border: 2px solid $c-black;
+// 	color: $c-black;
+// 	&:hover {
+// 		background-color: $c-c-h;
+// 		border: 2px solid $c-c-h;
+// 	}
+// }
+// .button_icon {
+// 	@include flexbox;
+// 	@include justify-content(center);
+// 	@include align-items(center);
+// 	width: fit-content;
+// 	min-width: fit-content;
+// 	i {
+// 		position: relative;
+// 		display: inline-block;
+// 		width: 24px;
+// 		min-width: 24px;
+// 		height: 24px;
+// 		margin-right: 10px;
+// 		svg {
+// 			position: absolute;
+// 			top: 50%;
+// 			left: 50%;
+// 			transform: translate(-50%, -50%);
+// 			max-width: 24px;
+// 			max-height: 24px;
+// 		}
+// 	}
+// }
+// .button_icon.button_border_white {
+// 	i {
+// 		svg {
+// 			* {
+// 				fill: $c-white;
+// 			}
+// 		}
+// 	}
+// }
+// .button_disabled {
+// 	pointer-events: none;
+// 	opacity: (5/10);
+// }
+// .button_hide {
+//     display: none !important;
+// }

@@ -1,0 +1,140 @@
+.ecode_section_81_template_93 {
+	position: relative;
+	display: block;
+	background-color: $c-greyf5;
+	padding: 85px 25px 30px;
+	@include tablet {
+		padding: 110px 25px 50px;
+	}
+	@include desktop {
+		padding: 110px 25px 80px;
+	}
+	.ecode_width_81_93 {
+		position: relative;
+		max-width: 1230px;
+		margin: 0 auto;
+		.ecode_title {
+			font-size: 17px;
+			line-height: 27px;
+			font-weight: 600;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			text-align: center;
+			max-width: 520px;
+			margin: 0 auto 16px;
+			@include desktop {
+				font-size: 21px;
+				line-height: 33px;
+				margin: 0 auto 20px;
+			}
+		}
+		.ecode_subtitle {
+			font-size: 17px;
+			line-height: 30px;
+			letter-spacing: 0.2px;
+			color: $c-grey67;
+			text-align: center;
+			max-width: 520px;
+			margin: 0 auto 60px;
+		}
+		.ecode_articles {
+			@include tablet {
+				@include flexbox;
+				@include justify-content(center);
+				@include align-items(stretch);
+				@include flex-wrap(wrap);
+			}
+			article {
+				position: relative;
+				background-color: $c-white;
+				max-width: 375px;
+				margin: 0 auto 40px;
+				@include tablet {
+					width: calc( 50% - 15px );
+					margin: 0 30px 40px 0;
+					&:nth-child(2n) {
+						margin-right: 0;
+					}
+				}
+				@include desktop {
+					width: calc( 50% - 30px );
+					min-width: calc( 50% - 30px );
+					margin: 0 15px 40px;
+					&:nth-child(2n) {
+						margin: 0 15px 40px;
+					}
+				}
+				figure {
+					position: relative;
+					display: block;
+					overflow: hidden;
+					img {
+						position: absolute;
+						display: block;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						min-width: 100%;
+						min-height: 100%;
+						object-fit: cover;
+					}
+				}
+				h3 {
+					.ecode_article_title {
+						position: relative;
+						@include flexbox;
+						@include justify-content(center);
+						@include align-items(center);
+						font-size: 18px;
+						line-height: 21px;
+						padding: 17px 40px;
+						text-decoration: none;
+						i {
+							position: relative;
+							display: block;
+							max-width: 11px;
+							max-height: 18px;
+							margin-right: 10px;
+							svg {
+								position: absolute;
+								top: 50%;
+								left: 50%;
+								transform: translate(-50%, -50%);
+								max-width: 11px;
+								max-height: 18px;
+							}
+						}
+						&:hover {
+							background-color: $c-c2;
+							color: $c-white;
+							i {
+								svg {
+									* {
+										fill: $c-white;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.article_two {
+				figure {
+					height: 240px;
+					@include desktop {
+						height: 380px;
+					}
+				}
+			}
+			.article_three {
+				@include desktop {
+					width: calc( ( 100% / 3 ) - 30px );
+					min-width: calc( ( 100% / 3 ) - 30px );
+				}
+				figure {
+					height: 550px;
+				}
+			}
+		}
+	}
+}

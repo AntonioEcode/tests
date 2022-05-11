@@ -1,0 +1,127 @@
+.ecode_section_94_template_198 {
+	position: relative;
+	display: block;
+	padding: 63px 20px 0;
+	@include desktop {
+		padding: 70px 40px 0;
+	}
+	.ecode_width_94_198 {
+		position: relative;
+		display: block;
+		max-width: 300px;
+		width: 100%;
+		margin: 0 auto;
+		@include tablet {
+			max-width: 600px;
+		}
+		@include desktop {
+			max-width: 1200px;
+			@include flexbox;
+			@include justify-content(space-between);
+			@include align-items(flex-start);
+			@include flex-wrap(wrap);
+		}
+		.ecode_info {
+			position: relative;
+			display: block;
+			padding-bottom: 50px;
+			@include tablet {
+				padding-bottom: 50px;
+			}
+			@include desktop {
+				width: calc( 50% - 30px);
+				padding: 30px 0 50px;
+			}
+			.ecode_title {
+				position: relative;
+				font-size: 35px;
+				line-height: 39px;
+				font-weight: 500;
+				margin-bottom: 21px;
+				z-index: 10;
+				span {
+					font-weight: 700;
+				}
+				@include tablet {
+					font-size: 50px;
+					line-height: 60px;
+					margin-bottom: 24px;
+				}
+			}
+			.ecode_list {
+				position: relative;
+				display: block;
+				padding-bottom: 34px;
+				@include tablet {
+					@include flexbox;
+					@include justify-content(space-between);
+					@include align-items(flex-start);
+					@include flex-wrap(wrap);
+				}
+				li {
+					position: relative;
+					list-style: none;
+					font-size: 15px;
+					line-height: 26px;
+					color: $c-grey6e;
+					margin-bottom: 8px;
+					padding-left: 30px;
+					@include tablet {
+						width: calc( 50% - 15px );
+					}
+					i {
+						position: absolute;
+						@include flexbox;
+						@include justify-content(center);
+						@include align-items(center);
+						top: 6px;
+						left: 0;
+						width: 13px;
+						height: 13px;
+						svg {
+							max-width: 13px;
+							max-height: 13px;
+						}
+					}
+				}
+			}
+		}
+		.ecode_image {
+			position: relative;
+			display: block;
+			height: 270px;
+			overflow: hidden;
+			// margin-bottom: 50px;
+			@include tablet {
+				height: 550px;
+			}
+			@include desktop {
+				width: calc( 50% - 30px);
+			}
+			img {
+				position: absolute;
+				display: block;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+				min-width: 100%;
+				min-height: 100%;
+				object-fit: cover;
+			}
+		}
+		.ecode_container_content {
+			position: relative;
+			display: block;
+			width: 100%;
+			max-width: 300px;
+			margin: 50px auto;
+			@include tablet {
+				max-width: 600px;
+				margin: 100px auto;
+			}
+			@include desktop {
+				max-width: 880px;
+			}
+		}
+	}
+}

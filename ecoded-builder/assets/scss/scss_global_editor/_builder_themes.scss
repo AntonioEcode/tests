@@ -1,0 +1,95 @@
+.ecode_themes {
+	position: relative;
+	@include flexbox;
+	@include justify-content(flex-start);
+	@include align-items(flex-start);
+	@include flex-wrap(wrap);
+	.ecode_theme {
+		position: relative;
+		display: block;
+		width: calc( 20% - 30px );
+		margin: 0 15px 50px;
+		background-color: $c-white;
+		border: 2px solid $c-white;
+		border-radius: 5px;
+		cursor: pointer;
+		&:hover {
+			border: 2px solid $c-c;
+			h2 {
+				color: $c-c;
+			}
+		}
+		figure {
+			position: relative;
+			display: block;
+			height: 220px;
+			overflow: hidden;
+			overflow-y: scroll;
+			cursor: pointer;
+			scrollbar-width: none; // Firefox
+			&::-webkit-scrollbar { // Chrome
+				display: none;
+			}
+			img {
+				position: absolute;
+				top: 0;
+				left: 50%;
+				transform: translate(-50%, 0);
+				width: 100%;
+				height: auto;
+			}
+		}
+		h2 {
+			font-size: 18px;
+		    line-height: 22px;
+		    padding: 20px 10px;
+			text-align: center;
+			cursor: pointer;
+		}
+	}
+}
+.ecoded_builder_container_popup {
+	.ecoded_builder_container_popup_width {
+		.ecode_theme_images {
+			position: relative;
+			@include flexbox;
+			@include justify-content(flex-start);
+			@include align-items(flex-start);
+			@include flex-wrap(wrap);
+			article {
+				position: relative;
+				display: block;
+				width: calc( 50% - 30px );
+				margin: 0 15px 50px;
+				border-radius: 5px;
+				border: 1px solid $c-back;
+				figure {
+					position: relative;
+					display: block;
+					height: 220px;
+					overflow: hidden;
+					overflow-y: scroll;
+					scrollbar-width: none; // Firefox
+					&::-webkit-scrollbar { // Chrome
+						display: none;
+					}
+					img {
+						position: absolute;
+						top: 0;
+						left: 50%;
+						transform: translate(-50%, 0);
+						width: 100%;
+						height: auto;
+					}
+				}
+				h2 {
+					font-size: 18px;
+				    line-height: 22px;
+				    padding: 20px 10px;
+					text-align: center;
+					border-top: 1px solid $c-back;
+				}
+			}
+		}
+	}
+}

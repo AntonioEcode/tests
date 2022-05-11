@@ -1,0 +1,15 @@
+{
+	"default_content": {
+	},
+	"default_style": {
+		"ecode_section_58_template_68": "padding-left:30px;padding-right:30px;",
+		"list_comments figure": "border-top-left-radius:40px;border-top-right-radius:40px;border-bottom-right-radius:40px;border-bottom-left-radius:40px;",
+		"list_comments h4": "font-size:18px;line-height:32px;",
+		"list_comments time": "font-size:12px;line-height:11px;color:#686868;margin-bottom:11px;",
+		"list_comments .comment_text p": "font-size:18px;line-height:32px;color:#686868;",
+		"form_comment .title": "font-size:20px;line-height:22px;letter-spacing:1px;margin-bottom:8px;font-weight:bold;color:#b1b1b1;",
+		"form_comment .desc": "color:#b1b1b1;font-size:16px;line-height:19px;margin-bottom:30px;",
+		"form_comment .terms p": "color:#848484;padding-left:32px;font-size:14px;line-height:20px;",
+		"form_comment .ecode_button": "padding-top:17px;padding-bottom:17px;padding-left:40px;padding-right:40px;border-width:2px;border-style:solid;/*! primary_color !*/border-color:#be9359;/*! end_primary_color !*//*! primary_color !*/color:#be9359;/*! end_primary_color !*/text-transform:uppercase;font-size:18px;line-height:21px;font-weight:bold;text-align:center;background-color:#ffffff;margin-left:20px;"
+	}
+}

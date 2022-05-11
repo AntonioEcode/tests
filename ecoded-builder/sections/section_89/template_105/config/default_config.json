@@ -1,0 +1,47 @@
+{
+	"default_content": {
+		"slides_group_loop": [
+			{
+				"slide_image_src": "s89_t105_1.png",
+				"slide_image_alt": "logo de ecoded",
+				"slide_url": "#",
+				"slide_external_url_tags": " target='_blank' rel='nofollow noreferrer noopener'"
+			},
+			{
+				"slide_image_src": "s89_t105_2.png",
+				"slide_image_alt": "logo de ecoded",
+				"slide_url": "#",
+				"slide_external_url_tags": " target='_blank' rel='nofollow noreferrer noopener'"
+			},
+			{
+				"slide_image_src": "s89_t105_3.png",
+				"slide_image_alt": "logo de ecoded",
+				"slide_url": "#",
+				"slide_external_url_tags": " target='_blank' rel='nofollow noreferrer noopener'"
+			},
+			{
+				"slide_image_src": "s89_t105_4.png",
+				"slide_image_alt": "logo de ecoded",
+				"slide_url": "#",
+				"slide_external_url_tags": " target='_blank' rel='nofollow noreferrer noopener'"
+			},
+			{
+				"slide_image_src": "s89_t105_5.png",
+				"slide_image_alt": "logo de ecoded",
+				"slide_url": "#",
+				"slide_external_url_tags": " target='_blank' rel='nofollow noreferrer noopener'"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_89_template_105": "background-color:#fafafa;padding-top:60px;padding-bottom:60px;padding-left:40px;padding-right:40px;",
+		"ecode_figure": "text-align:center;"
+	},
+	"skip_demo_content": [
+		"slide_image_alt",
+		"slide_url"
+	],
+	"custom_fields": {
+		"slides_group": "group"
+	}
+}

@@ -1,0 +1,61 @@
+{
+	"default_content": {
+		"cards_group_loop": [
+			{
+				"card_title": "Ullamcorper Ornare",
+				"card_subtitle": "<p>Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean.</p>",
+				"card_url": "#",
+				"card_image_src": "s85_t101_1.png",
+				"card_image_alt": "Logo 1"
+			},
+			{
+				"card_title": "Ullamcorper Ornare",
+				"card_subtitle": "<p>Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean.</p>",
+				"card_url": "#",
+				"card_image_src": "s85_t101_2.png",
+				"card_image_alt": "Logo 2"
+			},
+			{
+				"card_title": "Ullamcorper Ornare",
+				"card_subtitle": "<p>Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean.</p>",
+				"card_url": "#",
+				"card_image_src": "s85_t101_3.png",
+				"card_image_alt": "Logo 3"
+			},
+			{
+				"card_title": "Ullamcorper Ornare",
+				"card_subtitle": "<p>Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean.</p>",
+				"card_url": "#",
+				"card_image_src": "s85_t101_4.png",
+				"card_image_alt": "Logo 3"
+			},
+			{
+				"card_title": "Ullamcorper Ornare",
+				"card_subtitle": "<p>Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean.</p>",
+				"card_url": "#",
+				"card_image_src": "s85_t101_5.png",
+				"card_image_alt": "Logo 3"
+			},
+			{
+				"card_title": "Ullamcorper Ornare",
+				"card_subtitle": "<p>Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean.</p>",
+				"card_url": "#",
+				"card_image_src": "s85_t101_6.png",
+				"card_image_alt": "Logo 3"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_85_template_101": "background-color:#fafafa;padding-top:115px;padding-bottom:60px;padding-left:40px;padding-right:40px;",
+		"ecode_article_figure": "padding-top:5px;",
+		"ecode_article_title": "font-size:17px;line-height:20px;font-weight:500;margin-bottom:20px;",
+		"ecode_container_content": ""
+	},
+	"skip_demo_content": [
+		"card_image_alt",
+		"card_url"
+	],
+	"custom_fields": {
+		"cards_group": "group"
+	}
+}

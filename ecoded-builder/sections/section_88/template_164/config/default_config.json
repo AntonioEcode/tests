@@ -1,0 +1,37 @@
+{
+	"default_content": {
+		"title": "How to Live a <span>Healthe Lifestyle?</span>",
+		"subtitle": "<p>Ut wisi enim ad minim veniam, quis laore nostrud exerci tation ulm hedi corper turet suscipit lobortis nisl ut aliquip erat volutpat autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.</p>",
+		"author": "Victoria Mind",
+		"job_position": "Cardióloga",
+		"back_image_src": "s88_t104_2.png",
+		"back_image_alt": "Imagen de una firma",
+		"image_hd_src": "s88_t104_1.jpg",
+		"image_src": "s88_t104_1.jpg",
+		"image_alt": "Imagen de una médica"
+	},
+	"default_style": {
+		"ecode_section_88_template_164": "padding-top:100px;padding-bottom:60px;padding-left:40px;padding-right:40px;",
+		"ecode_title": "margin-bottom:21px;font-weight:500;font-size:50px;line-height:60px;",
+		"ecode_container_content": "margin-bottom:32px;",
+		"ecode_name": "font-size:17px;line-height:28px;font-weight:500;margin-bottom:12px;",
+		"ecode_professional_position": "font-size:12px;line-height:20px;font-weight:500;color:#4e6dcc;",
+		"ecode_image": "margin-bottom:50px;"
+	},
+	"skip_demo_content": [
+		"back_image_alt",
+		"image_alt"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"subtitle": "wysiwyg",
+		"author": "text_medium",
+		"job_position": "text_medium",
+		"back_image_id": "file",
+		"back_image": "file",
+		"image_hd_id": "file",
+		"image_hd": "file",
+		"image_id": "file",
+		"image": "file"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"default_content": {
+		"blog_url": "#",
+		"logo_src": "logo_ecoded_100.png",
+		"logo_alt": "Logo de tu empresa"
+	},
+	"default_style": {
+		"ecode_section_62_template_73": "background-color:#f5f5f5;padding-top:24px;padding-bottom:18px;",
+		"logo": "margin-top: 20px;margin-bottom: 20px;",
+		"nav_main_menu .menu-item a": "font-size:16px;line-height:28px;color:#333333;padding-bottom:2px;padding-left:10px;padding-right:10px;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#f5f5f5;"
+	},
+	"height_logo": "64px",
+	"skip_demo_content": [
+		"blog_url",
+		"logo_src",
+		"logo_alt"
+	]
+}

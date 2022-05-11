@@ -1,0 +1,56 @@
+{
+	"default_content": {
+		"cards_group_loop": [
+			{
+				"card_image_src": "s131_t197_1.jpeg",
+				"card_image_alt": "Alt de la imagen",
+				"card_title": "Servicio que se ajusta a tí",
+				"card_subtitle": "Nuestra mejor opción",
+				"card_description": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+				"card_button_text": "Leer más",
+				"card_url": "#"
+			},
+			{
+				"card_image_src": "s131_t197_2.jpeg",
+				"card_image_alt": "Alt de la imagen",
+				"card_title": "Servicio que se ajusta a tí",
+				"card_subtitle": "Nuestra mejor opción",
+				"card_description": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+				"card_button_text": "Leer más",
+				"card_url": "#"
+			},
+			{
+				"card_image_src": "s131_t197_3.jpeg",
+				"card_image_alt": "Alt de la imagen",
+				"card_title": "Servicio que se ajusta a tí",
+				"card_subtitle": "Nuestra mejor opción",
+				"card_description": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+				"card_button_text": "Leer más",
+				"card_url": "#"
+			},
+			{
+				"card_image_src": "s131_t197_4.jpeg",
+				"card_image_alt": "Alt de la imagen",
+				"card_title": "Servicio que se ajusta a tí",
+				"card_subtitle": "Nuestra mejor opción",
+				"card_description": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+				"card_button_text": "Leer más",
+				"card_url": "#"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_131_template_197": "padding-top:100px;padding-bottom:100px;padding-left:30px;padding-right:30px;",
+		"ecode_article_subtitle": "font-size:13px;line-height:19px;/*! secondary_color !*/color:#4e6dcc;/*! end_secondary_color !*/letter-spacing:1px;",
+		"ecode_article_title": "margin-bottom:10px;font-weight:normal;font-size:24px;line-height:38px;",
+		"ecode_article_desc": "font-size:15px;line-height:26px;color:#6e6e6e;margin-bottom:15px;",
+		"ecode_article_read_more": "font-size:14px;line-height:26px;",
+		"ecode_article_figure": "text-align:center;"
+	},
+	"skip_demo_content": [
+		"card_image_alt"
+	],
+	"custom_fields": {
+		"cards_group": "group"
+	}
+}

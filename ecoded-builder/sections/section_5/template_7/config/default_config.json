@@ -1,0 +1,41 @@
+{
+	"default_content": {
+		"background_image_hd_src": "clients.jpg",
+		"background_image_alt": "imagen de prueba",
+		"background_image_src": "clients.jpg",
+		"cards_group_loop": [
+			{
+				"card_svg_icon": "edificio-de-oficinas.svg",
+				"card_counter_number": "100",
+				"card_counter_title": "Edificios"
+			},
+			{
+				"card_svg_icon": "edificio-de-oficinas.svg",
+				"card_counter_number": "500",
+				"card_counter_title": "Casas"
+			},
+			{
+				"card_svg_icon": "edificio-de-oficinas.svg",
+				"card_counter_number": "1000",
+				"card_counter_title": "Parques"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_5_template_7 .circles": "background-color:#ffffff;",
+		"img_back::after": "background-color:rgba(0,0,0,0.6);",
+		"ecode_article_image": "margin-bottom:10px;",
+		"number": "/*! primary_color !*/color:#fed03d/*! end_primary_color !*/;font-size:60px;line-height:70px;font-weight:500;",
+		"text": "font-size:16px;line-height:36px;color:#ffffff;text-transform:uppercase;"
+	},
+	"skip_demo_content": [
+		"background_image_alt"
+	],
+	"custom_fields": {
+		"background_image_hd_id": "file",
+		"background_image_hd": "file",
+		"background_image_id": "file",
+		"background_image": "file",
+		"cards_group": "group"
+	}
+}

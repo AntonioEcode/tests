@@ -1,0 +1,50 @@
+{
+	"default_content": {
+		"background_image_hd_src": "s144_t213_desktop_hd.jpg",
+		"background_image_desktop_src": "s144_t213_desktop.jpg",
+		"background_image_tablet_src": "s144_t213_tablet.jpg",
+		"background_image_src": "s144_t213_mobile.jpg",
+		"background_image_alt": "Fondo de la sección de comentarios",
+		"slides_group_loop": [
+			{
+				"slide_image_src": "s144_t213_1.jpg",
+				"slide_image_alt": "Texto alternativo",
+				"slide_comment": "No man but feels more of a man in the world if he have but a bit of ground that he can call his own. However small it is on the surface, it is four thousand miles deep; and that is a very handsome property.",
+				"slide_autor": "Todd Stone"
+			},
+			{
+				"slide_image_src": "s144_t213_2.jpg",
+				"slide_image_alt": "Texto alternativo",
+				"slide_comment": "Nulla euismod sit amet ligula in vehicula. Vestibulum cursus ex non ante dignissim ultricies. Sed egestas hendrerit neque tincidunt mattis. Duis euismod porta tempus.",
+				"slide_autor": "Lena Kim"
+			},
+			{
+				"slide_image_src": "s144_t213_3.jpg",
+				"slide_image_alt": "Texto alternativo",
+				"slide_comment": "Nulla euismod sit amet ligula in vehicula. Vestibulum cursus ex non ante dignissim ultricies. Sed egestas hendrerit neque tincidunt mattis. Duis euismod porta tempus.",
+				"slide_autor": "Minnie Pierce"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_144_template_213::after": "background-color:rgba(0,0,0,0.6);",
+		"ecode_article_image": "border-width:2px;border-style:solid;border-color:#ffffff;border-top-left-radius:52px;border-top-right-radius:52px;border-bottom-right-radius:52px;border-bottom-left-radius:52px;margin-bottom:20px;",
+		"ecode_article_text": "color:#b0b0b0;margin-bottom:20px;font-size:21px;line-height:30px;",
+		"ecode_article_name": "font-size:14px;line-height:16px;color:#ffffff;text-transform:uppercase;letter-spacing:2px;"
+	},
+	"skip_demo_content": [
+		"background_image_alt",
+		"slide_image_alt"
+	],
+	"custom_fields": {
+		"background_image_hd_id": "file",
+		"background_image_hd": "file",
+		"background_image_desktop_id": "file",
+		"background_image_desktop": "file",
+		"background_image_tablet_id": "file",
+		"background_image_tablet": "file",
+		"background_image_id": "file",
+		"background_image": "file",
+		"slides_group": "group"
+	}
+}

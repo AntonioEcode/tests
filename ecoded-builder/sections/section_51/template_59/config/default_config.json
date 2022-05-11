@@ -1,0 +1,22 @@
+{
+	"default_content": {
+		"image_hd_src": "s51_t59_mobile.jpg",
+		"image_alt": "Imagen de fondo del titular",
+		"image_src": "s51_t59_mobile.jpg",
+		"title": "Título h1 de la página"
+	},
+	"default_style": {
+		"ecode_image::after": "background-color:rgba(0,0,0,0.2);",
+		"ecode_title": "color:#dddddd;font-size:65px;line-height:90px;"
+	},
+	"skip_demo_content": [
+		"image_alt"
+	],
+	"custom_fields": {
+		"title": "h1",
+		"image": "file",
+		"image_id": "file",
+		"image_hd": "file",
+		"image_hd_id": "file"
+	}
+}

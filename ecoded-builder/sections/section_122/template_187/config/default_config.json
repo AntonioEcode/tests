@@ -1,0 +1,46 @@
+{
+	"default_content": {
+		"post_content": "<h2>Say hellooo!</h2><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p><ul><li>Donec posuere vulputate arcu.</li><li>Phasellus accumsan cursus velit.</li><li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</li><li>Sed aliquam, nisi quis porttitor congue</li></ul>",
+		"post_thumbnail_src": "s122_t187_1.jpg",
+		"post_thumbnail_alt": "Alt de la imagen",
+		"post_title": "Artículo 1",
+		"post_subtitle": "Lorem Mattis Euismod Amet Vestibulum",
+		"post_excerpt": "<strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing elit. Vivamus purus nisl.",
+		"copy_author": "Sobre el autor: Adrián",
+		"author_image_src": "s122_t187_2.jpg",
+		"author_description": "Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.",
+		"author_social_twitter": "#",
+		"author_social_facebook": "#",
+		"author_social_instagram": "#",
+		"author_social_linkedin": "#",
+		"author_social_youtube": "#"
+	},
+	"default_style": {
+		"ecode_section_122_template_187": "padding-top:80px;padding-bottom:95px;padding-left:35px;padding-right:35px;",
+		"ecode_image": "margin-bottom:50px;",
+		"ecode_excerpt": "font-size:19px;line-height:33px;margin-bottom:50px;",
+		"ecode_subtitle": "font-size:45px;line-height:60px;text-transform:uppercase;margin-bottom:40px;",
+		"ecode_container_content": "margin-bottom:20px;",
+		"ecode_author": "background-color:#f2f2f2;padding-top:55px;padding-left:55px;padding-bottom:55px;padding-right:55px;",
+		"ecode_author_name": "font-size:26px;line-height:38px;color:#333333;text-transform:uppercase;font-weight:bold;margin-bottom:31px;",
+		"ecode_author_figure": "margin-bottom:35px;margin-right:35px;",
+		"ecode_author_desc": "font-size:19px;line-height:33px;",
+		"ecode_author_social_link": "border-top-left-radius:20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;background-color:#ffffff;margin-right:10px;"
+	},
+	"skip_demo_content": [
+		"post_content",
+		"post_thumbnail_src",
+		"post_thumbnail_alt",
+		"post_title",
+		"post_subtitle",
+		"post_excerpt",
+		"copy_author",
+		"author_image_src",
+		"author_description",
+		"author_social_twitter",
+		"author_social_facebook",
+		"author_social_instagram",
+		"author_social_linkedin",
+		"author_social_youtube"
+	]
+}

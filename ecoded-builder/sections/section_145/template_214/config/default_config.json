@@ -1,0 +1,54 @@
+{
+	"default_content": {
+		"slides_group_loop": [
+			{
+				"slide_image_hd_src": "s145_t214_1_desktop_hd.jpg",
+				"slide_image_desktop_src": "s145_t214_1_desktop.jpg",
+				"slide_image_tablet_src": "s145_t214_1_tablet.jpg",
+				"slide_image_src": "s145_t214_1_mobile.jpg",
+				"slide_image_hd_alt": "Texto alternativo",
+				"slide_txt_button_1": "Viajar",
+				"slide_link_button_1": "#",
+				"slide_title": "Teleférico de Table Mountain",
+				"slide_date": "14 de Febrero de 2022",
+				"slide_city": "New York",
+				"slide_place": "Victory Club",
+				"slide_txt_button_2": "Detalles",
+				"slide_link_button_2": "#",
+				"slide_txt_button_3": "Tickets",
+				"slide_link_button_3": "#"
+			},
+			{
+				"slide_image_hd_src": "s145_t214_2_desktop_hd.jpg",
+				"slide_image_desktop_src": "s145_t214_2_desktop.jpg",
+				"slide_image_tablet_src": "s145_t214_2_tablet.jpg",
+				"slide_image_src": "s145_t214_2_mobile.jpg",
+				"slide_image_hd_alt": "Texto alternativo",
+				"slide_txt_button_1": "Nightlife",
+				"slide_link_button_1": "#",
+				"slide_title": "CA After Party",
+				"slide_date": "14 de Febrero de 2022",
+				"slide_city": "New York",
+				"slide_place": "Victory Club",
+				"slide_txt_button_2": "Detalles",
+				"slide_link_button_2": "#",
+				"slide_txt_button_3": "Tickets",
+				"slide_link_button_3": "#"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_article_image::after": "background-color:rgba(0,0,0,0.4);",
+		"ecode_article_cat": "border-radius:25px;background-color:ffbb00;color:#ffffff;font-size:13px;line-height:22px;text-transform:uppercase;font-weight:bold;margin-bottom:30px;padding-top:6px;padding-bottom:6px;padding-left:27px;padding-right:27px;",
+		"ecode_article_title": "color:#ffffff;margin-bottom:30px;font-size:60px;line-height:84px;",
+		"ecode_article_li": "padding-top:15px;padding-bottom:15px;padding-left:30px;padding-right:15px;",
+		"ecode_article_button_1": "border-width:2px;border-style:solid;border-color:#ffffff;padding-top:11px;padding-bottom:11px;padding-left:40px;padding-right:40px;border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-right-radius:100px;border-bottom-left-radius:100px;color:#ffffff;font-size:13px;line-height:22px;text-transform:uppercase;font-weight:bold;margin-right:30px;margin-bottom:30px;",
+		"ecode_article_button_2": "border-width:2px;border-style:solid;border-color:#ffffff;padding-top:11px;padding-bottom:11px;padding-left:40px;padding-right:40px;border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-right-radius:100px;border-bottom-left-radius:100px;color:#ffffff;font-size:13px;line-height:22px;text-transform:uppercase;font-weight:bold;margin-right:30px;margin-bottom:30px;"
+	},
+	"skip_demo_content": [
+		"slide_image_hd_alt"
+	],
+	"custom_fields": {
+		"slides_group": "group"
+	}
+}

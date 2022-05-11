@@ -1,0 +1,42 @@
+{
+	"default_content": {
+		"image_src": "s53_t61_4.jpeg",
+		"image_hd_src": "s53_t61_4.jpeg",
+		"image_alt": "Fondo de la sección",
+		"pretitle": "Antetítulo",
+		"title": "Nuestros premios",
+		"cards_group_loop": [
+			{
+				"card_image_src": "s53_t61_2.png",
+				"card_image_alt": "logo del premio"
+			},
+			{
+				"card_image_src": "s53_t61_2.png",
+				"card_image_alt": "logo del premio"
+			},
+			{
+				"card_image_src": "s53_t61_2.png",
+				"card_image_alt": "logo del premio"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_53_template_61": "border-bottom-width:4px;border-bottom-style:solid;/*! primary_color !*/border-bottom-color:#be9359/*! end_primary_color !*/;text-align:center;padding-top:111px;padding-bottom:54px;padding-left:30px;padding-right:30px;",
+		"ecode_subtitle": "font-size:18px;line-height:21px;/*! primary_color !*/color:#be9359/*! end_primary_color !*/;text-transform:uppercase;font-weight:bold;",
+		"ecode_title": "font-size:70px;line-height:95px;margin-bottom:100px;color:#b1b1b1;",
+		"ecode_article_image": "text-align:center;margin-bottom:60px;"
+	},
+	"skip_demo_content": [
+		"image_alt",
+		"card_image_alt"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"pretitle": "textarea_small",
+		"image_hd_id": "file",
+		"image_hd": "file",
+		"image_id": "file",
+		"image": "file",
+		"cards_group": "group"
+	}
+}

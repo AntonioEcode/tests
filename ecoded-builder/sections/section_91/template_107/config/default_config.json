@@ -1,0 +1,73 @@
+{
+	"default_content": {
+		"title": "Equipo",
+		"subtitle": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>",
+		"cards_group_loop": [
+			{
+				"card_image_src": "s91_t107_1.jpg",
+				"card_image_alt": "Miembro del equipo",
+				"card_name": "Pilar Pérez",
+				"card_svg_icon": "s91_t107_1.svg",
+				"card_position": "Cardiología",
+				"card_description": "<p>Apasionada por su trabajo, siempre preparada para dar la solución más optima.</p>",
+				"card_facebook": "#",
+				"card_twitter": "#",
+				"card_instagram": "#",
+				"card_linkedin": "#"
+			},
+			{
+				"card_image_src": "s91_t107_2.jpg",
+				"card_image_alt": "Miembro del equipo",
+				"card_name": "Javier Pérez",
+				"card_svg_icon": "s91_t107_2.svg",
+				"card_position": "Cardiología",
+				"card_description": "<p>Apasionado por su trabajo, siempre preparado para dar la solución más optima.</p>",
+				"card_facebook": "#",
+				"card_twitter": "#",
+				"card_instagram": "#",
+				"card_linkedin": "#"
+			},
+			{
+				"card_image_src": "s91_t107_3.jpg",
+				"card_image_alt": "Miembro del equipo",
+				"card_name": "María Pérez",
+				"card_svg_icon": "s91_t107_3.svg",
+				"card_position": "Cardiología",
+				"card_description": "<p>Apasionada por su trabajo, siempre preparada para dar la solución más optima.</p>",
+				"card_facebook": "#",
+				"card_twitter": "#",
+				"card_instagram": "#",
+				"card_linkedin": "#"
+			},
+			{
+				"card_image_src": "s91_t107_4.jpg",
+				"card_image_alt": "Miembro del equipo",
+				"card_name": "Pablo Pérez",
+				"card_svg_icon": "s91_t107_4.svg",
+				"card_position": "Cardiología",
+				"card_description": "<p>Apasionado por su trabajo, siempre preparado para dar la solución más optima.</p>",
+				"card_facebook": "#",
+				"card_twitter": "#",
+				"card_instagram": "#",
+				"card_linkedin": "#"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_91_template_107": "background-color:#fafafa;padding-top:100px;padding-bottom:35px;padding-left:20px;padding-right:20px;",
+		"ecode_title": "margin-bottom:21px;font-weight:500;font-size:50px;line-height:60px;",
+		"ecode_subtitle": "text-align:center;margin-bottom:21px;",
+		"ecode_person_image": "border-top-left-radius:115px;border-top-right-radius:115px;border-bottom-right-radius:115px;border-bottom-left-radius:115px;margin-bottom:30px;",
+		"ecode_name": "font-size:17px;line-height:29px;font-weight:500;margin-bottom:8px;",
+		"ecode_professional_position": "font-size:12px;line-height:20px;font-weight:500;color:#4e6dcc;margin-bottom:13px;",
+		"ecode_article_content": "margin-bottom:18px;"
+	},
+	"skip_demo_content": [
+		"card_image_alt"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"subtitle": "wysiwyg",
+		"cards_group": "group"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"default_content": {
+		"title": "Contacta con nosotros"
+	},
+	"default_style": {
+		"ecode_section_105_template_200": "padding-top:100px;padding-bottom:61px;padding-left:20px;padding-right:20px;",
+		"ecode_title": "margin-bottom:50px;text-align:center;font-size:24px;line-height:30px;",
+		"container_form .container_input label": "",
+		"container_form .container_button .button": "font-size:14px;line-height:14px;padding-top:16px;padding-bottom:16px;padding-left:23px;padding-right:23px;border-top-left-radius:5px;border-top-right-radius:5px;border-bottom-right-radius:5px;border-bottom-left-radius:5px;color:#ffffff;/*! primary_color !*/background-color:#43d5cb/*! end_primary_color !*/;"
+	},
+	"skip_demo_content": [
+	]
+}

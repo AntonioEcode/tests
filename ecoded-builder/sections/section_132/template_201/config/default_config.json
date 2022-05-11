@@ -1,0 +1,43 @@
+{
+	"default_content": {
+		"title": "Entrantes",
+		"cards_group_loop": [
+			{
+				"card_image_src": "s109_t171_desktop.jpg",
+				"card_image_alt": "Entrante",
+				"card_title": "Entrante 1",
+				"card_price": "45€",
+				"card_url": "#"
+			},
+			{
+				"card_image_src": "s113_t178_1.jpg",
+				"card_image_alt": "Entrante",
+				"card_title": "Entrante 2",
+				"card_price": "55€",
+				"card_url": "#"
+			},
+			{
+				"card_image_src": "s115_t180_mobile.jpg",
+				"card_image_alt": "Entrante",
+				"card_title": "Entrante 3",
+				"card_price": "75€",
+				"card_url": "#"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_132_template_201": "",
+		"ecode_title": "font-weight:normal;font-size:40px;line-height:60px;padding-bottom:20px;",
+		"ecode_article_figure": "",
+		"ecode_article_info": "border-width:1px;border-style:solid;border-color:#efefef;padding-top:20px;padding-botton:20px;padding-left:15px;padding-right:15px;",
+		"ecode_article_title": "font-size:30px;line-height:45px;font-weight:bold;font-style:italic;text-align:center;",
+		"ecode_article_price": "font-size:18px;line-height:33px;text-align:center;"
+	},
+	"custom_fields": {
+		"title": "textarea_small",
+		"cards_group": "group"
+	},
+	"skip_demo_content": [
+		"card_image_alt"
+	]
+}

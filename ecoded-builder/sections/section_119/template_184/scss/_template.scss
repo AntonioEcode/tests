@@ -1,0 +1,117 @@
+.ecode_section_119_template_184 {
+	position: relative;
+	display: block;
+	padding: 50px 35px 30px;
+	@include tablet {
+		padding: 95px 70px 80px;
+	}
+	picture {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		img {
+			position: absolute;
+			display: block;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			min-width: 100%;
+			min-height: 100%;
+			object-fit: cover;
+		}
+	}
+	.ecode_width_119_184 {
+		position: relative;
+		display: block;
+		z-index: 1;
+		@include desktop {
+			max-width: 1375px;
+			margin: 0 auto;
+		}
+		.ecode_info {
+			position: relative;
+			display: block;
+			background-color: $c-black00;
+			padding: 55px;
+			@include tablet {
+				padding: 100px;
+			}
+			@include desktop {
+				@include flexbox;
+				@include justify-content(space-between);
+				@include align-items(flex-start);
+				@include flex-wrap(wrap);
+				width: 455px;
+				padding: 72px;
+			}
+			.ecode_title {
+				position: relative;
+				font-size: 45px;
+				line-height: 71px;
+				color: $c-white;
+				text-transform: uppercase;
+				margin-bottom: 20px;
+				@include desktop {
+					margin-bottom: 60px;
+					width: calc( 100% - 75px );
+				}
+			}
+			.ecode_price {
+				position: relative;
+				display: block;
+				font-size: 17px;
+				line-height: 25px;
+				color: $c-greyd6;
+				font-weight: bold;
+				margin-bottom: 46px;
+				@include desktop {
+					width: 50px;
+					text-align: right;
+					line-height: 71px;
+				}
+			}
+			.ecode_desc {
+				position: relative;
+				font-size: 19px;
+				line-height: 33px;
+				color: $c-greyd6;
+				margin-bottom: 31px;
+				width: 100%;
+				@include tablet {
+					margin-bottom: 41px;
+				}
+				@include desktop {
+					margin-bottom: 35px;
+				}
+			}
+			.ecode_button {
+				position: relative;
+				display: inline-block;
+				padding: 15px 29px;
+				font-size: 14px;
+				line-height: 17px;
+				letter-spacing: 1px;
+				color: $c-greyd6;
+				text-decoration: none;
+				text-transform: uppercase;
+				border: 1px solid $c-greyd6;
+				white-space: nowrap;
+				font-weight: bold;
+				&:hover {
+					background-color: $c-greyd6;
+					color: $c-black00;
+				}
+			}
+		}
+		.ecode_info_hide {
+			opacity: 0;
+		}
+		.ecode_info_show {
+			opacity: 1;
+			@include transition((3/10)+s);
+		}
+	}
+}

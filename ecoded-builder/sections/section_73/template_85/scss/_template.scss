@@ -1,0 +1,129 @@
+.ecode_section_73_template_85 {
+	position: relative;
+	display: block;
+	background-color: $c-greyf5;
+	padding: 45px 25px 50px;
+	@include tablet {
+		padding: 95px 25px 75px;
+	}
+	.ecode_width_73_85 {
+		@include desktop {
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+		.ecode_title {
+			position: relative;
+			font-size: 17px;
+			line-height: 27px;
+			font-weight: 600;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			text-align: center;
+			max-width: 520px;
+			margin: 0 auto 16px;
+			@include desktop {
+				font-size: 21px;
+				line-height: 33px;
+				margin: 0 auto 20px;
+			}
+		}
+		.ecode_container_content {
+			position: relative;
+			text-align: center;
+			max-width: 520px;
+			margin: 0 auto 60px;
+			p, a, li {
+				font-size: 17px;
+				line-height: 30px;
+				letter-spacing: 0.2px;
+				color: $c-grey67;
+			}
+			ul, ol {
+				text-align: left;
+				li {
+					&::after {
+						background-color: $c-grey67;
+					}
+				}
+			}
+		}
+		.ecode_articles {
+			position: relative;
+			@include tablet {
+				@include flexbox;
+				@include justify-content(center);
+				@include align-items(flex-start);
+				@include flex-wrap(wrap);
+				max-width: 770px;
+				margin: 0 auto;
+			}
+			@include desktop {
+				max-width: inherit;
+			}
+			article {
+				position: relative;
+				max-width: 370px;
+				margin: 0 auto 50px;
+				@include tablet {
+					width: calc(50% - 15px);
+					margin: 0 30px 50px 0;
+					&:nth-child(2n) {
+						margin-right: 0;
+					}
+				}
+				@include desktop {
+					width: calc((100% / 3) - 32px);
+					margin-right: 48px;
+					&:nth-child(2n) {
+						margin-right: 48px;
+					}
+					&:nth-child(3n) {
+						margin-right: 0;
+					}
+				}
+				.ecode_article_figure {
+					position: relative;
+					display: block;
+					height: 400px;
+					overflow: hidden;
+					img {
+						position: absolute;
+						display: block;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						min-width: 100%;
+						min-height: 100%;
+						object-fit: cover;
+					}
+				}
+				.ecode_article_info {
+					position: relative;
+					background-color: $c-white;
+					padding: 25px 25px 40px;
+					.ecode_article_title {
+						position: relative;
+						font-size: 17px;
+						line-height: 22px;
+						text-align: center;
+						font-weight: 400;
+					}
+					.ecode_article_p {
+						position: relative;
+						font-size: 17px;
+						line-height: 31px;
+						text-align: center;
+						color: $c-grey67;
+					}
+				}
+			}
+			.ecode_article_hide {
+				opacity: 0;
+			}
+			.ecode_article_show {
+				opacity: 1;
+				@include transition((3/10)+s);
+			}
+		}
+	}
+}

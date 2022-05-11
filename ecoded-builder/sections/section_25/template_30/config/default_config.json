@@ -1,0 +1,53 @@
+{
+	"default_content": {
+		"title": "Nuestros servicios",
+		"elements_group_loop": [
+			{
+				"element_image_src": "build.jpg",
+				"element_image_alt": "Alt de ejemplo",
+				"element_title": "Servicio 1",
+				"element_description": "<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>",
+				"element_url": "#"
+			},
+			{
+				"element_image_src": "build.jpg",
+				"element_image_alt": "Alt de ejemplo",
+				"element_title": "Servicio 2",
+				"element_description": "<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>",
+				"element_url": "#"
+			},
+			{
+				"element_image_src": "build.jpg",
+				"element_image_alt": "Alt de ejemplo",
+				"element_title": "Servicio 3",
+				"element_description": "<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>",
+				"element_url": "#"
+			},
+			{
+				"element_image_src": "build.jpg",
+				"element_image_alt": "Alt de ejemplo",
+				"element_title": "Servicio 4",
+				"element_description": "<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>",
+				"element_url": "#"
+			},
+			{
+				"element_image_src": "build.jpg",
+				"element_image_alt": "Alt de ejemplo",
+				"element_title": "Servicio 5",
+				"element_description": "<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>",
+				"element_url": "#"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_title": "font-size:28px;line-height:31px;font-weight:400;padding-bottom:17px;margin-bottom:50px;text-align:center;text-transform:uppercase;letter-spacing:1px;",
+		"ecode_article_title": "font-size:20px;line-height:22px;padding-bottom:22px;margin-bottom:25px;font-weight:400;"
+	},
+	"skip_demo_content": [
+		"element_image_alt"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"elements_group": "group"
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"default_content": {
+		"post_content": "<h2>Say hellooo!</h2><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p><ul><li>Donec posuere vulputate arcu.</li><li>Phasellus accumsan cursus velit.</li><li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</li><li>Sed aliquam, nisi quis porttitor congue</li></ul>",
+		"post_thumbnail_src": "clients.jpg",
+		"post_url_video_id": "ZfnFBXJuUIQ",
+		"post_thumbnail_alt": "Alt de la imagen",
+		"post_url": "#",
+		"post_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed at magna. Nullam eget ornare",
+		"copy_author": "Por Antonio",
+		"format_post_date": "3 marzo 2021",
+		"post_number_comments": "0 comentarios",
+		"cat_content": "<p class='ecode_article_categories'><a href='#' class='ecode_article_categories_link' data-edit='ecode_article_categories_link'>News</a>, <a href='#' class='ecode_article_categories_link' data-edit='ecode_article_categories_link'>Personal</a></p>",
+		"copy_share": "Compartir este artículo",
+		"url_twitter": "#",
+		"url_facebook": "#",
+		"url_linkedin": "#",
+		"url_email": "#"
+	},
+	"default_style": {
+		"ecode_article_categories_link": "font-size:15px;line-height:30px;/*! primary_color !*/color:#efbb20/*! end_primary_color !*/;text-transform:uppercase;",
+		"ecode_article_info_text": "font-size:12px;line-height:24px;color:#919191;text-transform:uppercase;"
+	},
+	"skip_demo_content": [
+		"post_content",
+		"post_thumbnail_src",
+		"post_url_video_id",
+		"post_thumbnail_alt",
+		"post_url",
+		"post_excerpt",
+		"copy_author",
+		"format_post_date",
+		"post_number_comments",
+		"cat_content",
+		"copy_share",
+		"url_twitter",
+		"url_facebook",
+		"url_linkedin",
+		"url_email"
+	]
+}

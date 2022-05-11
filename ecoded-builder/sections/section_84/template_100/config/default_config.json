@@ -1,0 +1,29 @@
+{
+	"default_content": {
+		"title": "Pharetra Ridiculus <span>Commodo Euismod Risus Inceptos</span>",
+		"subtitle": "<p>Ut wisi enim ad minim veniam, quis laore nostrud exerci tation ulm hedi corper turet suscipit lobortis nisl ut aliquip erat volutpat autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.<p>",
+		"button_text": "Contacto",
+		"button_url": "#",
+		"image_src": "s84_t100.jpg",
+		"image_alt": "Imagen doctores y clínica"
+	},
+	"default_style": {
+		"ecode_section_84_template_100": "padding-top:120px;padding-bottom:120px;padding-left:40px;padding-right:40px;",
+		"ecode_title": "margin-bottom:21px;font-weight:500;font-size:50px;line-height:60px;",
+		"ecode_container_content": "margin-bottom:40px;",
+		"ecode_button": "font-size:14px;line-height:14px;font-weight:500;color:#ffffff;/*! primary_color !*/background-color:#43d5cb/*! end_primary_color !*/;padding-top:16px;padding-bottom:16px;padding-left:23px;padding-right:60px;border-top-left-radius:5px;border-top-right-radius:5px;border-bottom-right-radius:5px;border-bottom-left-radius:5px;",
+		"ecode_button i": "background-color:#37c7be;border-top-right-radius:5px;border-bottom-right-radius:5px;",
+		"ecode_figure": "margin-bottom:50px;"
+	},
+	"skip_demo_content": [
+		"image_alt"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"subtitle": "wysiwyg",
+		"button_text": "text_medium",
+		"button_url": "text_url",
+		"image_id": "file",
+		"image": "file"
+	}
+}

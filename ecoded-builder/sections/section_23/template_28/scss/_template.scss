@@ -1,0 +1,220 @@
+.ecode_section_23_template_28 {
+	.ecode_container_sliders {
+		position: relative;
+		@include flexbox;
+		@include justify-content(flex-start);
+		@include align-items(stretch);
+		overflow: hidden;
+		.ecode_article {
+			position: relative;
+			@include flexbox;
+			@include justify-content(center);
+			@include align-items(center);
+			width: 100%;
+			min-width: 100%;
+			padding: 100px 0 30px;
+			@include tablet {
+				@include justify-content(flex-start);
+			}
+			@include desktop {
+				height: calc( 100vh - 140px );
+			}
+			.ecode_image {
+				position: absolute;
+				@include flexbox;
+				@include justify-content(center);
+				@include align-items(center);
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				z-index: -5;
+				&::after {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					box-sizing: border-box;
+					background-color: rgba( 0,0,0,(6/10) );
+					z-index: -4;
+				}
+				img {
+					position: relative;
+					height: 100%;
+					width: auto;
+					max-width: inherit;
+					z-index: -5;
+					@include desktop {
+						width: auto;
+						min-width: 100%;
+						height: auto;
+						min-height: 100%;
+					}
+				}
+			}
+			.ecode_info {
+				position: relative;
+				width: 85%;
+				margin: 0 auto;
+				padding: 30px 0;
+				@include tablet {
+					width: 50%;
+					padding: 50px 100px;
+					margin: 0;
+				}
+				@include desktop {
+					max-width: 1310px;
+					width: 100%;
+					margin: 0 auto;
+				}
+				@include desktop1440 {
+					padding: 50px;
+				}
+				.ecode_title {
+					position: relative;
+					color: $c-white;
+					font-size: 20px;
+					line-height: 22px;
+					font-weight: 600;
+					margin-bottom: 10px;
+					@include tablet {
+						font-size: 28px;
+						line-height: 31px;
+					}
+					span {
+						color: inherit;
+					}
+				}
+				.ecode_subtitle {
+					position: relative;
+					color: $c-white;
+					font-size: 13px;
+					line-height: 17px;
+					margin: 15px 0;
+					font-weight: normal;
+					@include tablet {
+						font-size: 15px;
+						line-height: 20px;
+					}
+				}
+				.ecode_buttons {
+					position: relative;
+					@include flexbox;
+					@include justify-content(flex-start);
+					@include align-items(center);
+					@include flex-wrap(wrap);
+					margin-top: 20px;
+					.ecode_button {
+						position: relative;
+						display: inline-block;
+						padding: 12px 16px;
+						margin-right: 20px;
+						border-radius: 100px;
+						text-decoration: none;
+						font-size: 12px;
+						font-weight: 700;
+						line-height: 14px;
+						text-transform: uppercase;
+					}
+					.ecode_button_c_c {
+						color: $c-white;
+						border: 3px solid;
+						/*! primary_color !*/border-color: $c-c;/*! end_primary_color !*/
+						/*! primary_color !*/background-color: $c-c;/*! end_primary_color !*/
+					}
+					.ecode_button_border_white {
+						color: $c-white;
+						border: 3px solid $c-white;
+					}
+				}
+			}
+			.ecode_info_hide {
+				opacity: 0;
+			}
+			.ecode_info_hide_top {
+				transform: translate( 0,-50px );
+			}
+			.ecode_info_hide_bottom {
+				transform: translate( 0,50px );
+			}
+			.ecode_info_hide_left {
+				transform: translate( -50px,0 );
+			}
+			.ecode_info_hide_right {
+				transform: translate( 50px,0 );
+			}
+			.ecode_info_show {
+				opacity: 1;
+				transform: translate(0,0);
+				@include transition((3/10)+s);
+			}
+		}
+		.ecode_article_right {
+			.ecode_info {
+				@include tablet {
+					margin: 0 0 0 auto;
+				}
+				@include desktop {
+					margin: 0 auto;
+				}
+				.ecode_title, .ecode_subtitle {
+					text-align: right;
+				}
+				.ecode_buttons {
+					@include justify-content(flex-end);
+					.ecode_button {
+						margin-right: 0;
+						margin-left: 20px;
+					}
+				}
+			}
+		}
+		.flickity-button {
+			opacity: 0;
+			width: 30px;
+			height: 30px;
+			border: 2px solid $c-white;
+			background-color: transparent;
+			@include transition((3/10)+s);
+			svg {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 15px;
+				path {
+					color: $c-white;
+				}
+			}
+		}
+		.flickity-page-dots {
+			opacity: 0;
+			bottom: 10px;
+			z-index: 10;
+			@include transition((3/10)+s);
+			.dot {
+				border: 2px solid $c-white;
+				background-color: transparent;
+				width: 14px;
+				height: 14px;
+				opacity: 1;
+				margin: 0 2px;
+			}
+			.is-selected {
+				background-color: $c-white;
+			}
+		}
+		&:hover {
+			.flickity-button, .flickity-page-dots {
+				@include transition((3/10)+s);
+				opacity: 1;
+			}
+		}
+	}
+	.flickity-enabled {
+		display: block;
+	}
+}

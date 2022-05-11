@@ -1,0 +1,50 @@
+{
+	"default_content": {
+		"image_hd_src": "s140_t209.jpeg",
+		"image_tablet_src": "s140_t209.jpeg",
+		"image_src": "s140_t209.jpeg",
+		"image_alt": "Texto alternativo de la imagen",
+		"logo_src": "s140_t209_2.png",
+		"logo_alt": "Texto alternativo de la imagen",
+		"title": "WIZINK CENTER",
+		"subtitle": "Emblemático y moderno recinto que organiza conciertos, actos deportivos y ferias para hasta 15 mil personas.",
+		"svg_icon": "icon_map_location.svg",
+		"address": "Av. Felipe II, s/n, 28009 Madrid",
+		"phone": "+34 914 44 99 49",
+		"additional_info": "4,7km desde Madrid Centro",
+		"button_text": "Más información",
+		"button_url": "#"
+	},
+	"default_style": {
+		"ecode_section_140_template_209::after": "background-color:rgba(0,0,0,0.7);",
+		"ecode_info_title": "font-size:40px;line-height:44px;text-transform:uppercase;padding-bottom:15px;margin-bottom:15px;color:#ffffff;",
+		"ecode_info_subtitle": "font-size:16px;line-height:22px;color:#ffffff;margin-bottom:20px;",
+		"ecode_location_icon": "margin-bottom:20px;",
+		"ecode_location_address": "font-size:16px;line-height:22px;color:#ffffff;margin-bottom:5px;",
+		"ecode_location_tel": "font-size:16px;line-height:22px;color:#ffffff;margin-bottom:5px;",
+		"ecode_location_distance": "font-size:16px;line-height:22px;color:#ffffff;margin-bottom:5px;",
+		"ecode_location_button": "border-width:2px;border-style:solid;border-color:#ffffff;font-size:16px;line-height:22px;padding-top:6px;padding-bottom:6px;padding-left:20px;padding-right:20px;color:#ffffff;margin-right:10px;margin-top:20px;"
+	},
+	"skip_demo_content": [
+		"image_alt",
+		"logo_alt"
+	],
+	"custom_fields": {
+		"image_hd": "file",
+		"image_tablet": "file",
+		"image": "file",
+		"logo": "file",
+		"image_hd_id": "file",
+		"image_tablet_id": "file",
+		"image_id": "file",
+		"logo_id": "file",
+		"title": "textarea_small",
+		"subtitle": "textarea_small",
+		"svg_icon": "textarea_code",
+		"address": "text",
+		"phone": "text_medium",
+		"additional_info": "text",
+		"button_text": "text",
+		"button_url": "text_url"
+	}
+}

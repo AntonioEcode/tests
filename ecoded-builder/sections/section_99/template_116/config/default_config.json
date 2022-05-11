@@ -1,0 +1,47 @@
+{
+	"default_content": {
+		"cards_group_loop": [
+			{
+				"card_image_src": "s99_t116_1.png",
+				"card_image_alt": "Imagen del servicio",
+				"card_counter_number": "89",
+				"card_title": "Médicos",
+				"card_description": "<p>Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum nostrud exerci tation</p>"
+			},
+			{
+				"card_image_src": "s99_t116_2.png",
+				"card_image_alt": "Imagen del servicio",
+				"card_counter_number": "35",
+				"card_title": "Enfermeras",
+				"card_description": "<p>Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum nostrud exerci tation</p>"
+			},
+			{
+				"card_image_src": "s99_t116_3.png",
+				"card_image_alt": "Imagen del servicio",
+				"card_counter_number": "100",
+				"card_title": "Pacientes",
+				"card_description": "<p>Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum nostrud exerci tation</p>"
+			},
+			{
+				"card_image_src": "s99_t116_4.png",
+				"card_image_alt": "Imagen del servicio",
+				"card_counter_number": "95",
+				"card_title": "Habitaciones",
+				"card_description": "<p>Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum nostrud exerci tation</p>"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_99_template_116": "background-color:#fafafa;padding-top:100px;padding-bottom:52px;padding-left:40px;padding-right:40px;",
+		"ecode_article_figure": "margin-bottom:18px;",
+		"ecode_article_counter": "font-size:50px;line-height:50px;font-weight:500;margin-bottom:17px;",
+		"ecode_article_title": "font-size:18px;line-height:30px;font-weight:500;letter-spacing:1px;margin-bottom:15px;",
+		"ecode_container_content": ""
+	},
+	"skip_demo_content": [
+		"card_image_alt"
+	],
+	"custom_fields": {
+		"cards_group": "group"
+	}
+}

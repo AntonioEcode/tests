@@ -1,0 +1,26 @@
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-72.000000, -587.000000)" fill="#397AF6">
+            <g transform="translate(72.000000, 587.000000)">
+                <circle cx="19.3359375" cy="96.09375" r="3.90625"></circle>
+                <circle cx="34.765625" cy="96.09375" r="3.90625"></circle>
+                <circle cx="50" cy="96.09375" r="3.90625"></circle>
+                <circle cx="3.90625" cy="34.765625" r="3.90625"></circle>
+                <circle cx="3.90625" cy="96.09375" r="3.90625"></circle>
+                <circle cx="3.90625" cy="80.46875" r="3.90625"></circle>
+                <path d="M3.90625,15 L96.09375,15 C98.2511719,15 100,11.64225 100,7.5 C100,3.35775 98.2511719,0 96.09375,0 L3.90625,0 C1.74882813,0 0,3.35775 0,7.5 C0,11.64225 1.74882813,15 3.90625,15 Z"></path>
+                <circle cx="3.90625" cy="50" r="3.90625"></circle>
+                <circle cx="3.90625" cy="65.234375" r="3.90625"></circle>
+                <circle cx="3.90625" cy="19.53125" r="3.90625"></circle>
+                <circle cx="96.09375" cy="50" r="3.90625"></circle>
+                <circle cx="96.09375" cy="65.234375" r="3.90625"></circle>
+                <circle cx="96.09375" cy="19.53125" r="3.90625"></circle>
+                <circle cx="96.09375" cy="34.765625" r="3.90625"></circle>
+                <circle cx="96.09375" cy="96.09375" r="3.90625"></circle>
+                <circle cx="96.09375" cy="80.46875" r="3.90625"></circle>
+                <circle cx="65.234375" cy="96.09375" r="3.90625"></circle>
+                <circle cx="80.6640625" cy="96.09375" r="3.90625"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

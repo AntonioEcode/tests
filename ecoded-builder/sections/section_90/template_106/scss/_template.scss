@@ -1,0 +1,115 @@
+.ecode_section_90_template_106 {
+	position: relative;
+	display: block;
+	background-color: $c-greyfa;
+	padding: 110px 20px 90px;
+	@include desktop {
+		padding: 60px 40px;
+	}
+	.ecode_width_90_106 {
+		position: relative;
+		max-width: 300px;
+		width: 100%;
+		margin: 0 auto;
+		@include tablet {
+			max-width: 600px;
+		}
+		@include desktop {
+			max-width: 1200px;
+		}
+		.ecode_title {
+			position: relative;
+			font-size: 35px;
+			line-height: 39px;
+			font-weight: 500;
+			-webkit-font-smoothing: auto;
+			margin-bottom: 21px;
+			font-family: 'secondary';
+			text-align: center;
+			@include tablet {
+				font-size: 50px;
+				line-height: 60px;
+			}
+		}
+		.ecode_container_content {
+			text-align: center;
+			margin-bottom: 21px;
+			p, a, li {
+				font-size: 17px;
+				line-height: 30px;
+				font-weight: 300;
+				@include tablet {
+					font-size: 21px;
+					line-height: 38px;
+				}
+			}
+		}
+		.ecode_gallery_90_106 {
+			padding-top: 60px;
+			@include tablet {
+				@include flexbox;
+				@include justify-content(center);
+				@include align-items(center);
+				@include flex-wrap(wrap);
+			}
+			article {
+				position: relative;
+				cursor: pointer;
+				margin-bottom: 30px;
+				@include tablet {
+					width: calc( 50% - 15px );
+					margin-right: 30px;
+					&:nth-child(2n) {
+						margin-right: 0;
+					}
+				}
+				@include desktop {
+					width: calc( ( 100% / 3 ) - 20px );
+					margin-right: 30px;
+					&:nth-child(2n) {
+						margin-right: 30px;
+					}
+					&:nth-child(3n) {
+						margin-right: 0;
+					}
+				}
+				figure {
+					position: relative;
+					height: 200px;
+					overflow: hidden;
+					@include desktop {
+						height: 250px;
+					}
+					img {
+						position: absolute;
+						display: block;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%,-50%);
+						min-width: 100%;
+						min-height: 100%;
+						object-fit: cover;
+					}
+				}
+			}
+			.ecode_article_hide {
+				opacity: 0;
+				transform: scale((1/10));
+			}
+			.ecode_article_show {
+				opacity: 1;
+				transform: scale(1);
+				@include transition((3/10)+s);
+			}
+		}
+	}
+}
+.lg-outer {
+	.lg-actions {
+		.lg-prev {
+			svg {
+				transform: rotate(180deg);
+			}
+		}
+	}
+}

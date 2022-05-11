@@ -1,0 +1,110 @@
+.ecode_section_31_template_38 {
+	position: relative;
+	display: block;
+	background-color: $c-greyfc;
+	border-top: 1px solid $c-greye1;
+	border-bottom: 1px solid $c-greye1;
+	padding: 70px 0;
+	.ecode_container_width {
+		position: relative;
+		width: 85%;
+		margin: 0 auto;
+		@include tablet {
+			width: 100%;
+			max-width: 1310px;
+			padding: 0 30px;
+		}
+		.ecode_container_content_top {
+			border: 1px solid $c-greye1;
+			padding: 20px;
+			margin-bottom: 20px;
+			@include tablet {
+				width: calc( 100% - 40px );
+				margin: 0 auto 50px;
+			}
+			* {
+				color: $c-grey9c;
+				-webkit-font-smoothing: auto;
+			}
+			ul, ol {
+				li {
+					&::after {
+						background-color: $c-grey9c;
+					}
+				}
+			}
+		}
+		.ecode_section {
+			@include tablet {
+				@include flexbox;
+				@include justify-content(center);
+				@include align-items(flex-start);
+				@include flex-wrap(wrap);
+				overflow: hidden;
+			}
+			.ecode_article {
+				margin-bottom: 32px;
+				@include tablet {
+					width: calc((100%/3));
+					padding: 0 20px;
+				}
+				.ecode_article_figure {
+					position: relative;
+					@include flexbox;
+					@include justify-content(center);
+					@include align-items(center);
+					overflow: hidden;
+					height: 285px;
+					margin-bottom: 50px;
+					@include tablet {
+						height: 160px;
+					}
+					@include desktop {
+						height: 285px;
+					}
+					img {
+						position: absolute;
+						display: block;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%,-50%);
+						min-width: 100%;
+						min-height: 100%;
+						object-fit: cover;
+					}
+				}
+				.ecode_article_title {
+					position: relative;
+					font-size: 20px;
+					line-height: 22px;
+					font-weight: 400;
+					padding-bottom: 21px;
+				}
+				.ecode_container_content {
+					p, a, li {
+						font-size: 15px;
+						line-height: 25px;
+						color: $c-grey9c;
+					}
+					ul, ol {
+						text-align: left;
+						li {
+							&::after {
+								background-color: $c-grey9c;
+							}
+						}
+					}
+				}
+			}
+			.ecode_article_hide {
+				transform: translate(100px,100px);
+				opacity: 0;
+			}
+			.ecode_article_show {
+				transform: translate(0,0);
+				opacity: 1;
+				@include transition((3/10)+s);
+			}
+		}
+	}
+}

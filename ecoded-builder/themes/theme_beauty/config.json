@@ -1,0 +1,666 @@
+{
+	"tables": {
+		"eb_page_sections": [
+			{
+				"order": 1,
+				"page_id": 1,
+				"section_type_id": 1,
+				"section_template_id": 51
+			},
+			{
+				"order": 2,
+				"page_id": 1,
+				"section_type_id": 4,
+				"section_template_id": 52
+			},
+			{
+				"order": 3,
+				"page_id": 1,
+				"section_type_id": 3,
+				"section_template_id": 53
+			},
+			{
+				"order": 4,
+				"page_id": 1,
+				"section_type_id": 3,
+				"section_template_id": 54
+			},
+			{
+				"order": 5,
+				"page_id": 1,
+				"section_type_id": 3,
+				"section_template_id": 56
+			},
+			{
+				"order": 6,
+				"page_id": 1,
+				"section_type_id": 3,
+				"section_template_id": 55
+			},
+			{
+				"order": 7,
+				"page_id": 1,
+				"section_type_id": 3,
+				"section_template_id": 57
+			},
+			{
+				"order": 8,
+				"page_id": 1,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 9,
+				"page_id": 1,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 10,
+				"page_id": 1,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 11,
+				"page_id": 1,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 12,
+				"page_id": 1,
+				"section_type_id": 2,
+				"section_template_id": 58
+			},
+			{
+				"order": 1,
+				"page_id": 2,
+				"section_type_id": 1,
+				"section_template_id": 51
+			},
+			{
+				"order": 2,
+				"page_id": 2,
+				"section_type_id": 23,
+				"section_template_id": 52
+			},
+			{
+				"order": 3,
+				"page_id": 2,
+				"section_type_id": 3,
+				"section_template_id": 71
+			},
+			{
+				"order": 4,
+				"page_id": 2,
+				"section_type_id": 3,
+				"section_template_id": 72
+			},
+			{
+				"order": 5,
+				"page_id": 2,
+				"section_type_id": 3,
+				"section_template_id": 70
+			},
+			{
+				"order": 6,
+				"page_id": 2,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 7,
+				"page_id": 2,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 8,
+				"page_id": 2,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 9,
+				"page_id": 2,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 10,
+				"page_id": 2,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 11,
+				"page_id": 2,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 12,
+				"page_id": 2,
+				"section_type_id": 2,
+				"section_template_id": 58
+			},
+			{
+				"order": 1,
+				"page_id": 3,
+				"section_type_id": 1,
+				"section_template_id": 51
+			},
+			{
+				"order": 2,
+				"page_id": 3,
+				"section_type_id": 28,
+				"section_template_id": 59
+			},
+			{
+				"order": 3,
+				"page_id": 3,
+				"section_type_id": 3,
+				"section_template_id": 195
+			},
+			{
+				"order": 4,
+				"page_id": 3,
+				"section_type_id": 3,
+				"section_template_id": 196
+			},
+			{
+				"order": 5,
+				"page_id": 3,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 6,
+				"page_id": 3,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 7,
+				"page_id": 3,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 8,
+				"page_id": 3,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 9,
+				"page_id": 3,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 10,
+				"page_id": 3,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 11,
+				"page_id": 3,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 12,
+				"page_id": 3,
+				"section_type_id": 2,
+				"section_template_id": 58
+			},
+			{
+				"order": 1,
+				"page_id": 4,
+				"section_type_id": 1,
+				"section_template_id": 51
+			},
+			{
+				"order": 2,
+				"page_id": 4,
+				"section_type_id": 24,
+				"section_template_id": 59
+			},
+			{
+				"order": 3,
+				"page_id": 4,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 4,
+				"page_id": 4,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 5,
+				"page_id": 4,
+				"section_type_id": 9,
+				"section_template_id": 69
+			},
+			{
+				"order": 6,
+				"page_id": 4,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 7,
+				"page_id": 4,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 8,
+				"page_id": 4,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 9,
+				"page_id": 4,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 10,
+				"page_id": 4,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 11,
+				"page_id": 4,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 12,
+				"page_id": 4,
+				"section_type_id": 2,
+				"section_template_id": 58
+			},
+			{
+				"order": 1,
+				"page_id": 5,
+				"section_type_id": 1,
+				"section_template_id": 51
+			},
+			{
+				"order": 2,
+				"page_id": 5,
+				"section_type_id": 25,
+				"section_template_id": 59
+			},
+			{
+				"order": 3,
+				"page_id": 5,
+				"section_type_id": 3,
+				"section_template_id": 62
+			},
+			{
+				"order": 4,
+				"page_id": 5,
+				"section_type_id": 3,
+				"section_template_id": 63
+			},
+			{
+				"order": 5,
+				"page_id": 5,
+				"section_type_id": 3,
+				"section_template_id": 64
+			},
+			{
+				"order": 6,
+				"page_id": 5,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 7,
+				"page_id": 5,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 8,
+				"page_id": 5,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 9,
+				"page_id": 5,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 10,
+				"page_id": 5,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 11,
+				"page_id": 5,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 12,
+				"page_id": 5,
+				"section_type_id": 2,
+				"section_template_id": 58
+			},
+			{
+				"order": 1,
+				"page_id": 6,
+				"section_type_id": 1,
+				"section_template_id": 51
+			},
+			{
+				"order": 2,
+				"page_id": 6,
+				"section_type_id": 26,
+				"section_template_id": 59
+			},
+			{
+				"order": 3,
+				"page_id": 6,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 4,
+				"page_id": 6,
+				"section_type_id": 5,
+				"section_template_id": 66
+			},
+			{
+				"order": 5,
+				"page_id": 6,
+				"section_type_id": 3,
+				"section_template_id": 54
+			},
+			{
+				"order": 6,
+				"page_id": 6,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 7,
+				"page_id": 6,
+				"section_type_id": 2,
+				"section_template_id": 58
+			},
+			{
+				"order": 1,
+				"page_id": 7,
+				"section_type_id": 1,
+				"section_template_id": 51
+			},
+			{
+				"order": 2,
+				"page_id": 7,
+				"section_type_id": 27,
+				"section_template_id": 59
+			},
+			{
+				"order": 3,
+				"page_id": 7,
+				"section_type_id": 13,
+				"section_template_id": 67
+			},
+			{
+				"order": 4,
+				"page_id": 7,
+				"section_type_id": 6,
+				"section_template_id": null
+			},
+			{
+				"order": 5,
+				"page_id": 7,
+				"section_type_id": 14,
+				"section_template_id": 68
+			},
+			{
+				"order": 6,
+				"page_id": 7,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 7,
+				"page_id": 7,
+				"section_type_id": 2,
+				"section_template_id": 58
+			},
+			{
+				"order": 1,
+				"page_id": 8,
+				"section_type_id": 1,
+				"section_template_id": 51
+			},
+			{
+				"order": 2,
+				"page_id": 8,
+				"section_type_id": 29,
+				"section_template_id": 59
+			},
+			{
+				"order": 3,
+				"page_id": 8,
+				"section_type_id": 3,
+				"section_template_id": 60
+			},
+			{
+				"order": 4,
+				"page_id": 8,
+				"section_type_id": 3,
+				"section_template_id": 61
+			},
+			{
+				"order": 5,
+				"page_id": 8,
+				"section_type_id": 3,
+				"section_template_id": 56
+			},
+			{
+				"order": 6,
+				"page_id": 8,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 7,
+				"page_id": 8,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 8,
+				"page_id": 8,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 9,
+				"page_id": 8,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 10,
+				"page_id": 8,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 11,
+				"page_id": 8,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 12,
+				"page_id": 8,
+				"section_type_id": 2,
+				"section_template_id": 58
+			},
+			{
+				"order": 1,
+				"page_id": 9,
+				"section_type_id": 1,
+				"section_template_id": 51
+			},
+			{
+				"order": 2,
+				"page_id": 9,
+				"section_type_id": 30,
+				"section_template_id": 59
+			},
+			{
+				"order": 3,
+				"page_id": 9,
+				"section_type_id": 3,
+				"section_template_id": 194
+			},
+			{
+				"order": 4,
+				"page_id": 9,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 5,
+				"page_id": 9,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 6,
+				"page_id": 9,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 7,
+				"page_id": 9,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 8,
+				"page_id": 9,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 9,
+				"page_id": 9,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 10,
+				"page_id": 9,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 11,
+				"page_id": 9,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 12,
+				"page_id": 9,
+				"section_type_id": 2,
+				"section_template_id": null
+			},
+			{
+				"order": 1,
+				"page_id": 10,
+				"section_type_id": 1,
+				"section_template_id": 51
+			},
+			{
+				"order": 2,
+				"page_id": 10,
+				"section_type_id": 25,
+				"section_template_id": 59
+			},
+			{
+				"order": 3,
+				"page_id": 10,
+				"section_type_id": 3,
+				"section_template_id": 62
+			},
+			{
+				"order": 4,
+				"page_id": 10,
+				"section_type_id": 3,
+				"section_template_id": 63
+			},
+			{
+				"order": 5,
+				"page_id": 10,
+				"section_type_id": 3,
+				"section_template_id": 64
+			},
+			{
+				"order": 6,
+				"page_id": 10,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 7,
+				"page_id": 10,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 8,
+				"page_id": 10,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 9,
+				"page_id": 10,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 10,
+				"page_id": 10,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 11,
+				"page_id": 10,
+				"section_type_id": 3,
+				"section_template_id": null
+			},
+			{
+				"order": 12,
+				"page_id": 10,
+				"section_type_id": 2,
+				"section_template_id": 58
+			}
+		]
+	}
+}

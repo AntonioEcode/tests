@@ -1,0 +1,53 @@
+{
+	"default_content": {
+		"posts_loop": [
+			{
+				"post_thumbnail_src": "clients.jpg",
+				"post_thumbnail_alt": "Alt imagen",
+				"post_url": "#",
+				"post_title": "Artículo 1",
+				"post_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed at magna. Nullam eget ornare",
+				"copy_author": "Por Antonio",
+				"cat_content": "<p class='ecode_article_categories'><a href='#' class='ecode_article_categories_link' data-edit='ecode_article_categories_link'>News</a>, <a href='#' class='ecode_article_categories_link' data-edit='ecode_article_categories_link'>Personal</a></p>",
+				"copy_read_more": "Leer más",
+				"format_post_date": "3 marzo 2021",
+				"post_number_comments": "0 comentarios",
+				"copy_without_notice": "Todavía no hay noticias en nuestro blog."
+			},
+			{
+				"post_thumbnail_src": "clients.jpg",
+				"post_thumbnail_alt": "Alt imagen",
+				"post_url": "#",
+				"post_title": "Artículo 2",
+				"post_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed at magna. Nullam eget ornare",
+				"copy_author": "Por Antonio",
+				"cat_content": "<p class='ecode_article_categories'><a href='#' class='ecode_article_categories_link' data-edit='ecode_article_categories_link'>News</a>, <a href='#' class='ecode_article_categories_link' data-edit='ecode_article_categories_link'>Personal</a></p>",
+				"copy_read_more": "Leer más",
+				"format_post_date": "3 marzo 2021",
+				"post_number_comments": "0 comentarios",
+				"copy_without_notice": "Todavía no hay noticias en nuestro blog."
+			},
+			{
+				"post_thumbnail_src": "clients.jpg",
+				"post_thumbnail_alt": "Alt imagen",
+				"post_url": "#",
+				"post_title": "Artículo 3",
+				"post_excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed at magna. Nullam eget ornare",
+				"copy_author": "Por Antonio",
+				"cat_content": "<p class='ecode_article_categories'><a href='#' class='ecode_article_categories_link' data-edit='ecode_article_categories_link'>News</a>, <a href='#' class='ecode_article_categories_link' data-edit='ecode_article_categories_link'>Personal</a></p>",
+				"copy_read_more": "Leer más",
+				"format_post_date": "3 marzo 2021",
+				"post_number_comments": "0 comentarios",
+				"copy_without_notice": "Todavía no hay noticias en nuestro blog."
+			}
+		]
+	},
+	"default_style": {
+		"ecode_article_categories_link": "font-size:13px;line-height:25px;/*! primary_color !*/color:#efbb20/*! end_primary_color !*/;text-transform:uppercase;",
+		"ecode_article_title": "font-size:30px;line-height:39px;text-transform:uppercase;text-align:center;font-weight:500;letter-spacing:2px;padding-bottom:25px;margin-bottom:36px;",
+		"ecode_button_border_c_c": "padding-top:10px;padding-bottom:10px;padding-left:10px;padding-right:10px;margin-top:30px;margin-bottom:20px;border-top-left-radius:100px;border-top-right-radius:100px;border-bottom-right-radius:100px;border-bottom-left-radius:100px;/*! primary_color !*/border-top-color:#efbb20/*! end_primary_color !*/;border-top-style:solid;border-top-width:1px;/*! primary_color !*/border-bottom-color:#efbb20/*! end_primary_color !*/;border-bottom-style:solid;border-bottom-width:1px;/*! primary_color !*/border-left-color:#efbb20/*! end_primary_color !*/;border-left-style:solid;border-left-width:1px;/*! primary_color !*/border-right-color:#efbb20/*! end_primary_color !*/;border-right-style:solid;border-right-width:1px;text-align:center;font-size:15px;line-height:24px;/*! primary_color !*/color:#efbb20/*! end_primary_color !*/;"
+	},
+	"skip_demo_content": [
+		"posts_loop"
+	]
+}

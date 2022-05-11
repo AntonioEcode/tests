@@ -1,0 +1,223 @@
+.ecode_section_148_template_227 {
+	position: relative;
+	.ecode_width_148_227 {
+		position: relative;
+		display: block;
+		max-width: 780px;
+		margin: 0 auto;
+		padding: 90px 15px 30px;
+		@include tablet {
+			padding: 100px 15px 40px;
+		}
+		@include desktop {
+			max-width: 1300px;
+		}
+		.ecode_articles {
+			position: relative;
+			@include tablet {
+				@include flexbox;
+				@include justify-content(center);
+				@include align-items(stretch);
+				@include flex-wrap(wrap);
+			}
+			.ecode_article {
+				position: relative;
+				margin-bottom: 60px;
+				width: 100%;
+				min-width: 100%;
+				@include tablet {
+					width: calc( 50% - 30px );
+					min-width: calc( 50% - 30px );
+					margin-right: 60px;
+					&:nth-child(2n) {
+						margin-right: 0;
+					}
+				}
+				@include desktop {
+					width: calc( ( 100% / 3 ) - 40px );
+					min-width: calc( ( 100% / 3 ) - 40px );
+					margin-right: 60px;
+					&:nth-child(2n) {
+						margin-right: 60px;
+					}
+					&:nth-child(3n) {
+						margin-right: 0;
+					}
+				}
+				.ecode_article_info {
+					position: relative;
+					display: block;
+					text-align: center;
+					z-index: 150;
+					.ecode_article_title {
+						position: relative;
+						font-size: 19px;
+						line-height: 32px;
+						margin-bottom: 2px;
+						a {
+							color: inherit;
+							text-decoration: none;
+							&:hover {
+								/*! primary_color !*/color: $c-c;/*! end_primary_color !*/
+							}
+						}
+					}
+					.ecode_article_job {
+						position: relative;
+						font-size: 11px;
+						line-height: 18px;
+						color: $c-grey88;
+						text-transform: uppercase;
+						font-weight: bold;
+						margin-bottom: 15px;
+						letter-spacing: 1px;
+					}
+					.ecode_article_desc {
+						position: relative;
+						font-size: 14px;
+						line-height: 22px;
+						margin-bottom: 15px;
+						color: $c-grey88;
+						@include transition((3/10)+s);
+					}
+					.ecode_article_social {
+						position: relative;
+						@include flexbox;
+						@include justify-content(center);
+						@include align-items(center);
+						@include transition((3/10)+s);
+						a {
+							position: relative;
+							padding: 2px 6px;
+							width: 42px;
+							height: 42px;
+							@include desktop {
+								width: 26px;
+								height: 26px;
+							}
+							i {
+								svg {
+									width: auto;
+									height: 21px;
+									@include desktop {
+										height: 13px;
+									}
+								}
+							}
+							&:hover {
+								svg {
+									* {
+										/*! primary_color !*/fill: $c-c;/*! end_primary_color !*/
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.ecode_articles_148_227 {
+			padding-bottom: 20px;
+			overflow: hidden;
+			.flickity-page-dots {
+				bottom: 0px;
+				li.is-selected {
+					/*! primary_color !*/background-color: $c-c;/*! end_primary_color !*/
+				}
+			}
+		}
+		.ecode_articles_148_227_mob {
+			@include flexbox;
+			@include justify-content(flex-start);
+			@include align-items(stretch);
+			@include flex-wrap(nowrap);
+			@include tablet {
+				@include flex-wrap(wrap);
+				.flickity-viewport {
+					height: auto !important;
+					.flickity-slider {
+						position: relative !important;
+						width: auto !important;
+						height: auto !important;
+						left: inherit !important;
+						transform: none !important;
+						@include flexbox;
+						@include justify-content(center);
+						@include align-items(stretch);
+						@include flex-wrap(wrap);
+						.ecode_article {
+							position: relative !important;
+							left: inherit !important;
+						}
+					}
+				}
+				.flickity-page-dots {
+					display: none !important;
+				}
+			}
+		}
+		.ecode_articles_148_227_des {
+			@media ( max-width: 1024px ) {
+				@include flex-wrap(wrap);
+				.flickity-viewport {
+					height: auto !important;
+					.flickity-slider {
+						position: relative !important;
+						width: auto !important;
+						height: auto !important;
+						left: inherit !important;
+						transform: none !important;
+						@include flexbox;
+						@include justify-content(center);
+						@include align-items(stretch);
+						@include flex-wrap(wrap);
+						.ecode_article {
+							position: relative !important;
+							left: inherit !important;
+						}
+					}
+				}
+				.flickity-page-dots {
+					display: none !important;
+				}
+			}
+			@include desktop {
+				@include flexbox;
+				@include justify-content(flex-start);
+				@include align-items(stretch);
+				@include flex-wrap(nowrap);
+				.ecode_article {
+					&:nth-child(3n) {
+						margin-right: 60px;
+					}
+				}
+			}
+		}
+		.ecode_articles_148_227_full {
+			@include flexbox;
+			@include justify-content(flex-start);
+			@include align-items(stretch);
+			@include flex-wrap(nowrap);
+			.ecode_article {
+				margin-right: 60px;
+			}
+			@include tablet {
+				.ecode_article {
+					&:nth-child(2n) {
+						margin-right: 60px;
+					}
+				}
+			}
+			@include desktop {
+				.ecode_article {
+					&:nth-child(3n) {
+						margin-right: 60px;
+					}
+				}
+			}
+		}
+		.flickity-enabled {
+			display: block;
+		}
+	}
+}

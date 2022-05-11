@@ -1,0 +1,33 @@
+{
+	"default_content": {
+		"image_hd_src": "s71_t83_back_desktop.png",
+		"image_alt": "Fondo de la sección",
+		"image_src": "s71_t83_back_desktop.png",
+		"title": "Título de la sección",
+		"subtitle": "<p>Vivamus sed consectetur tellus dolor sit amet, consectetur adipiscing lorem elit sadip ipsum ets ficilis uns.</p>",
+		"button_title": "Contacta con nosotros",
+		"button_url": "#",
+		"text_below_button": "¡Respondemos en menos de 2 horas!"
+	},
+	"default_style": {
+		"ecode_section_74_template_86": "background-color:#ffffff;padding-top:140px;padding-bottom:130px;padding-left:25px;padding-right:25px;",
+		"ecode_title": "font-weight:400;font-size:33px;line-height:42px;margin-bottom:20px;",
+		"ecode_container_content": "margin-bottom:20px;",
+		"ecode_button": "padding-top:17px;padding-bottom:17px;padding-left:40px;padding-right:40px;text-align:center;background-color:#fc7523;color:#ffffff;text-transform:uppercase;border-top-left-radius:2px;border-top-right-radius:2px;border-bottom-right-radius:2px;border-bottom-left-radius:2px;margin-bottom:20px;font-size:18px;line-height:21px;font-weight:600;",
+		"ecode_note": "font-size:14px;line-height:24px;color:#676767;"
+	},
+	"skip_demo_content": [
+		"image_alt"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"subtitle": "wysiwyg",
+		"button_title": "text",
+		"button_url": "text_url",
+		"text_below_button": "text",
+		"image_hd_id": "file",
+		"image_hd": "file",
+		"image_id": "file",
+		"image": "file"
+	}
+}

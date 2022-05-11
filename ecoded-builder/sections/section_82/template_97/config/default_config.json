@@ -1,0 +1,25 @@
+{
+	"default_content": {
+		"company_phone": "+ (34) 666 567 890",
+		"company_phone_trim": "#",
+		"company_email": "tucorreo@tudominio.com",
+		"company_schedule": "Lunes - Viernes: 9:00AM - 20:00PM",
+		"blog_url": "#",
+		"logo_src": "logo_ecoded_100.png",
+		"logo_alt": "Logo de tu empresa"
+	},
+	"default_style": {
+		"ecode_section_82_template_97": "border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#e1e1e1;box-shadow:0 2px 8px rgba(0,0,0,0.08);padding-top:40px;",
+		"ecode_header_contact_text": "font-size:13px;"
+	},
+	"height_logo": "64px",
+	"skip_demo_content": [
+		"company_phone",
+		"company_phone_trim",
+		"company_email",
+		"company_schedule",
+		"blog_url",
+		"logo_src",
+		"logo_alt"
+	]
+}

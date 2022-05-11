@@ -1,0 +1,52 @@
+{
+	"default_content": {
+		"title": "Nuestros métodos",
+		"subtitle": "<p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo non habent claritatem insitamconsequat duis autem facilisis at vero eros</p>",
+		"cards_group_loop": [
+			{
+				"card_image_src": "s97_t113_1.png",
+				"card_image_alt": "Imagen del servicio",
+				"card_title": "Servicio 1",
+				"card_description": "<p>Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum nostrud</p>",
+				"card_url": "#"
+			},
+			{
+				"card_image_src": "s97_t113_2.png",
+				"card_image_alt": "Imagen del servicio",
+				"card_title": "Servicio 2",
+				"card_description": "<p>Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum nostrud</p>",
+				"card_url": "#"
+			},
+			{
+				"card_image_src": "s97_t113_3.png",
+				"card_image_alt": "Imagen del servicio",
+				"card_title": "Servicio 3",
+				"card_description": "<p>Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum nostrud</p>",
+				"card_url": "#"
+			},
+			{
+				"card_image_src": "s97_t113_4.png",
+				"card_image_alt": "Imagen del servicio",
+				"card_title": "Servicio 4",
+				"card_description": "<p>Ut wisi enim ad minim veniam, quis laore est usus legentis in iis qui facit eorum nostrud</p>",
+				"card_url": "#"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_97_template_113": "padding-top:146px;padding-bottom:100px;padding-left:40px;padding-right:40px;",
+		"ecode_title": "font-weight:500;margin-bottom:20px;font-size:50px;line-height:60px;padding-left:10%;padding-right:10%;",
+		"ecode_subtitle": "margin-bottom:20px;",
+		"ecode_article_title": "font-size:17px;line-height:28px;font-weight:500;margin-bottom:12px;",
+		"ecode_article_figure": "margin-bottom:45px;border-top-left-radius:95px;border-top-right-radius:95px;border-bottom-right-radius:95px;border-bottom-left-radius:95px;border-width:2px;border-style:solid;border-color:#b9b9b9;",
+		"ecode_article_content": "padding-left:23px;padding-right:23px;"
+	},
+	"skip_demo_content": [
+		"card_image_alt"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"subtitle": "wysiwyg",
+		"cards_group": "group"
+	}
+}

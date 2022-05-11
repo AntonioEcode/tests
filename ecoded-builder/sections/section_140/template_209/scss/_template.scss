@@ -1,0 +1,127 @@
+.ecode_section_140_template_209 {
+	position: relative;
+	display: block;
+	&::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,(7/10));
+		z-index: 1;
+	}
+	.ecode_image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		z-index: 0;
+		img {
+			position: absolute;
+			display: block;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			min-width: 100%;
+			min-height: 100%;
+			object-fit: cover;
+		}
+	}
+	.ecode_width_140_209 {
+		position: relative;
+		display: block;
+		max-width: 1180px;
+		margin: 0 auto;
+		padding: 177px 15px;
+		z-index: 5;
+		@include tablet {
+			@include flexbox;
+			@include justify-content(space-between);
+			@include align-items(flex-start);
+		}
+		.ecode_info {
+			position: relative;
+			margin-bottom: 50px;
+			@include tablet {
+				width: calc( ( 100% / 3 * 2 ) - 30px );
+				margin-bottom: 0;
+			}
+			.ecode_info_title {
+				position: relative;
+				font-size: 40px;
+				line-height: 44px;
+				text-transform: uppercase;
+				padding-bottom: 15px;
+				color: $c-white;
+			}
+			.ecode_info_subtitle {
+				position: relative;
+				font-size: 16px;
+				line-height: 22px;
+				color: $c-white;
+				margin-bottom: 20px;
+			}
+			.ecode_info_logo {
+				position: relative;
+				width: 100%;
+				height: 60px;
+				margin-bottom: 15px;
+				img {
+					height: 60px;
+					width: auto;
+				}
+			}
+		}
+		.ecode_location {
+			@include tablet {
+				width: calc( ( 100% / 3 ) - 30px );
+			}
+			.ecode_location_icon {
+				position: relative;
+				display: block;
+				margin-bottom: 20px;
+				svg {
+					height: 56px;
+					width: auto;
+				}
+			}
+			.ecode_location_text {
+				position: relative;
+				font-size: 16px;
+				line-height: 22px;
+				color: $c-white;
+				margin-bottom: 5px;
+				a {
+					color: inherit;
+					text-decoration: none;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+			.ecode_location_button {
+				position: relative;
+				display: inline-block;
+				border: 2px solid $c-white;
+				font-size: 16px;
+				line-height: 22px;
+				padding: 6px 20px;
+				color: $c-white;
+				text-decoration: none;
+				margin-right: 10px;
+				margin-top: 20px;
+				// font-weight: bold;
+				&:last-child {
+					margin-right: 0;
+				}
+				&:hover {
+					background-color: $c-white;
+					color: $c-black;
+				}
+			}
+		}
+	}
+}

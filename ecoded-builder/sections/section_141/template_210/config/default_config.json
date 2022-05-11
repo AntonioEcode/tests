@@ -1,0 +1,53 @@
+{
+	"default_content": {
+		"title": "Alternativas de alojamiento",
+		"subtitle": "Quisque ut dui eget nibh ultrices pulvinar sit amet ut lectus.",
+		"elements_group_loop": [
+			{
+				"element_image_src": "s141_t210_1.jpg",
+				"element_image_alt": "Alt de ejemplo",
+				"element_title": "MAGNA RESORT",
+				"element_description": "Pellentesque habitant morbi tristique et netus et malesuada fames ac turpis egestas.",
+				"element_button_text": "Detalles",
+				"element_button_url": "#",
+				"element_external_url": ""
+			},
+			{
+				"element_image_src": "s141_t210_2.jpg",
+				"element_image_alt": "Alt de ejemplo",
+				"element_title": "Quisque Plaza",
+				"element_description": "Pellentesque habitant morbi tristique et netus et malesuada fames ac turpis egestas.",
+				"element_button_text": "Detalles",
+				"element_button_url": "#",
+				"element_external_url": ""
+			},
+			{
+				"element_image_src": "s141_t210_3.jpg",
+				"element_image_alt": "Alt de ejemplo",
+				"element_title": "Convallis",
+				"element_description": "Pellentesque habitant morbi tristique et netus et malesuada fames ac turpis egestas.",
+				"element_button_text": "Detalles",
+				"element_button_url": "#",
+				"element_external_url": ""
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_141_template_210": "",
+		"ecode_title": "font-size:24px;line-height:26px;font-weight:bold;padding-bottom:12px;margin-bottom:15px;",
+		"ecode_subtitle": "font-size:14px;line-height:23px;margin-bottom:15px;",
+		"ecode_article_image": "margin-bottom:10px;",
+		"ecode_article_title": "font-size:14px;line-height:16px;font-weight:normal;margin-bottom:10px;text-transform:uppercase;",
+		"ecode_article_desc": "font-size:12px;line-height:23px;margin-bottom:10px;",
+		"ecode_article_link": "border-width:2px;border-style:solid;border-color:#545454;font-size:11px;line-height:23px;padding-top:4px;padding-bottom:4px;padding-left:10px;padding-right:10px;text-transform:uppercase;color:#545454;"
+	},
+	"skip_demo_content": [
+		"element_image_alt",
+		"element_external_url"
+	],
+	"custom_fields": {
+		"title": "textarea_small",
+		"subtitle": "textarea_small",
+		"elements_group": "group"
+	}
+}

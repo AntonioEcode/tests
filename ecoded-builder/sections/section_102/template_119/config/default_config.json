@@ -1,0 +1,62 @@
+{
+	"default_content": {
+		"title": "También te puede interesar",
+		"copy_related_posts": "Artículos relacionados",
+		"copy_previous_posts": "Artículo anterior",
+		"copy_next_posts": "Artículo siguiente",
+		"prev_post_url": "#",
+		"prev_post_thumbnail_src": "s102_t119_1.jpg",
+		"prev_post_thumbnail_alt": "Artículo anterior",
+		"next_post_url": "#",
+		"next_post_thumbnail_src": "s102_t119_3.jpg",
+		"next_post_thumbnail_alt": "Artículo siguiente",
+		"posts_loop": [
+			{
+				"post_thumbnail_src": "s102_t119_1.jpg",
+				"post_thumbnail_alt": "Artículo",
+				"post_url": "#",
+				"post_title": "Artículo 1",
+				"format_post_date": "14 Junio, 2021",
+				"copy_comments_number": "10 Cometarios"
+			},
+			{
+				"post_thumbnail_src": "s102_t119_2.jpg",
+				"post_thumbnail_alt": "Artículo",
+				"post_url": "#",
+				"post_title": "Artículo 2",
+				"format_post_date": "14 Junio, 2021",
+				"copy_comments_number": "50 Cometarios"
+			},
+			{
+				"post_thumbnail_src": "s102_t119_3.jpg",
+				"post_thumbnail_alt": "Artículo",
+				"post_url": "#",
+				"post_title": "Artículo 3",
+				"format_post_date": "14 Junio, 2021",
+				"copy_comments_number": "50 Cometarios"
+			}
+		]
+	},
+	"default_style": {
+		"ecode_section_102_template_119": "padding-top:40px;padding-bottom:40px;padding-left:20px;padding-right:20px;",
+		"ecode_title": "font-size:17px;line-height:28px;margin-bottom:20px;",
+		"ecode_article_figure": "margin-bottom:28px;",
+		"ecode_article_title": "font-size:17px;line-height:28px;",
+		"ecode_article_date": "font-size:12px;line-height:26px;color:#4e6dcc;",
+		"ecode_article_cat": "font-size:12px;line-height:26px;color:#4e6dcc;",
+		"ecode_pagination_figure": "margin-right: 30px;",
+		"ecode_pagination_text": "font-size:15px;line-height:26px;"
+	},
+	"skip_demo_content": [
+		"copy_related_posts",
+		"copy_previous_posts",
+		"copy_next_posts",
+		"prev_post_url",
+		"prev_post_thumbnail_src",
+		"prev_post_thumbnail_alt",
+		"next_post_url",
+		"next_post_thumbnail_src",
+		"next_post_thumbnail_alt",
+		"posts_loop"
+	]
+}
