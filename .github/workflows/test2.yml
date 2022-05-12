@@ -19,4 +19,4 @@ jobs:
         username: ecoded
         password: QmG&chDm(lt$
         local-dir: ./ecoded-builder/config_pages/
-        server-dir: ./tests/
+        server-dir: ./tests/config_pages/
